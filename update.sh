@@ -24,8 +24,8 @@ zstd -19q Packages -o Packages.zst
 
 {
 	cat <<'EOF'
-Origin: CySxL
-Label: CySxL
+Origin: CySxL's Repo
+Label: CySxL's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
