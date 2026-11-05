@@ -1,20 +1,43 @@
 Package: com.cysxl.bccreborn
-Version: 2.1.11
-Architecture: iphoneos-arm64e
+Version: 2.1.12
+Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 604
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: debs/com.cysxl.bccreborn_2.1.11_iphoneos-arm64e.deb
-Size: 48884
-MD5sum: b11955288a2d54e4381bb0b848206138
-SHA1: 54f7ff60ef09462685862f049633841885e8ad54
-SHA256: a06a4939f92089ffe56d610cfb756372f70cc556b1bbf0681caf83816472507c
+Filename: debs/com.cysxl.bccreborn_2.1.12_iphoneos-arm64.deb
+Size: 49804
+MD5sum: 9690c0828eda24f88a23866b2248ab36
+SHA1: 78d23584769dea9fec6e04c7471a88670a05f845
+SHA256: 4715bea02713d96821d905826c01105975b1e21a676d9c8284cc02ee2b453475
 Section: Tweaks
 Description: Resizes Control Center modules and fills the grid with invisible spacers.
  * resize the media player for portrait & landscape.
  * show album artwork behind the media player.
  * widen Video Effects & Mic Mode.
  * add up to 12 invisible modules.
+ A rewrite of Miguelaka95's BetterCC.
+ Rootless build, not yet tested.
+Author: CySxL
+Name: BCCReborn
+
+Package: com.cysxl.bccreborn
+Version: 2.1.12
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 604
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.cysxl.bccreborn_2.1.12_iphoneos-arm64e.deb
+Size: 48996
+MD5sum: e64d9f3b2c8b6d6f5e32545e8e6e82d2
+SHA1: 511796fa405466be05e1ae568427867ea3125657
+SHA256: 3cd32296a742f50244a2dcf9e81ca131a38e209e53ba45ea94d5be22a47640f7
+Section: Tweaks
+Description: Resizes Control Center modules and fills the grid with invisible spacers.
+ * resize the media player for portrait & landscape.
+ * show album artwork behind the media player.
+ * widen Video Effects & Mic Mode.
+ * add up to 12 invisible modules.
+ A rewrite of Miguelaka95's BetterCC.
 Author: CySxL
 Name: BCCReborn
 
@@ -31,6 +54,23 @@ SHA1: 17ea5e4d9422f0d60d4a33b071f2aec7127a152e
 SHA256: cf335eab83a481abebd9cb571fd66dbfc366f4df2637c6ae543dcbbe92869c48
 Section: Tweaks
 Description: A volume mixer panel with a slider for media, ringer, alarm and calls.
+Author: CySxL
+Name: BetterVolumeController
+
+Package: com.cysxl.bettervolumecontroller
+Version: 2.8.3
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.bettervolumecontroller_2.8.3_iphoneos-arm64.deb
+Size: 74568
+MD5sum: 33ff5a4aa844baca62a1971e1776b5eb
+SHA1: 4901448786d67209d53cf65f5501dcd644b7b300
+SHA256: adba786e715f25d4e0e0ff86b4e4cd8262dcb5fc1cc5d32ed8c2962db09fecc4
+Section: Tweaks
+Description: A volume mixer panel with a slider for media, ringer, alarm and calls.
+ Rootless build, not yet tested.
 Author: CySxL
 Name: BetterVolumeController
 
@@ -65,6 +105,38 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
 Author: CySxL
 Name: Felidae
 
+Package: com.cysxl.felidae
+Version: 1.3.4
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/com.cysxl.felidae_1.3.4_iphoneos-arm64.deb
+Size: 84830
+MD5sum: b5a9d2b72ea5e87bfc98e13ac229fdf3
+SHA1: b58cdf85293554a5113564e800bad25033b6069b
+SHA256: 035a97486ca42ba1599eb170086f55d9adc1f9c8d5a7af9df64f4cfc355116d4
+Section: Tweaks
+Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
+ * hide Edit Home Screen, Share App & Remove App.
+ * show which dock apps are running.
+ * hide the home bar.
+ * hide the screenshot preview & mute the shutter.
+ * count notifications in each group.
+ * haptics on the passcode keypad.
+ * color the connectivity toggles.
+ * arrange the connectivity toggles in any grid.
+ * pick a Default or Grid app switcher, its card size, position & spacing.
+ * hide the Handoff banner.
+ * show the status bar in the switcher.
+ * clear all apps with a swipe down or a button.
+ * delete photos without confirming & zoom in further.
+ * speed up animations & remove their bounce.
+ * set the space apps leave above the home bar.
+ Rootless build, not yet tested.
+Author: CySxL
+Name: Felidae
+
 Package: com.cysxl.iamnaive
 Version: 1.0.2
 Architecture: iphoneos-arm64e
@@ -81,21 +153,59 @@ Description: Stops the lock screen camera opening by accident. Swiping no longer
 Author: CySxL
 Name: IAmNaive
 
+Package: com.cysxl.iamnaive
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/com.cysxl.iamnaive_1.0.2_iphoneos-arm64.deb
+Size: 5322
+MD5sum: 1bd3b7917c1dc1c1b39367731e8b9932
+SHA1: d4b839be85f28c33f03b01bcf84193e4b0e387ec
+SHA256: 12ab70131fa63f2d6b1c6ae4cfc103546892b6d547ef0d7be723ff05c0143877
+Section: Tweaks
+Description: Stops the lock screen camera opening by accident. Swiping no longer opens it, and the camera button needs a longer press.
+ Rootless build, not yet tested.
+Author: CySxL
+Name: IAmNaive
+
 Package: com.cysxl.notimetowait
-Version: 1.0.4
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.p2kdev.nofaceidwait
+Replaces: com.p2kdev.nofaceidwait
+Filename: debs/com.cysxl.notimetowait_1.0.5_iphoneos-arm64.deb
+Size: 5186
+MD5sum: ffa464d598e8f941648b7d48fb866195
+SHA1: cc7d1ab9490a9a8e92672045e98185a04f0f32f6
+SHA256: 9ac9f2cf325809a35a84a35eb3c3fe71b0fe8e666b8db1b221698b03ad888752
+Section: Tweaks
+Description: Skip Face ID scanning and go straight to passcode.
+ A rewrite of P2KDev's NoFaceIDWait.
+ Rootless build, not yet tested.
+Author: CySxL
+Name: NoTimeToWait
+
+Package: com.cysxl.notimetowait
+Version: 1.0.5
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Conflicts: com.p2kdev.nofaceidwait
 Replaces: com.p2kdev.nofaceidwait
-Filename: debs/com.cysxl.notimetowait_1.0.4_iphoneos-arm64e.deb
-Size: 5110
-MD5sum: 827f2bd96c08aefba5456aafc1d2e886
-SHA1: 940055fb439390eaf23527ad4c314e041c5bd31e
-SHA256: 8d96cdd9b8d5f086d5491d440f3770a22eaf16a2e7066ba326fedd25366ee030
+Filename: debs/com.cysxl.notimetowait_1.0.5_iphoneos-arm64e.deb
+Size: 5116
+MD5sum: 500701d3913127022f85d5baa33ad7ae
+SHA1: 9c6982ef1218a1362dd121004f870ea65e8fa594
+SHA256: 246429d182069e3ef4c44e957da99cc5435fa7569e44d8025b0081e1dc4538a0
 Section: Tweaks
-Description: Skip Face ID scanning and go straight to passcode. Based on NoFaceIDWait by P2KDev.
+Description: Skip Face ID scanning and go straight to passcode.
+ A rewrite of P2KDev's NoFaceIDWait.
 Author: CySxL
 Name: NoTimeToWait
 
@@ -122,19 +232,43 @@ Description: Swipe back from anywhere on the screen in any app, and bring back t
 Author: AnthoPak
 Name: PanCake
 
+Package: com.cysxl.pancake
+Version: 3.3.0
+Architecture: iphoneos-arm64
+Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
+Installed-Size: 516
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
+Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
+Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
+Filename: debs/com.cysxl.pancake_3.3.0_iphoneos-arm64.deb
+Size: 113462
+MD5sum: f1b79d5fd605f3a9e35a7bc64b63e877
+SHA1: ad2ae9122814351c9e527bb3e8be0ae5c87323ba
+SHA256: dd2345040913746f02f9d814c2e82b87805d01e655bfcab9b7e6186e057df9cc
+Section: Tweaks
+Description: Swipe back from anywhere on the screen in any app, and bring back the page just left.
+ * go back with a swipe anywhere on the page.
+ * restore the previous page with a swipe in from the right edge.
+ * haptic feedback on the back gesture, in five strengths.
+ * disable in selected apps.
+ Rootless build, not yet tested.
+Author: AnthoPak
+Name: PanCake
+
 Package: com.cysxl.sexreborn
-Version: 2.4.1
-Architecture: iphoneos-arm64e
+Version: 2.4.2
+Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 596
+Installed-Size: 964
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.1_iphoneos-arm64e.deb
-Size: 160412
-MD5sum: 76ca2c8fff67581b0991be89fbe6b2a7
-SHA1: 9143ce2bb7c3c37d9a1add121187b8e2ac5e4d6d
-SHA256: 089e85341f647a1ecc0cb86ba25a11fa63f6f38782988709dd6ad97735a25d48
+Filename: debs/com.cysxl.sexreborn_2.4.2_iphoneos-arm64.deb
+Size: 195758
+MD5sum: 3f13ba867ca34d12fb08dc21ab75c773
+SHA1: 23fbc5e7c0b45576ea98492c5950f7d00e6eefa7
+SHA256: 8bbfde99e061aebab5ac96f7987506eeb7a0882d6ca6d2db35e82486e55fc7c8
 Section: Tweaks
 Description: Swipe gestures on every keyboard key.
  * run an action by swiping up, down, left or right, or long pressing any key.
@@ -146,20 +280,50 @@ Description: Swipe gestures on every keyboard key.
  * save presets & color themes.
  * haptics for actions, key presses & menus.
  * work alongside SwipeSelection.
+ A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
+ Rootless build, not yet tested.
+Author: CySxL
+Name: SEXReborn
+
+Package: com.cysxl.sexreborn
+Version: 2.4.2
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 596
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.qiop1379.swipeextenderx
+Replaces: com.qiop1379.swipeextenderx
+Filename: debs/com.cysxl.sexreborn_2.4.2_iphoneos-arm64e.deb
+Size: 160376
+MD5sum: cbc55fa5dcb5f5c675a321573f4cf157
+SHA1: e3cac6715ccec66db7d9c2e69aa021b89a0bfc36
+SHA256: 2cea9a966fadd194753a947f1271dfeb347cc470dc211f870ca9aed0a3495902
+Section: Tweaks
+Description: Swipe gestures on every keyboard key.
+ * run an action by swiping up, down, left or right, or long pressing any key.
+ * open a menu of actions with a swipe.
+ * pick a glass or classic menu & show symbols in place of names.
+ * draw labels on the keycaps.
+ * insert text or the date, select, copy & paste, undo & redo, move the cursor.
+ * color the keyboard, keys, labels, menus & candidate bar.
+ * save presets & color themes.
+ * haptics for actions, key presses & menus.
+ * work alongside SwipeSelection.
+ A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
 Author: CySxL
 Name: SEXReborn
 
 Package: com.cysxl.shuffler
-Version: 0.2.13
+Version: 0.2.14
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 548
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.shuffler_0.2.13_iphoneos-arm64e.deb
-Size: 112548
-MD5sum: a8f59455db383a19c38a2b0d74b3ebf2
-SHA1: 0ad5dfd2b73b77175bde48ffd5607d7977b95d11
-SHA256: 77c3f1c400ff413f78e82754121678c75190ad18a7ae8ac0b867d8e852b7bb86
+Filename: debs/com.cysxl.shuffler_0.2.14_iphoneos-arm64e.deb
+Size: 112632
+MD5sum: beb14c3ba29a5b1b6bdcda0fc68c10df
+SHA1: 9ec5ff58b0f0df44f892327961726d4b41394a90
+SHA256: f1a2192ac7036ad7e86634694b2b7d47f7d6d4de63065287f4597f93f6b56c78
 Section: Tweaks
 Description: Settings app changes in one place.
  * group tweaks, App Store apps & system apps at the top.
@@ -170,28 +334,80 @@ Description: Settings app changes in one place.
  * mask the serial number in About.
  * show a different name on the Apple ID row.
  * add a banner image to the top of Settings.
+ A rewrite of CreatureSurvive's Shuffle.
+Author: CySxL
+Name: Shuffler
+
+Package: com.cysxl.shuffler
+Version: 0.2.14
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/com.cysxl.shuffler_0.2.14_iphoneos-arm64.deb
+Size: 114036
+MD5sum: 0c365520b532835fc50faffcca640d1e
+SHA1: 6c453a4d4dc6fd74a3dd7d6b2c07d238d33930cd
+SHA256: 3a87861377fd178bd250117059d525d5ac50108992aae6cd6f9d2467758dc69e
+Section: Tweaks
+Description: Settings app changes in one place.
+ * group tweaks, App Store apps & system apps at the top.
+ * fill in missing tweak icons.
+ * show the Ethernet row.
+ * show the Wi-Fi address.
+ * show cellular data used beside Cellular.
+ * mask the serial number in About.
+ * show a different name on the Apple ID row.
+ * add a banner image to the top of Settings.
+ A rewrite of CreatureSurvive's Shuffle.
+ Rootless build, not yet tested.
 Author: CySxL
 Name: Shuffler
 
 Package: com.cysxl.swipeselection
-Version: 3.0.11
+Version: 3.0.12
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 232
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.0.11_iphoneos-arm64e.deb
-Size: 43016
-MD5sum: e144e5481c655aea55cb0672b23a2a7d
-SHA1: 93097ec18a39424b04691cf21cdac2a408a77f28
-SHA256: 224bdb8b4f5dccedd5e7c59e3c6d0f943280027b15b8d1d8c820f1dc077457ff
+Filename: debs/com.cysxl.swipeselection_3.0.12_iphoneos-arm64e.deb
+Size: 42992
+MD5sum: 9c2cc80b13ca5892cbfb3f795560869e
+SHA1: 3ccc4d4a6292c26580dae48fbf265b4e7272d4e9
+SHA256: 95788bbfac72a4b6151b4d3e64425a8680a0c5d0e0d828bf11e160ba60a6520f
 Section: Tweaks
 Description: Swipe along the keyboard to move the cursor and select text.
  * move the cursor at the speed you set.
  * feel each cursor step with optional haptic feedback.
  * select from Shift, Delete or keys you choose.
  * work in the color picker's hex field.
+ A rewrite of Kyle Howells' SwipeSelection.
+Author: CySxL
+Name: SwipeSelection
+
+Package: com.cysxl.swipeselection
+Version: 3.0.12
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.icraze.swipeselection
+Replaces: com.icraze.swipeselection
+Filename: debs/com.cysxl.swipeselection_3.0.12_iphoneos-arm64.deb
+Size: 53080
+MD5sum: efe0ad64d142cec25f47543cad4aad0b
+SHA1: dfd043cc9b5ed80f64656022296aceccd89d08bc
+SHA256: 21a18b8987929f8a7a1dbe9b8322beb3e9ea010fe593e7b90063ec849022e5e2
+Section: Tweaks
+Description: Swipe along the keyboard to move the cursor and select text.
+ * move the cursor at the speed you set.
+ * feel each cursor step with optional haptic feedback.
+ * select from Shift, Delete or keys you choose.
+ * work in the color picker's hex field.
+ A rewrite of Kyle Howells' SwipeSelection.
+ Rootless build, not yet tested.
 Author: CySxL
 Name: SwipeSelection
 
