@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CySxL Repo</title>
+<style>
+:root { --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --muted: #6e6e73; --accent: #0071e3; }
+@media (prefers-color-scheme: dark) {
+	:root { --bg: #000; --card: #1c1c1e; --text: #f5f5f7; --muted: #98989d; --accent: #2997ff; }
+}
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
+h1 { font-size: 28px; margin: 0 0 4px; }
+p { color: var(--muted); margin: 0 0 20px; }
+.add { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px; }
+.add a { flex: 1; min-width: 140px; text-align: center; padding: 12px; border-radius: 12px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+.url { font-family: ui-monospace, Menlo, monospace; font-size: 14px; color: var(--text); }
+ul { list-style: none; padding: 0; margin: 0; }
+li { background: var(--card); border-radius: 12px; padding: 12px 14px; margin-bottom: 8px; }
+li b { font-weight: 600; }
+li span { color: var(--muted); font-size: 14px; }
+li div { color: var(--muted); font-size: 14px; margin-top: 2px; }
+</style>
+</head>
+<body>
+<main>
+<h1>CySxL Repo</h1>
+<p>Some coding practices, including original tweaks, rewritten and maintained forks. Source: <span class="url">https://cysxl.github.io/</span></p>
+<div class="add">
+<a href="sileo://source/https://cysxl.github.io/">Add to Sileo</a>
+<a href="zbra://sources/add/https://cysxl.github.io/">Add to Zebra</a>
+</div>
+<ul id="list"></ul>
+</main>
+<script>
+fetch('Packages').then(r => r.text()).then(text => {
+	const seen = new Map();
+	for (const block of text.split(/\n\n+/)) {
+		const f = {};
+		for (const line of block.split('\n')) {
+			const m = line.match(/^([A-Za-z-]+): (.*)$/);
+			if (m) f[m[1]] = m[2];
+		}
+		if (!f.Package) continue;
+		const arch = (f.Architecture || '').endsWith('arm64e') ? 'roothide' : 'rootless';
+		const item = seen.get(f.Package) || { name: f.Name || f.Package, version: f.Version, desc: f.Description || '', archs: [] };
+		item.archs.push(arch);
+		seen.set(f.Package, item);
+	}
+	const list = document.getElementById('list');
+	[...seen.values()].sort((a, b) => a.name.localeCompare(b.name)).forEach(p => {
+		const li = document.createElement('li');
+		li.innerHTML = '<b></b> <span></span><div></div>';
+		li.querySelector('b').textContent = p.name;
+		li.querySelector('span').textContent = p.version + ' · ' + p.archs.join(', ');
+		li.querySelector('div').textContent = p.desc;
+		list.appendChild(li);
+	});
+});
+</script>
+</body>
+</html>
