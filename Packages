@@ -678,7 +678,7 @@ Name: SwipeSelection
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 
 Package: com.cysxl.vaon
-Version: 2.1.6
+Version: 2.1.7
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 836
@@ -686,11 +686,11 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.atar13.vaon
 Replaces: com.atar13.vaon
 Provides: com.atar13.vaon
-Filename: debs/com.cysxl.vaon_2.1.6_iphoneos-arm64e.deb
-Size: 204290
-MD5sum: d93bbceffa0dfbe959137c92fa376182
-SHA1: 48fd3b23860d472c5bf419c39f1c6d4e5d0d381a
-SHA256: e469a3a62e7cd9a0fa60e1b526aacdca03a3f75048bcfa171f8c13f3469295df
+Filename: debs/com.cysxl.vaon_2.1.7_iphoneos-arm64e.deb
+Size: 204626
+MD5sum: 688a3bb2e1ed8672b9ed1258ada15f1d
+SHA1: 47b2b8e3256bf0e2b13a61004e7e030a87854001
+SHA256: ece4e90fe9ca0e60b7691f2c0b8dc75b4dd1b633cbac567dd42809059c9c0698
 Section: Tweaks
 Description: A fork of atar13's Vaon.
  Shows the battery of Bluetooth accessories in the app switcher.
