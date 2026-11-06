@@ -1,3 +1,32 @@
+Package: com.cysxl.atria
+Version: 1.8.2
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
+Replaces: me.lau.atria
+Provides: me.lau.atria
+Filename: debs/com.cysxl.atria_1.8.2_iphoneos-arm64e.deb
+Size: 280606
+MD5sum: 8939e30e4ad60e9d4087d4011ed93fe5
+SHA1: 1a1f417c1062bd130c8fefc61e7fffe1d4ecbcf3
+SHA256: 81ae00e051402afba0e252eeca800d91dd27fae8064f39f2877be52f68266b17
+Section: Tweaks
+Description: A fork of ren7995's Atria.
+ Edits your homescreen layout on iOS 16-17, page by page.
+ * set rows, columns, icon size & spacing.
+ * move icon labels & page dots.
+ * set the dock's rows, columns & background alpha.
+ * add page labels & a welcome message.
+ * blur & tint a background behind your icons.
+ * put App Library & recents in the floating dock.
+ * hide page dots, badges, labels & the dock.
+ * export & import your settings.
+ * support roothide.
+Author: ren7995, CySxL
+Name: Atria
+
 Package: com.cysxl.bccreborn
 Version: 2.1.13
 Architecture: iphoneos-arm64
@@ -42,6 +71,30 @@ Description: A rewrite of Miguelaka95's BetterCC.
 Author: CySxL
 Name: BCCReborn
 Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
+
+Package: com.cysxl.betterccbrightness
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 320
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.level3tjg.betterccbrightness
+Replaces: com.level3tjg.betterccbrightness
+Provides: com.level3tjg.betterccbrightness
+Filename: debs/com.cysxl.betterccbrightness_2.0.3_iphoneos-arm64e.deb
+Size: 43960
+MD5sum: c24dff23b1076ed2f7926a48ca6c1ad3
+SHA1: 9c0273c0a02fa9a7fa32e3fb9fb746a20b463585
+SHA256: 4676b50193f31bc4c95f325866c1c16d09d17f115740615c04434fd4779941bd
+Section: Tweaks
+Description: A fork of level3tjg's BetterCCBrightness.
+ Adds more controls to the expanded brightness module in Control Center.
+ * toggle auto-lock & auto-brightness.
+ * reduce white point with an intensity slider.
+ * set Night Shift strength with a slider.
+ * show each brightness slider's level as a percentage.
+Author: level3tjg, CySxL
+Name: BetterCCBrightness
 
 Package: com.cysxl.bettervolumecontroller
 Version: 2.8.4
@@ -91,6 +144,31 @@ Description: A volume controller with a slider for media, ringer, alarm & calls.
 Author: CySxL
 Name: BetterVolumeController
 Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
+
+Package: com.cysxl.daemondisabler
+Version: 2.1.4
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 580
+Depends: mobilesubstrate, preferenceloader, ldid
+Conflicts: com.level3tjg.daemondisabler
+Replaces: com.level3tjg.daemondisabler
+Provides: com.level3tjg.daemondisabler
+Filename: debs/com.cysxl.daemondisabler_2.1.4_iphoneos-arm64e.deb
+Size: 74424
+MD5sum: 02fe70210289c4cd54c758f8746b200b
+SHA1: d873509e092f1309fbbfabc37387c24c8e9386d5
+SHA256: cd8831cd9f55896b3b5346c7320448d81dcec8e532db6ecbc15c4bb6a34a53fe
+Section: Tweaks
+Description: A fork of level3tjg's DaemonDisabler.
+ Turns launch daemons on & off from the Settings app.
+ * list every launch daemon with a switch per row.
+ * apply a change at once, without a reboot.
+ * keep disabled daemons off after every reboot.
+ * copy a daemon's label or path with a long press.
+ * confirm before turning a daemon on or off.
+Author: level3tjg, CySxL
+Name: DaemonDisabler
 
 Package: com.cysxl.felidae
 Version: 1.3.4
@@ -190,6 +268,109 @@ Description: Stops the lock screen camera opening by accident. Swiping no longer
 Author: CySxL
 Name: IAmNaive
 
+Package: com.cysxl.immortalizer
+Version: 2.8.3
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 652
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.sergy.immortalizer
+Replaces: com.sergy.immortalizer
+Provides: com.sergy.immortalizer
+Filename: debs/com.cysxl.immortalizer_2.8.3_iphoneos-arm64e.deb
+Size: 52804
+MD5sum: d43d43ad0458eeefaa52cf0ea8946e36
+SHA1: 5ef954fe28d751beae05345f0ec9916995d7985f
+SHA256: 63bd1d0a4a3246be2a52ba4ee3355eb97d1bf0bad11aa54a2ccf63d48b56d9de
+Section: Tweaks
+Description: A fork of sergy's Immortalizer.
+ Keeps chosen apps running in the foreground while they are in the background.
+ * immortalize an app from its Home Screen menu.
+ * show an indicator & a toast for each app's state.
+ * allow notifications from an immortalized app, per app.
+ * toggle it from a Control Center module.
+Author: sergy, CySxL
+Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+Name: Immortalizer
+
+Package: com.cysxl.keyboardcontroller
+Version: 1.5.6
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 548
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.keyboardcontroller
+Replaces: com.tomaszpoliszuk.keyboardcontroller
+Provides: com.tomaszpoliszuk.keyboardcontroller
+Filename: debs/com.cysxl.keyboardcontroller_1.5.6_iphoneos-arm64.deb
+Size: 87450
+MD5sum: 77db4e354f367025be961e8b2a2425b1
+SHA1: 25a482541633863eb0c7771f3053bcc7457bc950
+SHA256: 6201e85bf9bb5f79effae06ef5a3092acbd9dd417fa490a41e6c6fea6f3fa7eb
+Section: Tweaks
+Description: A fork of Tomasz Poliszuk's Keyboard Controller.
+ Changes how the keyboard looks & behaves in every app.
+ * force a light or dark keyboard.
+ * swap the keyboard type & the return key type.
+ * turn the one-handed keyboard on & off with a swipe down on the 123, delete or return key.
+ * swipe down to dismiss the keyboard.
+ * show tools beside the keyboard.
+ * try any keyboard type in the testing area.
+ Rootless build, not yet tested.
+Author: Tomasz Poliszuk, CySxL
+Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/KeyboardControllerSettings/Resources/icons/KeyboardController@3x.png
+Name: Keyboard Controller
+
+Package: com.cysxl.keyboardcontroller
+Version: 1.5.6
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 548
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.keyboardcontroller
+Replaces: com.tomaszpoliszuk.keyboardcontroller
+Provides: com.tomaszpoliszuk.keyboardcontroller
+Filename: debs/com.cysxl.keyboardcontroller_1.5.6_iphoneos-arm64e.deb
+Size: 86612
+MD5sum: adc0f7733863d0467894488aa60d8975
+SHA1: fdde68f4168161dbb743d63258dfe2013d4ba7e5
+SHA256: 03144e6fb940b5396eccdbc736840bebc2389199f169b4a008498d019f2e072b
+Section: Tweaks
+Description: A fork of Tomasz Poliszuk's Keyboard Controller.
+ Changes how the keyboard looks & behaves in every app.
+ * force a light or dark keyboard.
+ * swap the keyboard type & the return key type.
+ * turn the one-handed keyboard on & off with a swipe down on the 123, delete or return key.
+ * swipe down to dismiss the keyboard.
+ * show tools beside the keyboard.
+ * try any keyboard type in the testing area.
+Author: Tomasz Poliszuk, CySxL
+Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/KeyboardControllerSettings/Resources/icons/KeyboardController@3x.png
+Name: Keyboard Controller
+
+Package: com.cysxl.morecomplications
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Conflicts: xyz.skitty.morecomplications
+Replaces: xyz.skitty.morecomplications
+Provides: xyz.skitty.morecomplications
+Filename: debs/com.cysxl.morecomplications_2.0.1_iphoneos-arm64e.deb
+Size: 72900
+MD5sum: c9b35ffff6f54ebad036f1f789ca272d
+SHA1: aaee03533bd0285cda0dcd067eaa788ab7def8ff
+SHA256: 0e668ef88bdcf00405416f723b2e8331149d0efea09c18af19e855b72f6b953b
+Section: Tweaks
+Description: A fork of Skitty's MoreComplications.
+ Adds more rows of complications to the lock screen.
+ * set the number of rows.
+ * set the spacing between rows & between complications.
+Author: Skitty, CySxL
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.morecomplications.png
+Name: MoreComplications
+
 Package: com.cysxl.notimetowait
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -279,6 +460,57 @@ Description: A fork of AnthoPak's open-source PanCake.
 Author: AnthoPak, CySxL
 Name: PanCake
 Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
+
+Package: com.cysxl.settingswidgets
+Version: 2.0.14
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.shepgoba.settingswidgets
+Replaces: com.shepgoba.settingswidgets
+Provides: com.shepgoba.settingswidgets
+Filename: debs/com.cysxl.settingswidgets_2.0.14_iphoneos-arm64e.deb
+Size: 136194
+MD5sum: 6605afcbfa5b9cac8a19e90168383783
+SHA1: 09932d4994906797acffa2038a19301ee34a1a02
+SHA256: 123c8473e3d084827eed8ec7efac8c1b4483c75bcb35c4ab349f94a1f7fc8ce9
+Section: Tweaks
+Description: A fork of shepgoba's SettingsWidgets.
+ Adds widgets to the top of the Settings page.
+ * show battery health, storage, Wi-Fi, cellular, hotspot & Bluetooth.
+ * respring or enter safe mode from the utility widget.
+ * arrange up to four widgets in two rows.
+ * set an image or GIF background per widget.
+ * show hotspot clients from HotspotPro.
+Author: shepgoba, CySxL
+Name: SettingsWidgets
+
+Package: com.cysxl.settingswidgets
+Version: 2.0.14
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 704
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.shepgoba.settingswidgets
+Replaces: com.shepgoba.settingswidgets
+Provides: com.shepgoba.settingswidgets
+Filename: debs/com.cysxl.settingswidgets_2.0.14_iphoneos-arm64.deb
+Size: 137364
+MD5sum: f06044927fa20f6b48e9bc4aad8b8a53
+SHA1: 03b33b727e9e051aa24ab62a4239186f66ed10d8
+SHA256: 2c7a23544f0ea8ab5569e0e1def1888bf673a5aadf6ac9dbb28b390a90bb6fb1
+Section: Tweaks
+Description: A fork of shepgoba's SettingsWidgets.
+ Adds widgets to the top of the Settings page.
+ * show battery health, storage, Wi-Fi, cellular, hotspot & Bluetooth.
+ * respring or enter safe mode from the utility widget.
+ * arrange up to four widgets in two rows.
+ * set an image or GIF background per widget.
+ * show hotspot clients from HotspotPro.
+ Rootless build, not yet tested.
+Author: shepgoba, CySxL
+Name: SettingsWidgets
 
 Package: com.cysxl.sexreborn
 Version: 2.4.3
@@ -440,4 +672,31 @@ Description: A rewrite of Kyle Howells' SwipeSelection.
 Author: CySxL
 Name: SwipeSelection
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
+
+Package: com.cysxl.vaon
+Version: 2.1.6
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 836
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.atar13.vaon
+Replaces: com.atar13.vaon
+Provides: com.atar13.vaon
+Filename: debs/com.cysxl.vaon_2.1.6_iphoneos-arm64e.deb
+Size: 204290
+MD5sum: d93bbceffa0dfbe959137c92fa376182
+SHA1: 48fd3b23860d472c5bf419c39f1c6d4e5d0d381a
+SHA256: e469a3a62e7cd9a0fa60e1b526aacdca03a3f75048bcfa171f8c13f3469295df
+Section: Tweaks
+Description: A fork of atar13's Vaon.
+ Shows the battery of Bluetooth accessories in the app switcher.
+ * keep disconnected & pinned devices on show.
+ * show speakers & soundbars that report no battery level.
+ * pick a custom glyph per device.
+ * page through devices with page dots.
+ * park a side module beside a floating dock in landscape.
+ * apply settings without a respring.
+Author: atar13, SingleKeycap, CySxL
+Icon: https://atar13.github.io/assets/package_icons/vaonIcon.png
+Name: Vaon
 
