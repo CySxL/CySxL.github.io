@@ -7,39 +7,79 @@
 <link rel="icon" href="CydiaIcon.png">
 <link rel="apple-touch-icon" href="CydiaIcon.png">
 <style>
-:root { --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --muted: #6e6e73; --accent: #0071e3; }
-@media (prefers-color-scheme: dark) {
-	:root { --bg: #000; --card: #1c1c1e; --text: #f5f5f7; --muted: #98989d; --accent: #2997ff; }
+:root {
+	--bg: #f3f1ee; --card: #ffffff; --text: #24272b; --muted: #6f747b; --line: rgba(36, 39, 43, 0.08);
+	--accent: #5d6f84; --accent-text: #ffffff; --glow1: #c9d3de; --glow2: #e4cfc9; --glow3: #d3ddd2;
+	--pill: #eceae6; --rootless: #4f7a5b; --roothide: #7a5574;
 }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; }
-main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
-header { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
-header img { width: 64px; height: 64px; border-radius: 22.5%; flex: none; }
-h1 { font-size: 28px; margin: 0; }
-p { color: var(--muted); margin: 0 0 20px; }
-.add { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px; }
-.add a { flex: 1; min-width: 140px; text-align: center; padding: 12px; border-radius: 12px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
-.url { font-family: ui-monospace, Menlo, monospace; font-size: 14px; color: var(--text); }
-ul { list-style: none; padding: 0; margin: 0; }
-li { background: var(--card); border-radius: 12px; padding: 12px 14px; margin-bottom: 8px; display: flex; gap: 12px; align-items: flex-start; }
-li img { width: 44px; height: 44px; border-radius: 22.5%; flex: none; }
-li section { min-width: 0; }
-li b { font-weight: 600; }
-li span { color: var(--muted); font-size: 14px; }
-li div { color: var(--muted); font-size: 14px; margin-top: 2px; }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #121417; --card: #1c1f23; --text: #eceef0; --muted: #9aa0a7; --line: rgba(255, 255, 255, 0.07);
+		--accent: #8fa3b8; --accent-text: #121417; --glow1: #26313d; --glow2: #3a2c2a; --glow3: #27332a;
+		--pill: #262a2f; --rootless: #9cc0a5; --roothide: #c3a2bd;
+	}
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; }
+.hero { position: relative; overflow: hidden; padding: 56px 16px 36px; }
+.hero::before { content: ""; position: absolute; inset: -40% -10% auto; height: 140%;
+	background: radial-gradient(40% 50% at 20% 30%, var(--glow1), transparent 70%),
+		radial-gradient(35% 45% at 78% 22%, var(--glow2), transparent 70%),
+		radial-gradient(40% 50% at 60% 82%, var(--glow3), transparent 70%); }
+.hero > div { position: relative; max-width: 680px; margin: 0 auto; text-align: center; }
+.hero img { width: 96px; height: 96px; border-radius: 22.5%; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18); }
+h1 { font-size: 34px; letter-spacing: -0.02em; margin: 18px 0 6px; }
+.tagline { color: var(--muted); margin: 0 auto 22px; max-width: 460px; }
+.add { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.add a { min-width: 150px; padding: 12px 18px; border-radius: 14px; background: var(--accent); color: var(--accent-text); text-decoration: none; font-weight: 600; }
+.add a.ghost { background: var(--card); color: var(--text); box-shadow: inset 0 0 0 1px var(--line); }
+.url { display: inline-block; margin-top: 16px; padding: 6px 12px; border-radius: 999px; background: var(--card); box-shadow: inset 0 0 0 1px var(--line);
+	font: 13px ui-monospace, Menlo, monospace; color: var(--muted); cursor: pointer; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 32px; }
+.head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 8px 4px 12px; }
+.head h2 { font-size: 20px; margin: 0; }
+.head span { color: var(--muted); font-size: 14px; }
+ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+li { background: var(--card); border-radius: 16px; padding: 14px; display: flex; gap: 14px; align-items: flex-start; box-shadow: 0 1px 0 var(--line), 0 6px 18px rgba(0, 0, 0, 0.04); }
+li img { width: 52px; height: 52px; border-radius: 22.5%; flex: none; }
+li section { min-width: 0; flex: 1; }
+.title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.title b { font-size: 17px; font-weight: 600; }
+.ver { font-size: 12px; color: var(--muted); background: var(--pill); padding: 2px 8px; border-radius: 999px; }
+.desc { color: var(--muted); font-size: 14px; margin-top: 3px; }
+.tags { display: flex; gap: 6px; margin-top: 8px; }
+.tags i { font-style: normal; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--pill); }
+.tags i.rootless { color: var(--rootless); }
+.tags i.roothide { color: var(--roothide); }
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 48px; }
+footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
-<main>
-<header><img src="CydiaIcon.png" alt=""><h1>CySxL's Repo</h1></header>
-<p>Some coding practices, including original tweaks, rewritten and maintained forks. Source: <span class="url">https://cysxl.github.io/</span></p>
+<header class="hero"><div>
+<img src="CydiaIcon.png" alt="">
+<h1>CySxL's Repo</h1>
+<p class="tagline">Some coding practices, including original tweaks, rewritten and maintained forks.</p>
 <div class="add">
 <a href="sileo://source/https://cysxl.github.io/">Add to Sileo</a>
-<a href="zbra://sources/add/https://cysxl.github.io/">Add to Zebra</a>
+<a class="ghost" href="zbra://sources/add/https://cysxl.github.io/">Add to Zebra</a>
 </div>
+<span class="url" title="Copy">https://cysxl.github.io/</span>
+</div></header>
+<main>
+<div class="head"><h2>Packages</h2><span id="count"></span></div>
 <ul id="list"></ul>
 </main>
+<footer>Enjoying these? <a href="https://ko-fi.com/cysxl">Tip on Ko-fi</a></footer>
 <script>
+const url = document.querySelector('.url');
+url.addEventListener('click', () => {
+	if (!navigator.clipboard) return;
+	navigator.clipboard.writeText('https://cysxl.github.io/').then(() => {
+		url.textContent = 'Copied';
+		setTimeout(() => url.textContent = 'https://cysxl.github.io/', 1200);
+	}, () => {});
+});
 fetch('Packages').then(r => r.text()).then(text => {
 	const seen = new Map();
 	for (const block of text.split(/\n\n+/)) {
@@ -54,15 +94,24 @@ fetch('Packages').then(r => r.text()).then(text => {
 		item.archs.push(arch);
 		seen.set(f.Package, item);
 	}
+	const items = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+	document.getElementById('count').textContent = items.length + ' tweaks';
 	const list = document.getElementById('list');
-	[...seen.values()].sort((a, b) => a.name.localeCompare(b.name)).forEach(p => {
+	items.forEach(p => {
 		const li = document.createElement('li');
-		li.innerHTML = '<img alt=""><section><b></b> <span></span><div></div></section>';
+		li.innerHTML = '<img alt=""><section><div class="title"><b></b><span class="ver"></span></div><div class="desc"></div><div class="tags"></div></section>';
 		const img = li.querySelector('img');
 		if (p.icon) img.src = p.icon; else img.style.visibility = 'hidden';
 		li.querySelector('b').textContent = p.name;
-		li.querySelector('span').textContent = p.version + ' · ' + p.archs.sort((a, b) => (a === 'rootless' ? 0 : 1) - (b === 'rootless' ? 0 : 1)).join(', ');
-		li.querySelector('div').textContent = p.desc;
+		li.querySelector('.ver').textContent = p.version;
+		li.querySelector('.desc').textContent = p.desc;
+		const tags = li.querySelector('.tags');
+		p.archs.sort((a, b) => (a === 'rootless' ? 0 : 1) - (b === 'rootless' ? 0 : 1)).forEach(a => {
+			const t = document.createElement('i');
+			t.className = a;
+			t.textContent = a;
+			tags.appendChild(t);
+		});
 		list.appendChild(li);
 	});
 });
