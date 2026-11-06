@@ -148,7 +148,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 Name: BetterVolumeController
 
 Package: com.cysxl.daemondisabler
-Version: 2.1.5
+Version: 2.1.6
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 596
@@ -156,11 +156,11 @@ Depends: mobilesubstrate, preferenceloader, ldid
 Conflicts: com.level3tjg.daemondisabler
 Replaces: com.level3tjg.daemondisabler
 Provides: com.level3tjg.daemondisabler
-Filename: debs/com.cysxl.daemondisabler_2.1.5_iphoneos-arm64e.deb
-Size: 74462
-MD5sum: ebfb2710830e596387c04f803155b8df
-SHA1: e26d645e84c46e1535f4a9b74676251e7127d05a
-SHA256: df6bf3769daaff0778035c064f45ef5da133680ea09fe99e31068d73a0c7fa26
+Filename: debs/com.cysxl.daemondisabler_2.1.6_iphoneos-arm64e.deb
+Size: 74756
+MD5sum: 37e7ada2c05107c56eec2326c7661080
+SHA1: 573dac78fada656078d7848614567a07d0c36eb2
+SHA256: ad9b21c812229637bcb77dbd95ee824a5bb4dc45fa9bfb618a9494a609a202b1
 Section: Tweaks
 Description: A fork of level3tjg's DaemonDisabler.
  Turns launch daemons on & off from the Settings app.
@@ -274,19 +274,19 @@ Icon: https://cysxl.github.io/icons/com.cysxl.iamnaive.png
 Name: IAmNaive
 
 Package: com.cysxl.immortalizer
-Version: 2.8.3
+Version: 2.8.5
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 652
+Installed-Size: 668
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
 Conflicts: com.sergy.immortalizer
 Replaces: com.sergy.immortalizer
 Provides: com.sergy.immortalizer
-Filename: debs/com.cysxl.immortalizer_2.8.3_iphoneos-arm64e.deb
-Size: 52804
-MD5sum: d43d43ad0458eeefaa52cf0ea8946e36
-SHA1: 5ef954fe28d751beae05345f0ec9916995d7985f
-SHA256: 63bd1d0a4a3246be2a52ba4ee3355eb97d1bf0bad11aa54a2ccf63d48b56d9de
+Filename: debs/com.cysxl.immortalizer_2.8.5_iphoneos-arm64e.deb
+Size: 61224
+MD5sum: ab1e204f82ea65079a7c7d89b087b043
+SHA1: 2743cfeced42f9a554607597677d6a739156a1ca
+SHA256: a51e1875d86f6b8dc199d32955475a06d80f9a8b4e5c98b3a271d51f99f2940d
 Section: Tweaks
 Description: A fork of sergy's Immortalizer.
  Keeps chosen apps running in the foreground while they are in the background.
@@ -418,7 +418,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.notimetowait.png
 Name: NoTimeToWait
 
 Package: com.cysxl.pancake
-Version: 3.3.5
+Version: 3.3.6
 Architecture: iphoneos-arm64e
 Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
 Installed-Size: 484
@@ -426,11 +426,11 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
 Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
 Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.5_iphoneos-arm64e.deb
-Size: 111706
-MD5sum: 5d19d8a9086100fd1eb3f9837e5d94cc
-SHA1: 144b92b870e0108cd7d02084a3d87ea968a776bc
-SHA256: 55e3c6a3b1a9150ccf5aaa24a912e9c417c06f8cc39fdcc22c64965a34144493
+Filename: debs/com.cysxl.pancake_3.3.6_iphoneos-arm64e.deb
+Size: 111756
+MD5sum: 7b4c33b2caf29540ebb0c7c9d1a36bb7
+SHA1: 2f05b91ac8e437d8449a2c11cf0f2a85f9318a4a
+SHA256: 4a8880dd78b20b137f8405ba4e5ad60f1a1831fd35bdf19006d678c75aeb71f4
 Section: Tweaks
 Description: A fork of AnthoPak's open-source PanCake.
  Swipe back from anywhere on the screen in any app, and bring back the page just left.
@@ -443,7 +443,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
 Name: PanCake
 
 Package: com.cysxl.pancake
-Version: 3.3.5
+Version: 3.3.6
 Architecture: iphoneos-arm64
 Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
 Installed-Size: 516
@@ -451,11 +451,11 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
 Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
 Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.5_iphoneos-arm64.deb
-Size: 113584
-MD5sum: 53deeaf89b45815233274804694e36af
-SHA1: 05ac360341e3e5a56a7ffba990f3b21571a21e34
-SHA256: 47fc79e5d3506815daa4d671c3e0e373586099bc94c44b353541cc9e5880f49b
+Filename: debs/com.cysxl.pancake_3.3.6_iphoneos-arm64.deb
+Size: 113624
+MD5sum: 8020d7dbc393b93fae68683e649e8439
+SHA1: 67fef6fff509da03557919c96f4942ccdf185e0c
+SHA256: 386758de450f0f33bfe1963ea7c5867d2d7c8674b500161ae281b24941d70eec
 Section: Tweaks
 Description: A fork of AnthoPak's open-source PanCake.
  Swipe back from anywhere on the screen in any app, and bring back the page just left.
@@ -469,7 +469,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
 Name: PanCake
 
 Package: com.cysxl.settingswidgets
-Version: 2.0.15
+Version: 2.0.16
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 704
@@ -477,11 +477,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.shepgoba.settingswidgets
 Replaces: com.shepgoba.settingswidgets
 Provides: com.shepgoba.settingswidgets
-Filename: debs/com.cysxl.settingswidgets_2.0.15_iphoneos-arm64e.deb
-Size: 136662
-MD5sum: f427cd7c114db83176ea4e2c0c572997
-SHA1: 9cdb5acd396a1e7ad527bb9d479f00336b67861f
-SHA256: 2e1a1de3af76ff49843263bb3803993ecba8ce661198748acbf55568fb59b8aa
+Filename: debs/com.cysxl.settingswidgets_2.0.16_iphoneos-arm64e.deb
+Size: 136700
+MD5sum: 29d933075c2cb9e7edb7819a0d412956
+SHA1: 3801c21e3410b1620c208639eca4069184184b39
+SHA256: 269c51f6772c5bd31556d86053a98da49cba239cc0341b3c8645ccf8a6d70a9d
 Section: Tweaks
 Description: A fork of shepgoba's SettingsWidgets.
  Adds widgets to the top of the Settings page.
@@ -495,7 +495,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.settingswidgets.png
 Name: SettingsWidgets
 
 Package: com.cysxl.settingswidgets
-Version: 2.0.15
+Version: 2.0.16
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 704
@@ -503,11 +503,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.shepgoba.settingswidgets
 Replaces: com.shepgoba.settingswidgets
 Provides: com.shepgoba.settingswidgets
-Filename: debs/com.cysxl.settingswidgets_2.0.15_iphoneos-arm64.deb
-Size: 137700
-MD5sum: c280ecdc94211c8c92671a386fec18e7
-SHA1: def1f8b725b31972fc39608e487e2ef32d50181f
-SHA256: 20ef4fff9d54f52c6c6a8a4a54cc745eff0d4f3e166a9977ae41ea6d7ee152d1
+Filename: debs/com.cysxl.settingswidgets_2.0.16_iphoneos-arm64.deb
+Size: 137742
+MD5sum: 8729a8811388b0a890f7277d14a47fa5
+SHA1: 97829925208c333c4df7b82c4457a4a16594cce9
+SHA256: d12dd74a545e0ef4857cab6b92aca8bbe079cd47ae568ec5d500a6fca681f0c1
 Section: Tweaks
 Description: A fork of shepgoba's SettingsWidgets.
  Adds widgets to the top of the Settings page.
@@ -683,7 +683,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
 
 Package: com.cysxl.vaon
-Version: 2.1.8
+Version: 2.1.9
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 836
@@ -691,11 +691,11 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.atar13.vaon
 Replaces: com.atar13.vaon
 Provides: com.atar13.vaon
-Filename: debs/com.cysxl.vaon_2.1.8_iphoneos-arm64e.deb
-Size: 204574
-MD5sum: 085e1bce6a7d862200ee805381a697b8
-SHA1: 55ed5743ca35d48c95be5a08327f7acf04146f77
-SHA256: bd8a399bebf1f9252e269603bd8635fb46a9433ec4aa5606a17ea255a9f35623
+Filename: debs/com.cysxl.vaon_2.1.9_iphoneos-arm64e.deb
+Size: 204632
+MD5sum: 99e77e2cb79de548aee8f9dcb36bde00
+SHA1: cb66957ac09b8852a59536ec1aeffacf130878b9
+SHA256: 9124dd309773a6876fb35dec245226be54d3c6480416f5d3137fbe85f99495a6
 Section: Tweaks
 Description: A fork of atar13's Vaon.
  Shows the battery of Bluetooth accessories in the app switcher.
