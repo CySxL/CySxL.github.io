@@ -224,7 +224,7 @@ Author: CySxL
 Name: NoTimeToWait
 
 Package: com.cysxl.pancake
-Version: 3.3.2
+Version: 3.3.3
 Architecture: iphoneos-arm64e
 Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
 Installed-Size: 484
@@ -232,11 +232,11 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
 Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
 Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.2_iphoneos-arm64e.deb
-Size: 111554
-MD5sum: 6988ea2e3441aeefc91531dd0d369409
-SHA1: 40e7f846d9437688258bd46fa6d4d9fb81b26009
-SHA256: 95a08699bf8220eec2bf3bd626c29103ef5b84bf6a773547772199470c3613cd
+Filename: debs/com.cysxl.pancake_3.3.3_iphoneos-arm64e.deb
+Size: 111510
+MD5sum: 060bc8db5c26cb43ff6df903d0839166
+SHA1: e460fd6e128f72a9296b02394636bac3f916f567
+SHA256: 4f7fa86dcb21be110f488392f17e65cdfed2db722132f873ba4ca4d96755602b
 Section: Tweaks
 Description: A rewrite of AnthoPak's open-source PanCake.
  Swipe back from anywhere on the screen in any app, and bring back the page just left.
@@ -244,11 +244,11 @@ Description: A rewrite of AnthoPak's open-source PanCake.
  * restore the previous page with a swipe in from the right edge.
  * haptic feedback on the back gesture, in five strengths.
  * disable in selected apps.
-Author: AnthoPak
+Author: CySxL
 Name: PanCake
 
 Package: com.cysxl.pancake
-Version: 3.3.2
+Version: 3.3.3
 Architecture: iphoneos-arm64
 Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
 Installed-Size: 516
@@ -256,11 +256,11 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
 Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
 Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.2_iphoneos-arm64.deb
-Size: 113316
-MD5sum: df865f10541b0fe0a8afd88b83407764
-SHA1: 4bfa31811555eda4a10bb03eb05e9ce54dab5afd
-SHA256: 620822e536f6ec485c4170eaa3b7b183fc579b43860922936a7c7547c54b22bb
+Filename: debs/com.cysxl.pancake_3.3.3_iphoneos-arm64.deb
+Size: 113306
+MD5sum: 3a7aab61608c1c93ffbf6099c717c7e2
+SHA1: e7ec908b346b8342cf1b1cda37ad142be1b5eb85
+SHA256: 9d5080058e8b127db9ff36a6f4dc0f0f6196c289bdecf7515e55eb07b2820a0c
 Section: Tweaks
 Description: A rewrite of AnthoPak's open-source PanCake.
  Swipe back from anywhere on the screen in any app, and bring back the page just left.
@@ -269,7 +269,7 @@ Description: A rewrite of AnthoPak's open-source PanCake.
  * haptic feedback on the back gesture, in five strengths.
  * disable in selected apps.
  Rootless build, not yet tested.
-Author: AnthoPak
+Author: CySxL
 Name: PanCake
 
 Package: com.cysxl.sexreborn

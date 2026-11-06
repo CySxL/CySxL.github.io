@@ -7,14 +7,14 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Some coding practices, including original tweaks, rewritten and maintained forks.
 MD5Sum:
- d4fc846f352e7ea75d9b81eb412c9c77 16261 Packages
- 1c1db4f485233b24e9c348391d900551 4287 Packages.gz
- f776959c140839dd3888101788088b24 4551 Packages.bz2
- 523904509ffa51e41887902fdcefc52a 4132 Packages.xz
- 4034de76e8af89aef866e89263e5496e 4113 Packages.zst
+ 21028ceb137cd2574a4e86d559028ca0 16255 Packages
+ be7161b06c0bcb6b8766dc3a61c2f93e 4282 Packages.gz
+ 2f34e6dc910b408d47a595f5bdd5a994 4544 Packages.bz2
+ c5b25d49e3af28d8b3c56bce6ae22a33 4132 Packages.xz
+ 2962632b2ceb0a9f46136f1546cecdb1 4107 Packages.zst
 SHA256:
- 64c1e5a2a9d72228197431b831545c017fb015f43a403556fea1b7463202d16e 16261 Packages
- 50fd97c71f613282479bf4da2bc0d11759263ccf575087dfb7188072f89fc4b2 4287 Packages.gz
- d356a4ccd9d5c38dadf19a2cea718dd7fc044b5d973c3964707082c649077aa4 4551 Packages.bz2
- 2e3ff95b5c9dc178e9af7d51cb6feca7fcb02a1eee2993538a9437f7217c9fb6 4132 Packages.xz
- 9de6f02e3a5cd8d96671e554b1fcf438430bab05b2de2e3a6ea8f18a359641c8 4113 Packages.zst
+ 3371d5afc05a5a248ce9751465adb901f7f3d11d911ca3f0a645396cb8aa0a39 16255 Packages
+ 6af31edfb4baf1eceedf1caa446af23b8da3fcd0b04ba78334b798ed85d9c165 4282 Packages.gz
+ 46db7a0ebdc13e6ffe1924006f5209fc90fd617343e804ed7ab4cfc3615961ab 4544 Packages.bz2
+ f32c6e7e26a766cae0ce33edb56b6ed142396b3be791a80bf7c23f75dbd34977 4132 Packages.xz
+ 1030636a722f51c974d6c172dc3ca9ea38bbb68521200d0a85a7d7cfff3fd9eb 4107 Packages.zst
