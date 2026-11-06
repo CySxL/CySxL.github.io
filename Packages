@@ -74,7 +74,7 @@ Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
 Name: BCCReborn
 
 Package: com.cysxl.betterccbrightness
-Version: 2.0.3
+Version: 2.0.4
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 320
@@ -82,11 +82,11 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Conflicts: com.level3tjg.betterccbrightness
 Replaces: com.level3tjg.betterccbrightness
 Provides: com.level3tjg.betterccbrightness
-Filename: debs/com.cysxl.betterccbrightness_2.0.3_iphoneos-arm64e.deb
-Size: 43960
-MD5sum: c24dff23b1076ed2f7926a48ca6c1ad3
-SHA1: 9c0273c0a02fa9a7fa32e3fb9fb746a20b463585
-SHA256: 4676b50193f31bc4c95f325866c1c16d09d17f115740615c04434fd4779941bd
+Filename: debs/com.cysxl.betterccbrightness_2.0.4_iphoneos-arm64e.deb
+Size: 44232
+MD5sum: 25f1b1ec5bf49e42096dbd5cc29873ad
+SHA1: 4b2ce558da19b43a32a237f8709da027abd13d40
+SHA256: af8462864945db0a0d56cf510e3d383b9a4423b88191fa2ee8a5be67c3caf8f4
 Section: Tweaks
 Description: A fork of level3tjg's BetterCCBrightness.
  Adds more controls to the expanded brightness module in Control Center.
@@ -95,6 +95,7 @@ Description: A fork of level3tjg's BetterCCBrightness.
  * set Night Shift strength with a slider.
  * show each brightness slider's level as a percentage.
 Author: level3tjg, CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.betterccbrightness.png
 Name: BetterCCBrightness
 
 Package: com.cysxl.bettervolumecontroller
@@ -173,16 +174,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
 
 Package: com.cysxl.felidae
-Version: 1.3.5
+Version: 1.3.6
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 756
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.5_iphoneos-arm64.deb
-Size: 87028
-MD5sum: 0bf3a2a013ba032a7db0baa9f9828bef
-SHA1: 57d71bb3d12325480ed8cc7ac9fb5d903085b868
-SHA256: 91cf6ec8a42f922dca951228605a966837d2128702406a03c0b4e11ab591a873
+Filename: debs/com.cysxl.felidae_1.3.6_iphoneos-arm64.deb
+Size: 87084
+MD5sum: f49db59d1328c96a3c860dde5badc3ea
+SHA1: b38598beb28c9e40d8bcf0d2f9e25c82f6568512
+SHA256: 1b597f68d06789b3dc930d4d1e9c1eef13a1f6485a5f53d1aa3e2343c222e681
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -206,16 +207,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
 
 Package: com.cysxl.felidae
-Version: 1.3.5
+Version: 1.3.6
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 756
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.5_iphoneos-arm64e.deb
-Size: 85544
-MD5sum: b8d349b9ae799dd68a57e6995c6ae7df
-SHA1: 50eccdf211fda6189ed7e88090b8767a575271a3
-SHA256: f25c13517c17a0769dfd4189ec5239edb54f815b5c7ffcdd5a23aa7d54f826f9
+Filename: debs/com.cysxl.felidae_1.3.6_iphoneos-arm64e.deb
+Size: 85656
+MD5sum: 2bed31833bc05068fd859cfc78f56fa2
+SHA1: 4311313bc804ff3ac141dc9eca7aec719ae2a691
+SHA256: d28ca4b7eb605125d0f87de512597c2bfe04cd42be99c4829ad375615b5cfbad
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -238,36 +239,38 @@ Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
 
 Package: com.cysxl.iamnaive
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.iamnaive_1.0.2_iphoneos-arm64e.deb
-Size: 5258
-MD5sum: ab5d800e4c65fb6a5664b243e812f174
-SHA1: d1dc6517569517bc62ac247ee172e0de558050b8
-SHA256: 9ad65c81281f65c7c944e955bb7c6ce005fb28025d8d2c71487b8089f1f4796e
+Filename: debs/com.cysxl.iamnaive_1.0.3_iphoneos-arm64e.deb
+Size: 5288
+MD5sum: 51dc2b28870c82606c7b69a305905568
+SHA1: c321daef1d442510aec88a7e2825fd07547946ab
+SHA256: b1d6c848a72efc70c4c6ab688521452ac3ff16f229f1e951546a1286c904115d
 Section: Tweaks
 Description: Stops the lock screen camera opening by accident. Swiping no longer opens it, and the camera button needs a longer press.
 Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.iamnaive.png
 Name: IAmNaive
 
 Package: com.cysxl.iamnaive
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.iamnaive_1.0.2_iphoneos-arm64.deb
-Size: 5322
-MD5sum: 1bd3b7917c1dc1c1b39367731e8b9932
-SHA1: d4b839be85f28c33f03b01bcf84193e4b0e387ec
-SHA256: 12ab70131fa63f2d6b1c6ae4cfc103546892b6d547ef0d7be723ff05c0143877
+Filename: debs/com.cysxl.iamnaive_1.0.3_iphoneos-arm64.deb
+Size: 5366
+MD5sum: 910788e9cfe5dd8a0262e586b6eec19f
+SHA1: 0a45b5a520df8762db19a54e9439f4f15fab1be3
+SHA256: b042ceae1a819758b1de14e30683004a01371aa57fe3e694ace28b28946287c7
 Section: Tweaks
 Description: Stops the lock screen camera opening by accident. Swiping no longer opens it, and the camera button needs a longer press.
  Rootless build, not yet tested.
 Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.iamnaive.png
 Name: IAmNaive
 
 Package: com.cysxl.immortalizer
@@ -374,42 +377,44 @@ Icon: https://skitty.xyz/repo/icons/xyz.skitty.morecomplications.png
 Name: MoreComplications
 
 Package: com.cysxl.notimetowait
-Version: 1.0.6
+Version: 1.0.7
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Conflicts: com.p2kdev.nofaceidwait
 Replaces: com.p2kdev.nofaceidwait
-Filename: debs/com.cysxl.notimetowait_1.0.6_iphoneos-arm64.deb
-Size: 5180
-MD5sum: 2e034ea7477b30a694007fdb6b2b3779
-SHA1: 8ff2969bcdf6d24e679868d897c036ed2f6966a5
-SHA256: 14c68eb803b91bdea14cc1caef492de10ad70bc27f2b277b717f6964ae97ef33
+Filename: debs/com.cysxl.notimetowait_1.0.7_iphoneos-arm64.deb
+Size: 5208
+MD5sum: 848c1aa7ad2065b83cf3b01945ff13ed
+SHA1: 4385e22fbfa50c4dd2c3ed28d14ac332f1fcad17
+SHA256: 9951729c8cfd1e037ff3671473d8a0a2d26a4d9e0843d2a0f376cab13298c6e5
 Section: Tweaks
 Description: A rewrite of P2KDev's NoFaceIDWait.
  Skip Face ID scanning and go straight to passcode.
  Rootless build, not yet tested.
 Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.notimetowait.png
 Name: NoTimeToWait
 
 Package: com.cysxl.notimetowait
-Version: 1.0.6
+Version: 1.0.7
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Conflicts: com.p2kdev.nofaceidwait
 Replaces: com.p2kdev.nofaceidwait
-Filename: debs/com.cysxl.notimetowait_1.0.6_iphoneos-arm64e.deb
-Size: 5110
-MD5sum: 3dee4db5c3a23fc674dde768bdfb585e
-SHA1: c76290e55be919dd5f42c826c9c02bb46206237b
-SHA256: 217f250a08d8079bcced969b38f503f329307d8b8e666b50301fa3333d9fa064
+Filename: debs/com.cysxl.notimetowait_1.0.7_iphoneos-arm64e.deb
+Size: 5138
+MD5sum: 9da2212843e4d96fb21a5b7d1bc44ed9
+SHA1: a430134155198e4623425e233c38e7a5b118659b
+SHA256: 1b51a2559ed9ef43fd14a69867b1471e55b07957c92b23f1f82ca16fadaa0df5
 Section: Tweaks
 Description: A rewrite of P2KDev's NoFaceIDWait.
  Skip Face ID scanning and go straight to passcode.
 Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.notimetowait.png
 Name: NoTimeToWait
 
 Package: com.cysxl.pancake
