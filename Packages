@@ -19,6 +19,7 @@ Description: A rewrite of Miguelaka95's BetterCC.
  Rootless build, not yet tested.
 Author: CySxL
 Name: BCCReborn
+Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
 
 Package: com.cysxl.bccreborn
 Version: 2.1.13
@@ -40,6 +41,7 @@ Description: A rewrite of Miguelaka95's BetterCC.
  * add up to 12 invisible modules.
 Author: CySxL
 Name: BCCReborn
+Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
 
 Package: com.cysxl.bettervolumecontroller
 Version: 2.8.4
@@ -63,6 +65,7 @@ Description: A volume controller with a slider for media, ringer, alarm & calls.
  * close on its own after a delay.
 Author: CySxL
 Name: BetterVolumeController
+Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 
 Package: com.cysxl.bettervolumecontroller
 Version: 2.8.4
@@ -87,6 +90,7 @@ Description: A volume controller with a slider for media, ringer, alarm & calls.
  Rootless build, not yet tested.
 Author: CySxL
 Name: BetterVolumeController
+Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 
 Package: com.cysxl.felidae
 Version: 1.3.4
@@ -118,6 +122,7 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
  * set the space apps leave above the home bar.
 Author: CySxL
 Name: Felidae
+Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 
 Package: com.cysxl.felidae
 Version: 1.3.4
@@ -150,6 +155,7 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
  Rootless build, not yet tested.
 Author: CySxL
 Name: Felidae
+Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 
 Package: com.cysxl.iamnaive
 Version: 1.0.2
@@ -224,31 +230,7 @@ Author: CySxL
 Name: NoTimeToWait
 
 Package: com.cysxl.pancake
-Version: 3.3.3
-Architecture: iphoneos-arm64e
-Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
-Installed-Size: 484
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
-Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
-Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
-Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.3_iphoneos-arm64e.deb
-Size: 111510
-MD5sum: 060bc8db5c26cb43ff6df903d0839166
-SHA1: e460fd6e128f72a9296b02394636bac3f916f567
-SHA256: 4f7fa86dcb21be110f488392f17e65cdfed2db722132f873ba4ca4d96755602b
-Section: Tweaks
-Description: A rewrite of AnthoPak's open-source PanCake.
- Swipe back from anywhere on the screen in any app, and bring back the page just left.
- * go back with a swipe anywhere on the page.
- * restore the previous page with a swipe in from the right edge.
- * haptic feedback on the back gesture, in five strengths.
- * disable in selected apps.
-Author: CySxL
-Name: PanCake
-
-Package: com.cysxl.pancake
-Version: 3.3.3
+Version: 3.3.4
 Architecture: iphoneos-arm64
 Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
 Installed-Size: 516
@@ -256,21 +238,47 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
 Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
 Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
-Filename: debs/com.cysxl.pancake_3.3.3_iphoneos-arm64.deb
-Size: 113306
-MD5sum: 3a7aab61608c1c93ffbf6099c717c7e2
-SHA1: e7ec908b346b8342cf1b1cda37ad142be1b5eb85
-SHA256: 9d5080058e8b127db9ff36a6f4dc0f0f6196c289bdecf7515e55eb07b2820a0c
+Filename: debs/com.cysxl.pancake_3.3.4_iphoneos-arm64.deb
+Size: 113336
+MD5sum: e5f8c9606af8f6dc620e40ffa7004993
+SHA1: d87013ba737da6204baff13dcded55802fd35090
+SHA256: d643d59facce17f9b57e6d2093bb4695faaa67bc5c0c0de9b6c8e44ac22a2c27
 Section: Tweaks
-Description: A rewrite of AnthoPak's open-source PanCake.
+Description: A fork of AnthoPak's open-source PanCake.
  Swipe back from anywhere on the screen in any app, and bring back the page just left.
  * go back with a swipe anywhere on the page.
  * restore the previous page with a swipe in from the right edge.
  * haptic feedback on the back gesture, in five strengths.
  * disable in selected apps.
  Rootless build, not yet tested.
-Author: CySxL
+Author: AnthoPak, CySxL
 Name: PanCake
+Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
+
+Package: com.cysxl.pancake
+Version: 3.3.4
+Architecture: iphoneos-arm64e
+Maintainer: CySxL <15531137+CySxL@users.noreply.github.com>
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Conflicts: com.anthopak.pancake, com.anthopak.pancake-rootless
+Replaces: com.anthopak.pancake, com.anthopak.pancake-rootless
+Provides: com.anthopak.pancake, com.anthopak.pancake-rootless
+Filename: debs/com.cysxl.pancake_3.3.4_iphoneos-arm64e.deb
+Size: 111640
+MD5sum: 009971bd824e1c2629e72f45d7add21e
+SHA1: 448b645060e83fb27874911adba729bb8123744d
+SHA256: 96cefd35a59094354b176231dd43fbaf70d35f07636d9a21fe734568af744659
+Section: Tweaks
+Description: A fork of AnthoPak's open-source PanCake.
+ Swipe back from anywhere on the screen in any app, and bring back the page just left.
+ * go back with a swipe anywhere on the page.
+ * restore the previous page with a swipe in from the right edge.
+ * haptic feedback on the back gesture, in five strengths.
+ * disable in selected apps.
+Author: AnthoPak, CySxL
+Name: PanCake
+Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
 
 Package: com.cysxl.sexreborn
 Version: 2.4.3
@@ -300,6 +308,7 @@ Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Rootless build, not yet tested.
 Author: CySxL
 Name: SEXReborn
+Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 
 Package: com.cysxl.sexreborn
 Version: 2.4.3
@@ -328,6 +337,7 @@ Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  * work alongside SwipeSelection.
 Author: CySxL
 Name: SEXReborn
+Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 
 Package: com.cysxl.shuffler
 Version: 0.2.15
@@ -353,6 +363,7 @@ Description: A rewrite of CreatureSurvive's Shuffle.
  * add a banner image to the top of Settings.
 Author: CySxL
 Name: Shuffler
+Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 
 Package: com.cysxl.shuffler
 Version: 0.2.15
@@ -379,6 +390,7 @@ Description: A rewrite of CreatureSurvive's Shuffle.
  Rootless build, not yet tested.
 Author: CySxL
 Name: Shuffler
+Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 
 Package: com.cysxl.swipeselection
 Version: 3.0.13
@@ -403,6 +415,7 @@ Description: A rewrite of Kyle Howells' SwipeSelection.
  Rootless build, not yet tested.
 Author: CySxL
 Name: SwipeSelection
+Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 
 Package: com.cysxl.swipeselection
 Version: 3.0.13
@@ -426,4 +439,5 @@ Description: A rewrite of Kyle Howells' SwipeSelection.
  * work in the color picker's hex field.
 Author: CySxL
 Name: SwipeSelection
+Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 
