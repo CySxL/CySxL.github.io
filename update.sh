@@ -16,7 +16,7 @@ for deb in "${debs[@]}"; do
 done
 
 # The rootless builds have never run on a device, so their Description says so.
-# A package with icons/<id>.png and no Icon of its own gets one pointing there.
+# A package with icons/<id>.png gets an Icon pointing there, replacing the deb's own.
 icons=(icons/*.png(N:t:r))
 dpkg-scanpackages -m debs /dev/null 2>/dev/null | awk -v icons="${icons[*]}" '
 BEGIN {
@@ -30,9 +30,12 @@ BEGIN {
 	for (i = 1; i <= n; i++) {
 		if (line[i] == "Architecture: iphoneos-arm64") rootless = 1
 		if (line[i] ~ /^Package: /) pkg = substr(line[i], 10)
-		if (line[i] ~ /^Icon:/) icon = 1
+		if (line[i] ~ /^Icon:/) icon = i
 	}
-	if (!icon && (pkg in hasfile)) line[++n] = "Icon: https://cysxl.github.io/icons/" pkg ".png"
+	if (pkg in hasfile) {
+		url = "Icon: https://cysxl.github.io/icons/" pkg ".png"
+		if (icon) line[icon] = url; else line[++n] = url
+	}
 	out = ""; indesc = 0
 	for (i = 1; i <= n; i++) {
 		if (indesc && line[i] !~ /^ /) { out = out " Rootless build, not yet tested.\n"; indesc = 0 }

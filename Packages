@@ -26,6 +26,7 @@ Description: A fork of ren7995's Atria.
  * support roothide.
 Author: ren7995, CySxL
 Name: Atria
+Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
 
 Package: com.cysxl.bccreborn
 Version: 2.1.13
@@ -169,6 +170,7 @@ Description: A fork of level3tjg's DaemonDisabler.
  * confirm before turning a daemon on or off.
 Author: level3tjg, CySxL
 Name: DaemonDisabler
+Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 
 Package: com.cysxl.felidae
 Version: 1.3.4
@@ -485,6 +487,7 @@ Description: A fork of shepgoba's SettingsWidgets.
  * show hotspot clients from HotspotPro.
 Author: shepgoba, CySxL
 Name: SettingsWidgets
+Icon: https://cysxl.github.io/icons/com.cysxl.settingswidgets.png
 
 Package: com.cysxl.settingswidgets
 Version: 2.0.14
@@ -511,6 +514,7 @@ Description: A fork of shepgoba's SettingsWidgets.
  Rootless build, not yet tested.
 Author: shepgoba, CySxL
 Name: SettingsWidgets
+Icon: https://cysxl.github.io/icons/com.cysxl.settingswidgets.png
 
 Package: com.cysxl.sexreborn
 Version: 2.4.3
@@ -697,6 +701,6 @@ Description: A fork of atar13's Vaon.
  * park a side module beside a floating dock in landscape.
  * apply settings without a respring.
 Author: atar13, SingleKeycap, CySxL
-Icon: https://atar13.github.io/assets/package_icons/vaonIcon.png
+Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
 Name: Vaon
 
