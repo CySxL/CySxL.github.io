@@ -1,10 +1,10 @@
 #!/bin/zsh
 # Usage: ./update.sh [deb ...]
-# Copies the given debs into debs/, keeps only the newest version of each
+# Copies the given debs into repo/debs/, keeps only the newest version of each
 # package and architecture, then rebuilds Packages and Release.
 set -euo pipefail
 debs=("${@:A}")
-cd "${0:A:h}"
+cd "${0:A:h}/repo"
 
 for deb in "${debs[@]}"; do
 	pkg=$(dpkg-deb -f "$deb" Package)
@@ -16,8 +16,8 @@ for deb in "${debs[@]}"; do
 done
 
 # The rootless builds have never run on a device, so their Description says so.
-# A package with icons/<id>.png gets an Icon pointing there, replacing the deb's own.
-icons=(icons/*.png(N:t:r))
+# A package with icons/<id>.png (at the site root, outside repo/) gets an Icon pointing there, replacing the deb's own.
+icons=(../icons/*.png(N:t:r))
 dpkg-scanpackages -m debs /dev/null 2>/dev/null | awk -v icons="${icons[*]}" '
 BEGIN {
 	RS = ""; ORS = "\n\n"

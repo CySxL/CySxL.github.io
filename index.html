@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CySxL's Repo</title>
-<link rel="icon" href="CydiaIcon.png">
-<link rel="apple-touch-icon" href="CydiaIcon.png">
+<link rel="icon" href="repo/CydiaIcon.png">
+<link rel="apple-touch-icon" href="repo/CydiaIcon.png">
 <style>
 :root {
 	--bg: #f3f1ee; --card: #ffffff; --text: #24272b; --muted: #6f747b; --line: rgba(36, 39, 43, 0.08);
@@ -57,14 +57,14 @@ footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 </head>
 <body>
 <header class="hero"><div>
-<img src="CydiaIcon.png" alt="">
+<img src="repo/CydiaIcon.png" alt="">
 <h1>CySxL's Repo</h1>
 <p class="tagline">Some coding practices, including original tweaks, rewritten and maintained forks.</p>
 <div class="add">
-<a href="sileo://source/https://cysxl.github.io/">Add to Sileo</a>
-<a class="ghost" href="zbra://sources/add/https://cysxl.github.io/">Add to Zebra</a>
+<a href="sileo://source/https://cysxl.github.io/repo/">Add to Sileo</a>
+<a class="ghost" href="zbra://sources/add/https://cysxl.github.io/repo/">Add to Zebra</a>
 </div>
-<span class="url" title="Copy">https://cysxl.github.io/</span>
+<span class="url" title="Copy">https://cysxl.github.io/repo/</span>
 </div></header>
 <main>
 <div class="head"><h2>Packages</h2><span id="count"></span></div>
@@ -75,12 +75,12 @@ footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 const url = document.querySelector('.url');
 url.addEventListener('click', () => {
 	if (!navigator.clipboard) return;
-	navigator.clipboard.writeText('https://cysxl.github.io/').then(() => {
+	navigator.clipboard.writeText('https://cysxl.github.io/repo/').then(() => {
 		url.textContent = 'Copied';
-		setTimeout(() => url.textContent = 'https://cysxl.github.io/', 1200);
+		setTimeout(() => url.textContent = 'https://cysxl.github.io/repo/', 1200);
 	}, () => {});
 });
-fetch('Packages').then(r => r.text()).then(text => {
+fetch('repo/Packages').then(r => r.text()).then(text => {
 	const seen = new Map();
 	for (const block of text.split(/\n\n+/)) {
 		const f = {};
