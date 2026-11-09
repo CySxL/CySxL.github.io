@@ -174,16 +174,48 @@ Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
 
 Package: com.cysxl.felidae
-Version: 1.3.6
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/com.cysxl.felidae_1.3.7_iphoneos-arm64e.deb
+Size: 85896
+MD5sum: 20edc425814c33231bfc9073e13006ed
+SHA1: 8e45a34278b98a68cbf3cb8a1e5f4677af53897f
+SHA256: ec56d5c9928fe1d665110911ebe56f72f3228237fc9b4f5e647a86deb1a9ac60
+Section: Tweaks
+Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
+ * hide Edit Home Screen, Share App & Remove App.
+ * show which dock apps are running.
+ * hide the home bar.
+ * hide the screenshot preview & mute the shutter.
+ * count notifications in each group.
+ * haptics on the passcode keypad.
+ * color the connectivity toggles.
+ * arrange the connectivity toggles in any grid.
+ * pick a Default or Grid app switcher, its card size, position & spacing.
+ * hide the Handoff banner.
+ * show the status bar in the switcher.
+ * clear all apps with a swipe down or a button.
+ * delete photos without confirming & zoom in further.
+ * speed up animations & remove their bounce.
+ * set the space apps leave above the home bar.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
+Name: Felidae
+
+Package: com.cysxl.felidae
+Version: 1.3.7
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 756
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.6_iphoneos-arm64.deb
-Size: 87084
-MD5sum: f49db59d1328c96a3c860dde5badc3ea
-SHA1: b38598beb28c9e40d8bcf0d2f9e25c82f6568512
-SHA256: 1b597f68d06789b3dc930d4d1e9c1eef13a1f6485a5f53d1aa3e2343c222e681
+Filename: debs/com.cysxl.felidae_1.3.7_iphoneos-arm64.deb
+Size: 87340
+MD5sum: 17003b2eaec19e1e2298b0fd725ffb3f
+SHA1: 2a1b25694a4e77e8de70dc1d54f01cc3f6b50fc5
+SHA256: 4ac8bfbf574abb60894ec9121ae8faffd5721319ad1d6a7602cc8bc1f72fcdf7
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -202,38 +234,6 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
  * speed up animations & remove their bounce.
  * set the space apps leave above the home bar.
  Rootless build, not yet tested.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
-Name: Felidae
-
-Package: com.cysxl.felidae
-Version: 1.3.6
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 756
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.6_iphoneos-arm64e.deb
-Size: 85656
-MD5sum: 2bed31833bc05068fd859cfc78f56fa2
-SHA1: 4311313bc804ff3ac141dc9eca7aec719ae2a691
-SHA256: d28ca4b7eb605125d0f87de512597c2bfe04cd42be99c4829ad375615b5cfbad
-Section: Tweaks
-Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
- * hide Edit Home Screen, Share App & Remove App.
- * show which dock apps are running.
- * hide the home bar.
- * hide the screenshot preview & mute the shutter.
- * count notifications in each group.
- * haptics on the passcode keypad.
- * color the connectivity toggles.
- * arrange the connectivity toggles in any grid.
- * pick a Default or Grid app switcher, its card size, position & spacing.
- * hide the Handoff banner.
- * show the status bar in the switcher.
- * clear all apps with a swipe down or a button.
- * delete photos without confirming & zoom in further.
- * speed up animations & remove their bounce.
- * set the space apps leave above the home bar.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
