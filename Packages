@@ -354,7 +354,7 @@ Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/Keyboard
 Name: Keyboard Controller
 
 Package: com.cysxl.morecomplications
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 440
@@ -362,18 +362,18 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
 Conflicts: xyz.skitty.morecomplications
 Replaces: xyz.skitty.morecomplications
 Provides: xyz.skitty.morecomplications
-Filename: debs/com.cysxl.morecomplications_2.0.4_iphoneos-arm64e.deb
-Size: 54308
-MD5sum: 634d49afe8c035c5be9083a05a243bd5
-SHA1: e5d4b68971fa926b34a9727d36992d18eb54f112
-SHA256: fb66dbf22ad1b0e2f407fbaa1e0743ec8baab607226f0abee565526dff78c706
+Filename: debs/com.cysxl.morecomplications_2.0.5_iphoneos-arm64e.deb
+Size: 54354
+MD5sum: a344ace8509e6d13fa09fa1196ac4c81
+SHA1: 0d7904440cd96d17a7e8e92a0e1225751c5453ed
+SHA256: 4da16a7913b8bea10b2e09489628ff814c5f7a0a58732ddf82d67c85576f1126
 Section: Tweaks
 Description: A fork of Skitty's MoreComplications.
  Adds more rows of complications to the lock screen.
  * set the number of rows.
  * set the spacing between rows & between complications.
 Author: Skitty, CySxL
-Icon: https://skitty.xyz/repo/icons/xyz.skitty.morecomplications.png
+Icon: https://cysxl.github.io/icons/com.cysxl.morecomplications.png
 Name: MoreComplications
 
 Package: com.cysxl.notimetowait
