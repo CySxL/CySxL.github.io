@@ -354,19 +354,19 @@ Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/Keyboard
 Name: Keyboard Controller
 
 Package: com.cysxl.morecomplications
-Version: 2.0.1
+Version: 2.0.4
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 472
+Installed-Size: 440
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
 Conflicts: xyz.skitty.morecomplications
 Replaces: xyz.skitty.morecomplications
 Provides: xyz.skitty.morecomplications
-Filename: debs/com.cysxl.morecomplications_2.0.1_iphoneos-arm64e.deb
-Size: 72900
-MD5sum: c9b35ffff6f54ebad036f1f789ca272d
-SHA1: aaee03533bd0285cda0dcd067eaa788ab7def8ff
-SHA256: 0e668ef88bdcf00405416f723b2e8331149d0efea09c18af19e855b72f6b953b
+Filename: debs/com.cysxl.morecomplications_2.0.4_iphoneos-arm64e.deb
+Size: 54308
+MD5sum: 634d49afe8c035c5be9083a05a243bd5
+SHA1: e5d4b68971fa926b34a9727d36992d18eb54f112
+SHA256: fb66dbf22ad1b0e2f407fbaa1e0743ec8baab607226f0abee565526dff78c706
 Section: Tweaks
 Description: A fork of Skitty's MoreComplications.
  Adds more rows of complications to the lock screen.
