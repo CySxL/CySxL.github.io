@@ -733,18 +733,18 @@ Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 Name: Shuffler
 
 Package: com.cysxl.swipeselection
-Version: 3.0.14
+Version: 3.0.15
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 472
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.0.14_iphoneos-arm64.deb
-Size: 55748
-MD5sum: 5867c4672485548487ac0464dc299749
-SHA1: 702b33094a73d4ad47708f19c99ce4265b77f429
-SHA256: c2785c1ec25dff409662329343401750aea04735c25c98309834f30271047681
+Filename: debs/com.cysxl.swipeselection_3.0.15_iphoneos-arm64.deb
+Size: 55764
+MD5sum: 58d6081820912ed2c58916fa42d28bf0
+SHA1: 48cd5ba7dffcf0c28352fc7264a94c0d416f3d54
+SHA256: f3d8ac70501e496c926cfcb2df94297796e85d91464d81c8bfa82eec6096e3e2
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -758,18 +758,18 @@ Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
 
 Package: com.cysxl.swipeselection
-Version: 3.0.14
+Version: 3.0.15
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 360
+Installed-Size: 232
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.0.14_iphoneos-arm64e.deb
-Size: 51156
-MD5sum: 666e7bbf1899b88e13ce433dfe87a266
-SHA1: 3518dc7a68688bf6acbb16c24037b626b2617b19
-SHA256: 611b48d38004f6771a627cec90c39718dcb850d294b573ee7e877f9c713adba4
+Filename: debs/com.cysxl.swipeselection_3.0.15_iphoneos-arm64e.deb
+Size: 44690
+MD5sum: a674cc6a5794ac24bb216a5f08fc09bf
+SHA1: 5c1eebfd24a05aebbbbe95b3c95553003b6e7307
+SHA256: 2332a39e90bec0e34bf72e49b51f02ae067c88100fe16f38749b6576bca9d31b
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
