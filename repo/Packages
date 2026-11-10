@@ -299,19 +299,19 @@ Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
 Name: Immortalizer
 
 Package: com.cysxl.keyboardcontroller
-Version: 1.5.6
+Version: 1.5.8
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 548
+Installed-Size: 540
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.tomaszpoliszuk.keyboardcontroller
 Replaces: com.tomaszpoliszuk.keyboardcontroller
 Provides: com.tomaszpoliszuk.keyboardcontroller
-Filename: debs/com.cysxl.keyboardcontroller_1.5.6_iphoneos-arm64.deb
-Size: 87450
-MD5sum: 77db4e354f367025be961e8b2a2425b1
-SHA1: 25a482541633863eb0c7771f3053bcc7457bc950
-SHA256: 6201e85bf9bb5f79effae06ef5a3092acbd9dd417fa490a41e6c6fea6f3fa7eb
+Filename: debs/com.cysxl.keyboardcontroller_1.5.8_iphoneos-arm64.deb
+Size: 71372
+MD5sum: a6f45d0d5b90262017572ffc2b51e0df
+SHA1: 888c8c4a2892cd92f843da14455a8c66f43477eb
+SHA256: 6e0e24e68a642bec055a27cc1b3e1ba835ecc2eb595de6c6f6df206e9aba8066
 Section: Tweaks
 Description: A fork of Tomasz Poliszuk's Keyboard Controller.
  Changes how the keyboard looks & behaves in every app.
@@ -327,19 +327,19 @@ Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/Keyboard
 Name: Keyboard Controller
 
 Package: com.cysxl.keyboardcontroller
-Version: 1.5.6
+Version: 1.5.8
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 548
+Installed-Size: 540
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.tomaszpoliszuk.keyboardcontroller
 Replaces: com.tomaszpoliszuk.keyboardcontroller
 Provides: com.tomaszpoliszuk.keyboardcontroller
-Filename: debs/com.cysxl.keyboardcontroller_1.5.6_iphoneos-arm64e.deb
-Size: 86612
-MD5sum: adc0f7733863d0467894488aa60d8975
-SHA1: fdde68f4168161dbb743d63258dfe2013d4ba7e5
-SHA256: 03144e6fb940b5396eccdbc736840bebc2389199f169b4a008498d019f2e072b
+Filename: debs/com.cysxl.keyboardcontroller_1.5.8_iphoneos-arm64e.deb
+Size: 70432
+MD5sum: 7f0284d44a978f1fa427d03426289fe2
+SHA1: b49bb52d33eb3ce765b64c0f79b0dbdc3058b56e
+SHA256: 59878739f160ee0ec6e47331c3e4747b84208ae6b484743bde6c59505f54981c
 Section: Tweaks
 Description: A fork of Tomasz Poliszuk's Keyboard Controller.
  Changes how the keyboard looks & behaves in every app.
