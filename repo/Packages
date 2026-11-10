@@ -205,7 +205,34 @@ Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 Name: BetterVolumeController
 
 Package: com.cysxl.daemondisabler
-Version: 2.1.6
+Version: 2.1.7
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 596
+Depends: mobilesubstrate, preferenceloader, ldid
+Conflicts: com.level3tjg.daemondisabler
+Replaces: com.level3tjg.daemondisabler
+Provides: com.level3tjg.daemondisabler
+Filename: debs/com.cysxl.daemondisabler_2.1.7_iphoneos-arm64.deb
+Size: 77480
+MD5sum: d98e8053f5fc30c543c1592d776a9d48
+SHA1: a17a5958180c911d76bc40f8bcde52478474b5fa
+SHA256: 734891b5f70a0ace7c9874486a03446ec4bd05a8ede479b1ed17982c8e67e24d
+Section: Tweaks
+Description: A fork of level3tjg's DaemonDisabler.
+ Turns launch daemons on & off from the Settings app.
+ * list every launch daemon with a switch per row.
+ * apply a change at once, without a reboot.
+ * keep disabled daemons off after every reboot.
+ * copy a daemon's label or path with a long press.
+ * confirm before turning a daemon on or off.
+ Rootless build, not yet tested.
+Author: level3tjg, CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
+Name: DaemonDisabler
+
+Package: com.cysxl.daemondisabler
+Version: 2.1.7
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 596
@@ -213,11 +240,11 @@ Depends: mobilesubstrate, preferenceloader, ldid
 Conflicts: com.level3tjg.daemondisabler
 Replaces: com.level3tjg.daemondisabler
 Provides: com.level3tjg.daemondisabler
-Filename: debs/com.cysxl.daemondisabler_2.1.6_iphoneos-arm64e.deb
-Size: 74756
-MD5sum: 37e7ada2c05107c56eec2326c7661080
-SHA1: 573dac78fada656078d7848614567a07d0c36eb2
-SHA256: ad9b21c812229637bcb77dbd95ee824a5bb4dc45fa9bfb618a9494a609a202b1
+Filename: debs/com.cysxl.daemondisabler_2.1.7_iphoneos-arm64e.deb
+Size: 75118
+MD5sum: 74a791419e28457cca0480bbbbfcf452
+SHA1: 69385ddda1b3670921010c0df0eff2038fe4f60c
+SHA256: 376f0dd742a9d7b0f6e518d5a806ab83851a32ed811d25330ef36893c7af2131
 Section: Tweaks
 Description: A fork of level3tjg's DaemonDisabler.
  Turns launch daemons on & off from the Settings app.
