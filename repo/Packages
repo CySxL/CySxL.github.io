@@ -174,16 +174,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
 
 Package: com.cysxl.felidae
-Version: 1.3.7
+Version: 1.3.9
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 756
+Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.7_iphoneos-arm64e.deb
-Size: 85896
-MD5sum: 20edc425814c33231bfc9073e13006ed
-SHA1: 8e45a34278b98a68cbf3cb8a1e5f4677af53897f
-SHA256: ec56d5c9928fe1d665110911ebe56f72f3228237fc9b4f5e647a86deb1a9ac60
+Filename: debs/com.cysxl.felidae_1.3.9_iphoneos-arm64e.deb
+Size: 88484
+MD5sum: 09edf009ff69cea0f41dd5db19d4ecb9
+SHA1: 183267e6a918a5869fb4ef6c3cca5f4b2afa0c8e
+SHA256: ed9aaebcf95d0972bb70f969baff7ceaf4b34e477db58e9922f49cab2a709142
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -206,16 +206,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
 
 Package: com.cysxl.felidae
-Version: 1.3.7
+Version: 1.3.9
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 756
+Installed-Size: 772
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.7_iphoneos-arm64.deb
-Size: 87340
-MD5sum: 17003b2eaec19e1e2298b0fd725ffb3f
-SHA1: 2a1b25694a4e77e8de70dc1d54f01cc3f6b50fc5
-SHA256: 4ac8bfbf574abb60894ec9121ae8faffd5721319ad1d6a7602cc8bc1f72fcdf7
+Filename: debs/com.cysxl.felidae_1.3.9_iphoneos-arm64.deb
+Size: 89954
+MD5sum: 95bc26562311cfd821eb563b7e386751
+SHA1: f1ec28d0820bc710efd67ff7d439281e52414943
+SHA256: 7a0c40b644e2b0fb582c20763adebf69d264c2fde42ce6cb822c976e41e29097
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -237,41 +237,6 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
-
-Package: com.cysxl.iamnaive
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.iamnaive_1.0.3_iphoneos-arm64e.deb
-Size: 5288
-MD5sum: 51dc2b28870c82606c7b69a305905568
-SHA1: c321daef1d442510aec88a7e2825fd07547946ab
-SHA256: b1d6c848a72efc70c4c6ab688521452ac3ff16f229f1e951546a1286c904115d
-Section: Tweaks
-Description: Stops the lock screen camera opening by accident. Swiping no longer opens it, and the camera button needs a longer press.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.iamnaive.png
-Name: IAmNaive
-
-Package: com.cysxl.iamnaive
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: CySxL
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.iamnaive_1.0.3_iphoneos-arm64.deb
-Size: 5366
-MD5sum: 910788e9cfe5dd8a0262e586b6eec19f
-SHA1: 0a45b5a520df8762db19a54e9439f4f15fab1be3
-SHA256: b042ceae1a819758b1de14e30683004a01371aa57fe3e694ace28b28946287c7
-Section: Tweaks
-Description: Stops the lock screen camera opening by accident. Swiping no longer opens it, and the camera button needs a longer press.
- Rootless build, not yet tested.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.iamnaive.png
-Name: IAmNaive
 
 Package: com.cysxl.immortalizer
 Version: 2.8.5
