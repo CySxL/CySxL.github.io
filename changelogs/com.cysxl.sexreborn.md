@@ -5,6 +5,7 @@
 ## 2.4.6
 * fix presets & themes that could not be saved on a new install.
 * show why a save failed in its alert.
+* @MHMD thanks for reporting and testing.
 
 ## 2.4.5
 * fix the settings header showing the wrong build scheme.

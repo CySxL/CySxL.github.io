@@ -30,7 +30,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "* fix presets & themes that could not be saved on a new install.\n* show why a save failed in its alert."
+     "markdown": "* fix presets & themes that could not be saved on a new install.\n* show why a save failed in its alert.\n* @MHMD thanks for reporting and testing."
     },
     {
      "class": "DepictionHeaderView",
