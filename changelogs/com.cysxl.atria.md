@@ -1,3 +1,7 @@
+## 1.8.6
+* move apps to another App Library category and rename categories from the long press menu, with Custom Categories on.
+* add Reset Categories to put every app and name back.
+
 ## 1.8.5
 * fix SpringBoard crashing into safe mode when the editor opens on iOS 17.
 * credit s-gdn for the iOS 17 fix, with a link to the source.

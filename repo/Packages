@@ -1,17 +1,17 @@
 Package: com.cysxl.atria
-Version: 1.8.5
+Version: 1.8.6
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 1124
+Installed-Size: 1156
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
 Replaces: me.lau.atria
 Provides: me.lau.atria
-Filename: debs/com.cysxl.atria_1.8.5_iphoneos-arm64.deb
-Size: 281382
-MD5sum: f434fcb503f514ed941d9ebf7efa1e69
-SHA1: c9dd0521437a83d1dfe11b8321171cb1fa938e61
-SHA256: 67f5665529ba4d32a2d48cc747172129c930ef4af337dc8813597479466e86f1
+Filename: debs/com.cysxl.atria_1.8.6_iphoneos-arm64.deb
+Size: 291228
+MD5sum: 56ae40d5e331c0d1068b3e6118519281
+SHA1: ec5f8c3fad7e6751157176d3cfed12d58fff5a56
+SHA256: 7e3f748405327c5095a04d95070c32ed4dbefdee49488335c013317545ab61ea
 Section: Tweaks
 Description: A fork of ren7995's Atria.
  Edits your homescreen layout on iOS 16-17, page by page.
@@ -31,19 +31,19 @@ Name: Atria
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.rootless.json
 
 Package: com.cysxl.atria
-Version: 1.8.5
+Version: 1.8.6
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 1124
+Installed-Size: 1156
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
 Replaces: me.lau.atria
 Provides: me.lau.atria
-Filename: debs/com.cysxl.atria_1.8.5_iphoneos-arm64e.deb
-Size: 281014
-MD5sum: a1e764a580bc33da85b0d8bac83567e5
-SHA1: 9a89f5ee680334e29d80dcdcecd51de012b6b4ab
-SHA256: bae657b383100c451d7be9288945dfffb0e979b2de710f91d4f157058cd8a5e2
+Filename: debs/com.cysxl.atria_1.8.6_iphoneos-arm64e.deb
+Size: 291356
+MD5sum: 907eb7f8e14ff86ba890172cfa9c23ca
+SHA1: eaf61f8ffdcc267d7de946e61458ff96790481bf
+SHA256: 69d90a5c5bd21eba3bc212710f99e9a365c8a2abac755c8b5964eeaa6459da9b
 Section: Tweaks
 Description: A fork of ren7995's Atria.
  Edits your homescreen layout on iOS 16-17, page by page.

@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.8.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move apps to another App Library category and rename categories from the long press menu, with Custom Categories on.\n* add Reset Categories to put every app and name back."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.8.5"
     },
     {
