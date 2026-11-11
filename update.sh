@@ -71,4 +71,9 @@ EOF
 	done
 } > Release
 
+# The source URL serves the root landing page, with paths resolved from the site root.
+sed '/^<meta name="viewport"/a\
+<base href="../">
+' ../index.html > index.html
+
 grep -c '^Package:' Packages | xargs printf '%s packages indexed\n'
