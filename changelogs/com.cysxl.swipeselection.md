@@ -3,9 +3,11 @@
 * show the edit menu again after a short swipe right after another.
 * add Show Menu After Selecting to turn the menu after a swipe off.
 * list tested iOS versions in the description.
+* @sahinkaa thanks for reporting and testing.
 
 ## 3.0.16
 * fix a quick tap on Delete removing two characters on iOS 26.
+* @sahinkaa thanks for reporting and testing.
 
 ## 3.0.15
 * fix the settings header showing the wrong build scheme.

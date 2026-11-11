@@ -22,7 +22,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "* fix the edit menu staying on screen after cut, copy or delete on iOS 26.\n* show the edit menu again after a short swipe right after another.\n* add Show Menu After Selecting to turn the menu after a swipe off.\n* list tested iOS versions in the description."
+     "markdown": "* fix the edit menu staying on screen after cut, copy or delete on iOS 26.\n* show the edit menu again after a short swipe right after another.\n* add Show Menu After Selecting to turn the menu after a swipe off.\n* list tested iOS versions in the description.\n* @sahinkaa thanks for reporting and testing."
     },
     {
      "class": "DepictionHeaderView",
@@ -30,7 +30,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "* fix a quick tap on Delete removing two characters on iOS 26."
+     "markdown": "* fix a quick tap on Delete removing two characters on iOS 26.\n* @sahinkaa thanks for reporting and testing."
     },
     {
      "class": "DepictionHeaderView",
