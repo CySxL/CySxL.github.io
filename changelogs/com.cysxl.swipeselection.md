@@ -1,3 +1,9 @@
+## 3.1.1
+* fix the edit menu staying on screen after cut, copy or delete on iOS 26.
+* show the edit menu again after a short swipe right after another.
+* add Show Menu After Selecting to turn the menu after a swipe off.
+* list tested iOS versions in the description.
+
 ## 3.0.16
 * fix a quick tap on Delete removing two characters on iOS 26.
 

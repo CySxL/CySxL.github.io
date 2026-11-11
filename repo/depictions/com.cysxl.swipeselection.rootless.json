@@ -8,7 +8,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "A rewrite of Kyle Howells' SwipeSelection.\n\nSwipe along the keyboard to move the cursor and select text.\n\n* move the cursor at the speed you set.\n* feel each cursor step with optional haptic feedback.\n* select from Shift, Delete or keys you choose.\n* work in the color picker's hex field.\n\nRootless build, not yet tested."
+     "markdown": "A rewrite of Kyle Howells' SwipeSelection.\n\nSwipe along the keyboard to move the cursor and select text.\n\n* move the cursor at the speed you set.\n* feel each cursor step with optional haptic feedback.\n* select from Shift, Delete or keys you choose.\n* work in the color picker's hex field.\n* tested on iOS 16, 17 & 26.\n\nRootless build, not yet tested."
     }
    ]
   },
@@ -16,6 +16,14 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.1.1"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix the edit menu staying on screen after cut, copy or delete on iOS 26.\n* show the edit menu again after a short swipe right after another.\n* add Show Menu After Selecting to turn the menu after a swipe off.\n* list tested iOS versions in the description."
+    },
     {
      "class": "DepictionHeaderView",
      "title": "3.0.16"
