@@ -258,16 +258,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
 
 Package: com.cysxl.felidae
-Version: 1.3.10
+Version: 1.3.11
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.10_iphoneos-arm64e.deb
-Size: 88874
-MD5sum: 3861634b22adcce788922e149bca6642
-SHA1: 472bf09a7a4106aa05c3d681126fe52304058008
-SHA256: 75941f9e3ac66410d021b185ab714ab14dd326b85e0aec96c226c045801730a5
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.felidae_1.3.11_iphoneos-arm64e.deb
+Size: 88836
+MD5sum: dd7d19e58c0938cd6ceeb507036a8a6b
+SHA1: 3b115fd8cec81db693ca4bbd189c531b2e6c93d2
+SHA256: bee31b70cce099b29b78a24f9eb48673461115e0c50810f9ce6bb5aed67e8f9f
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -290,16 +290,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
 
 Package: com.cysxl.felidae
-Version: 1.3.10
+Version: 1.3.11
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.felidae_1.3.10_iphoneos-arm64.deb
-Size: 90204
-MD5sum: b70fa7a9a2c6bd5b0a6b16b94036c2e7
-SHA1: f8d3adfd03e221ded05a78ca4b032cc9fad10053
-SHA256: c6f428946524c0f5396db13449c2d65e733213ba753d45ea8463e47493e7fc22
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.felidae_1.3.11_iphoneos-arm64.deb
+Size: 89992
+MD5sum: e7217996586879daeff97bfe9cf2effb
+SHA1: 57dff6cf16cea6362e0d2185f2ca35f5e4f0dcd3
+SHA256: eec36354b2d55af07bd590c6f5409d86966a854fedf20cf9a5150b6296fd6447
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -680,16 +680,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
 
 Package: com.cysxl.shuffler
-Version: 0.2.16
+Version: 0.2.17
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 548
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.shuffler_0.2.16_iphoneos-arm64e.deb
-Size: 113450
-MD5sum: 40c531c06ce8d17df51cafb55317aa25
-SHA1: ad70f6457851b5d56b7feaa4cb61dc40f0f9c34c
-SHA256: 5e4b7f720961cb4bc5edc6be10f96ce687a5905cacd598ee77d301ad5a1047a5
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.shuffler_0.2.17_iphoneos-arm64e.deb
+Size: 113626
+MD5sum: 82ff6cf9edd5a95cd4dd81a97967f53f
+SHA1: 20ad724301ab6f55c4c26db801cd94a4503bafe7
+SHA256: fbab1460d709f17d09873c6d450051797a50595467cbb5e5cffc3b9e74841ebf
 Section: Tweaks
 Description: A rewrite of CreatureSurvive's Shuffle.
  Settings app changes in one place.
@@ -706,16 +706,16 @@ Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 Name: Shuffler
 
 Package: com.cysxl.shuffler
-Version: 0.2.16
+Version: 0.2.17
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 548
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/com.cysxl.shuffler_0.2.16_iphoneos-arm64.deb
-Size: 114378
-MD5sum: 19bb19194a1c7e1019e1388997c616fc
-SHA1: 45dfcde46db45c40257efa75aca812e70edb9d5a
-SHA256: fc7fd169043048320822f643e0148e19afa674ba9a286d331008753b1712d2df
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.shuffler_0.2.17_iphoneos-arm64.deb
+Size: 114410
+MD5sum: 621aaf90cb41b5424bf2cd01ce4300b6
+SHA1: 59e6c8d6e3e4527e69fce3f8f057fc01884359ce
+SHA256: 6c83b98905c9d2231463664b6aba6be2e0f7707da2bd328127b796345e961271
 Section: Tweaks
 Description: A rewrite of CreatureSurvive's Shuffle.
  Settings app changes in one place.
