@@ -45,6 +45,70 @@ BEGIN {
 	if (indesc) out = out " Rootless build, not yet tested.\n"
 	printf "%s\n", out
 }' > Packages
+
+# A package with changelogs/<id>.md gets a Sileo native depiction, which replaces Sileo's whole
+# page body, so it carries the Description as the Details tab beside the Changelog tab.
+# One file per architecture, since the rootless Description differs.
+rm -rf depictions
+python3 -I - <<'EOF'
+import json, os, re
+
+def changelog(path):
+    views, body = [], []
+    def flush():
+        if body:
+            views.append({"class": "DepictionMarkdownView", "markdown": "\n".join(body).strip()})
+            body.clear()
+    for line in open(path, encoding="utf-8"):
+        m = re.match(r"## (.+)", line)
+        if m:
+            flush()
+            views.append({"class": "DepictionHeaderView", "title": m.group(1).strip()})
+        else:
+            body.append(line.rstrip("\n"))
+    flush()
+    return views
+
+def details(desc):
+    lines = [desc[0]] + [l[1:] if l != " ." else "" for l in desc[1:]]
+    out = ""
+    for l in lines:
+        if out:
+            out += "\n" if l.startswith("* ") and out.split("\n")[-1].startswith("* ") else "\n\n"
+        out += l
+    return out
+
+stanzas = open("Packages", encoding="utf-8").read().strip().split("\n\n")
+out = []
+for s in stanzas:
+    lines = s.split("\n")
+    field = {l.split(": ", 1)[0]: l.split(": ", 1)[1] for l in lines if not l.startswith(" ") and ": " in l}
+    pkg, arch = field["Package"], field["Architecture"]
+    src = f"../changelogs/{pkg}.md"
+    if os.path.exists(src):
+        i = next(n for n, l in enumerate(lines) if l.startswith("Description: "))
+        j = i + 1
+        while j < len(lines) and lines[j].startswith(" "):
+            j += 1
+        desc = [lines[i][len("Description: "):]] + lines[i + 1:j]
+        name = pkg + (".rootless" if arch == "iphoneos-arm64" else "") + ".json"
+        depiction = {
+            "minVersion": "0.1",
+            "class": "DepictionTabView",
+            "tabs": [
+                {"tabname": "Details", "class": "DepictionStackView",
+                 "views": [{"class": "DepictionMarkdownView", "markdown": details(desc)}]},
+                {"tabname": "Changelog", "class": "DepictionStackView", "views": changelog(src)},
+            ],
+        }
+        os.makedirs("depictions", exist_ok=True)
+        with open(f"depictions/{name}", "w", encoding="utf-8") as f:
+            json.dump(depiction, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+        lines.append(f"SileoDepiction: https://cysxl.github.io/repo/depictions/{name}")
+    out.append("\n".join(lines))
+open("Packages", "w", encoding="utf-8").write("\n\n".join(out) + "\n\n")
+EOF
 rm -f Packages.gz Packages.bz2 Packages.xz Packages.zst
 gzip -9kn Packages
 bzip2 -9k Packages

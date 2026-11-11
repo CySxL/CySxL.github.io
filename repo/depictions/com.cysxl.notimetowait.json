@@ -1,0 +1,54 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A rewrite of P2KDev's NoFaceIDWait.\n\nSkip Face ID scanning and go straight to passcode."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.0.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.0.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name the original first in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.0.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add a rootless build.\n* credit P2KDev's NoFaceIDWait in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.0.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}
