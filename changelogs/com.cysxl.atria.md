@@ -1,3 +1,7 @@
+## 1.8.5
+* fix SpringBoard crashing into safe mode when the editor opens on iOS 17.
+* credit s-gdn for the iOS 17 fix, with a link to the source.
+
 ## 1.8.4
 * keep the App Library pod in place when a Handoff app appears, with App Library Before Recents on.
 

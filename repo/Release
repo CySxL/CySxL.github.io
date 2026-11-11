@@ -7,14 +7,14 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Some coding practices, including original tweaks, rewritten and maintained forks.
 MD5Sum:
- f52f8f4ea6fe512e3e78600e1f58f507 35324 Packages
- ac4b664d34adade47e43f97e82f8e30e 7717 Packages.gz
- 4126ea5dc19318d307918e30ee0c4505 7621 Packages.bz2
- d82517ad6757162fac78efcd644cd782 7220 Packages.xz
- 044a97a990bbf4eeaaf1207a314bf60c 7263 Packages.zst
+ 129e04080a872de75192262a02ec1d1c 35324 Packages
+ 3e392ad83e0a40ca8fed103acb3478ae 7715 Packages.gz
+ 2425f74646af0f95414be350078ed694 7625 Packages.bz2
+ 04b3cba6ce4661026da9d429b2c964be 7220 Packages.xz
+ a35dc6b8a034ade30d382829c189c286 7268 Packages.zst
 SHA256:
- d1634247a4013c101576ae17c58f81fdd4fd24d059b144fcf4b423aca6a20caa 35324 Packages
- b4794b5c8fd4fb0143eea59b67b6149c7eb9b1b1a302260a9ab3e09643dcc275 7717 Packages.gz
- b2209ba60b9a481430b0da456306a7f269c3e900cf37868d5c120f94e5d29bbe 7621 Packages.bz2
- 094a883ec364c525b2d88891df9af905e15a4e220ff14dba94c11d5ecd4af307 7220 Packages.xz
- e5940bd3852842942cd9c4148c22cd0f2ca27da66ccd2ba04445c14e7d43a3f1 7263 Packages.zst
+ d0367f7c02ab84ac613adabb6ed2845b6eeec116dba19df09f6b890b46444f18 35324 Packages
+ 6e0c157e94eab39cc4a24c1badf764fe3e82047e3029767aac0c82df97e6cfba 7715 Packages.gz
+ efbb2295d27b3de9d8f4ede15b684d0f6596a73db644f43c43a3ac6693d3a1a0 7625 Packages.bz2
+ bbcd399b5b85f3189fbf6a88b4ee29fc274e1d82921009f842be4a585740cf6e 7220 Packages.xz
+ 9b0afed2d1cc656a36ff444bcb50ff28726405c2f8fd323923febc06595bc67b 7268 Packages.zst
