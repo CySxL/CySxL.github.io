@@ -18,6 +18,22 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.4.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name exported presets & themes after SEXReborn, so a search finds them.\n* keep a save's own name when its export is imported back."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix presets & themes that could not be saved on a new install.\n* show why a save failed in its alert."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.5"
     },
     {

@@ -645,18 +645,18 @@ Name: SettingsWidgets
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.4.5
+Version: 2.4.7
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 964
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.5_iphoneos-arm64.deb
-Size: 196588
-MD5sum: 53f385c06be96dce88a0a3584a926e08
-SHA1: 8311c75641803c63abf80c417ed5ff889b2c90fd
-SHA256: 27e0c204415aff7a0942b393a58ac894f77952e2772a3c7d8be7c583c7e929ee
+Filename: debs/com.cysxl.sexreborn_2.4.7_iphoneos-arm64.deb
+Size: 196960
+MD5sum: 926e1f9c19d5b2b8d6978b81281dd454
+SHA1: ad5f8ddb6f007578991e142b9fea7b0b1228e27e
+SHA256: e3373b180af04645804597d9c6543c6d35ab496e6a43790395994afb680be4e2
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -676,18 +676,18 @@ Name: SEXReborn
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.4.5
+Version: 2.4.7
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 596
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.5_iphoneos-arm64e.deb
-Size: 161748
-MD5sum: 079bb7a98b4454a3dad0e02fbbc0a018
-SHA1: ffa4a54516f0495ed03b21efbd9ca38c8fbd8e82
-SHA256: 7e9d87e4941e08446abb319f1ea5d5bd80bc574ae59593082db99a8a76c637b3
+Filename: debs/com.cysxl.sexreborn_2.4.7_iphoneos-arm64e.deb
+Size: 162158
+MD5sum: a32dadc0f14e804e997550208fba3f27
+SHA1: e8831cac8434dbf7d294beffcce5980799647d14
+SHA256: 8badb39f970e23476948e80b5c06ef35bb6e79c786c79b0fc83f99ade0aaac59
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
