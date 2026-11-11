@@ -1,0 +1,46 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A volume controller with a slider for media, ringer, alarm & calls.\n\n* open it by holding or double pressing a volume button, or double tapping the home screen.\n* get a slider for every output device used.\n* reorder, hide & resize the sliders.\n* remember media & ringer levels for each output.\n* scroll long labels & round the slider corners.\n* hide the iOS volume HUD while it is open.\n* close on its own after a delay.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.8.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.8.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* list the features in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.8.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

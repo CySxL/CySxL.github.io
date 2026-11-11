@@ -1,0 +1,54 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A rewrite of Miguelaka95's BetterCC.\n\nResizes Control Center modules and fills the grid with invisible spacers.\n\n* resize the media player for portrait & landscape.\n* show album artwork behind the media player.\n* widen Video Effects & Mic Mode.\n* add up to 12 invisible modules.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.13"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name the original first in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.12"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit Miguelaka95's BetterCC in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.11"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

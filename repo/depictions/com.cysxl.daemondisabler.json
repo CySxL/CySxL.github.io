@@ -1,0 +1,54 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of level3tjg's DaemonDisabler.\n\nTurns launch daemons on & off from the Settings app.\n\n* list every launch daemon with a switch per row.\n* apply a change at once, without a reboot.\n* keep disabled daemons off after every reboot.\n* copy a daemon's label or path with a long press.\n* confirm before turning a daemon on or off."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add a rootless build.\n* center the settings header."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* link the fork's source code in the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing level3tjg's DaemonDisabler.\n\nChanges from level3tjg's DaemonDisabler:\n* support iOS 16 on roothide.\n* add Restore All Disabled Daemons.\n* copy a daemon's label or path with a long press.\n* ask before enabling a daemon too, and put the switch back when a confirmation is cancelled.\n* show the version and build scheme in a settings header."
+    }
+   ]
+  }
+ ]
+}

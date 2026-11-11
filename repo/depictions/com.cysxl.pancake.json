@@ -1,0 +1,70 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of AnthoPak's open-source PanCake.\n\nSwipe back from anywhere on the screen in any app, and bring back the page just left.\n\n* go back with a swipe anywhere on the page.\n* restore the previous page with a swipe in from the right edge.\n* haptic feedback on the back gesture, in five strengths.\n* disable in selected apps."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* link the fork's source code in the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name AnthoPak as an author."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit AnthoPak in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.2"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* reword the credit line in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.3.0"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing AnthoPak's PanCake.\n\nChanges from AnthoPak's open-source PanCake 1.1:\n* support roothide and rootless.\n* add Restore Previous Page, and Back Gesture on Whole Page to switch the whole-page swipe.\n* add Play in Disabled Apps for haptic feedback.\n* stop loading into SpringBoard.\n* apply switches without relaunching the app.\n* stop the haptic firing when the back gesture is off.\n* check the blacklist on an app's first launch too.\n* read settings without Cephei."
+    }
+   ]
+  }
+ ]
+}

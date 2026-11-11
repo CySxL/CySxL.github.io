@@ -1,0 +1,70 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A rewrite of Kyle Howells' SwipeSelection.\n\nSwipe along the keyboard to move the cursor and select text.\n\n* move the cursor at the speed you set.\n* feel each cursor step with optional haptic feedback.\n* select from Shift, Delete or keys you choose.\n* work in the color picker's hex field."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.16"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix a quick tap on Delete removing two characters on iOS 26."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix the settings header showing the wrong build scheme."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.13"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name the original first in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.12"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit Kyle Howells' SwipeSelection in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "3.0.11"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

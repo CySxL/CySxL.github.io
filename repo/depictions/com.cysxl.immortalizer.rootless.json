@@ -1,0 +1,38 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of sergy's Immortalizer.\n\nKeeps chosen apps running in the foreground while they are in the background.\n\n* immortalize an app from its Home Screen menu.\n* show an indicator & a toast for each app's state.\n* allow notifications from an immortalized app, per app.\n* toggle it from a Control Center module.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.8.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* rebuild the credits, with a Tip on Ko-fi row and a link to the fork's source code."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.8.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing sergy's Immortalizer.\n\nChanges from sergy's Immortalizer 2.2:\n* support roothide and rootless.\n* hold only an immortalized app's own scene in the foreground.\n* stop Notification Center and Control Center pausing apps that are not immortalized.\n* fix an app freezing when immortalized from Control Center while paused by it.\n* fix an app opened straight into a Myrtle window being killed a second later.\n* show whether an immortalized app is running or stopped in the state indicator.\n* clear the indicators and lock marks at once when their switch is turned off.\n* keep the toast centered in landscape and visible while an app is closed from the switcher.\n* flip the Control Center tile glyph when an app is immortalized.\n* keep the immortalized and locked lists in the tweak's own preferences."
+    }
+   ]
+  }
+ ]
+}

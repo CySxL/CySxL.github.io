@@ -1,0 +1,54 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of atar13's Vaon.\n\nShows the battery of Bluetooth accessories in the app switcher.\n\n* keep disconnected & pinned devices on show.\n* show speakers & soundbars that report no battery level.\n* pick a custom glyph per device.\n* page through devices with page dots.\n* park a side module beside a floating dock in landscape.\n* apply settings without a respring."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* link the fork's source code in the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.1.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing atar13's Vaon.\n\nChanges from atar13's Vaon 1.2.0:\n* support iOS 16 on roothide and rootless, and drop iOS 13 to 15.\n* drop the iPad style grid app switcher.\n* list speakers, car stereos and other devices with no battery reading, with an infinity sign and a pulsing ring.\n* add Pinned Devices, reorderable and with a custom glyph from 71 symbols.\n* add a paged layout with page dots and a set number of devices per page.\n* add Landscape options to hide Vaon or move it clear of a floating dock, and a Side Module for landscape.\n* apply settings on the next switcher open, without a respring, except Enabled and Module.\n* pick colors with the system color picker, and double tap a slider to type a value.\n* keep one record per accessory instead of one per connection.\n* fix the brief left aligned view when the switcher opens, and the home gesture near the module."
+    }
+   ]
+  }
+ ]
+}

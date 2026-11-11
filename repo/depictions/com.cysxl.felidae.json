@@ -1,0 +1,86 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Small SpringBoard, lockscreen, Control Center and Photos changes in one place.\n\n* hide Edit Home Screen, Share App & Remove App.\n* show which dock apps are running.\n* hide the home bar.\n* hide the screenshot preview & mute the shutter.\n* count notifications in each group.\n* haptics on the passcode keypad.\n* color the connectivity toggles.\n* arrange the connectivity toggles in any grid.\n* pick a Default or Grid app switcher, its card size, position & spacing.\n* hide the Handoff banner.\n* show the status bar in the switcher.\n* clear all apps with a swipe down or a button.\n* delete photos without confirming & zoom in further.\n* speed up animations & remove their bounce.\n* set the space apps leave above the home bar."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.12"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* set Custom Bottom Inset in points, and apply it in portrait only."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.11"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* allow installing on iOS 17 and later."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.10"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix LINE crashing when a note is opened with Custom Bottom Inset on."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Disable Camera Swipe, Disable Camera Button, Hide Camera Button, Disable Flashlight Button and Hide Flashlight Button."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix a Speed Up Animations change missing animations that had already run."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit Lynx 2 for the ideas."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.3.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

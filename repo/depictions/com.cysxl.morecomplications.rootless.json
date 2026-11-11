@@ -1,0 +1,46 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of Skitty's MoreComplications.\n\nAdds more rows of complications to the lock screen.\n\n* set the number of rows.\n* set the spacing between rows & between complications.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon from this repo."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* rebuild the credits, with source code links under each author and a Tip on Ko-fi row.\n* show the version and build scheme in a settings header."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.1"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing Skitty's MoreComplications.\n\nChanges from Skitty's MoreComplications:\n* support roothide.\n* add Row Spacing and Element Spacing.\n* add a row instead of overfilling one.\n* fix three and four digit hex colors.\n* ship the credit pictures instead of fetching them from GitHub."
+    }
+   ]
+  }
+ ]
+}

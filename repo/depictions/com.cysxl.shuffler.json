@@ -1,0 +1,62 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A rewrite of CreatureSurvive's Shuffle.\n\nSettings app changes in one place.\n\n* group tweaks, App Store apps & system apps at the top.\n* fill in missing tweak icons.\n* show the Ethernet row.\n* show the Wi-Fi address.\n* show cellular data used beside Cellular.\n* mask the serial number in About.\n* show a different name on the Apple ID row.\n* add a banner image to the top of Settings."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "0.2.17"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* allow installing on iOS 17 and later."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "0.2.16"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "0.2.15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name the original first in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "0.2.14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit CreatureSurvive's Shuffle in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "0.2.13"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

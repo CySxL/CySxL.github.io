@@ -27,6 +27,7 @@ Description: A fork of ren7995's Atria.
 Author: ren7995, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
 Name: Atria
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.json
 
 Package: com.cysxl.atria
 Version: 1.8.4
@@ -58,6 +59,7 @@ Description: A fork of ren7995's Atria.
 Author: ren7995, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
 Name: Atria
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.rootless.json
 
 Package: com.cysxl.bccreborn
 Version: 2.1.14
@@ -81,6 +83,7 @@ Description: A rewrite of Miguelaka95's BetterCC.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
 Name: BCCReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.bccreborn.rootless.json
 
 Package: com.cysxl.bccreborn
 Version: 2.1.14
@@ -103,6 +106,7 @@ Description: A rewrite of Miguelaka95's BetterCC.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.bccreborn.png
 Name: BCCReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.bccreborn.json
 
 Package: com.cysxl.betterccbrightness
 Version: 2.0.4
@@ -128,6 +132,7 @@ Description: A fork of level3tjg's BetterCCBrightness.
 Author: level3tjg, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.betterccbrightness.png
 Name: BetterCCBrightness
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.betterccbrightness.json
 
 Package: com.cysxl.betterccbrightness
 Version: 2.0.4
@@ -154,6 +159,7 @@ Description: A fork of level3tjg's BetterCCBrightness.
 Author: level3tjg, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.betterccbrightness.png
 Name: BetterCCBrightness
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.betterccbrightness.rootless.json
 
 Package: com.cysxl.bettervolumecontroller
 Version: 2.8.5
@@ -178,6 +184,7 @@ Description: A volume controller with a slider for media, ringer, alarm & calls.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 Name: BetterVolumeController
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.bettervolumecontroller.json
 
 Package: com.cysxl.bettervolumecontroller
 Version: 2.8.5
@@ -203,6 +210,7 @@ Description: A volume controller with a slider for media, ringer, alarm & calls.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.bettervolumecontroller.png
 Name: BetterVolumeController
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.bettervolumecontroller.rootless.json
 
 Package: com.cysxl.daemondisabler
 Version: 2.1.7
@@ -230,6 +238,7 @@ Description: A fork of level3tjg's DaemonDisabler.
 Author: level3tjg, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.daemondisabler.rootless.json
 
 Package: com.cysxl.daemondisabler
 Version: 2.1.7
@@ -256,6 +265,7 @@ Description: A fork of level3tjg's DaemonDisabler.
 Author: level3tjg, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.daemondisabler.png
 Name: DaemonDisabler
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.daemondisabler.json
 
 Package: com.cysxl.felidae
 Version: 1.3.12
@@ -288,6 +298,7 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.felidae.json
 
 Package: com.cysxl.felidae
 Version: 1.3.12
@@ -321,6 +332,7 @@ Description: Small SpringBoard, lockscreen, Control Center and Photos changes in
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.felidae.png
 Name: Felidae
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.felidae.rootless.json
 
 Package: com.cysxl.immortalizer
 Version: 2.8.5
@@ -346,6 +358,7 @@ Description: A fork of sergy's Immortalizer.
 Author: sergy, CySxL
 Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
 Name: Immortalizer
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.immortalizer.json
 
 Package: com.cysxl.immortalizer
 Version: 2.8.5
@@ -372,6 +385,7 @@ Description: A fork of sergy's Immortalizer.
 Author: sergy, CySxL
 Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
 Name: Immortalizer
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.immortalizer.rootless.json
 
 Package: com.cysxl.keyboardcontroller
 Version: 1.5.8
@@ -400,6 +414,7 @@ Description: A fork of Tomasz Poliszuk's Keyboard Controller.
 Author: Tomasz Poliszuk, CySxL
 Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/KeyboardControllerSettings/Resources/icons/KeyboardController@3x.png
 Name: Keyboard Controller
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.keyboardcontroller.rootless.json
 
 Package: com.cysxl.keyboardcontroller
 Version: 1.5.8
@@ -427,6 +442,7 @@ Description: A fork of Tomasz Poliszuk's Keyboard Controller.
 Author: Tomasz Poliszuk, CySxL
 Icon: https://raw.githubusercontent.com/CySxL/KeyboardController/master/KeyboardControllerSettings/Resources/icons/KeyboardController@3x.png
 Name: Keyboard Controller
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.keyboardcontroller.json
 
 Package: com.cysxl.morecomplications
 Version: 2.0.5
@@ -450,6 +466,7 @@ Description: A fork of Skitty's MoreComplications.
 Author: Skitty, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.morecomplications.png
 Name: MoreComplications
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.morecomplications.json
 
 Package: com.cysxl.morecomplications
 Version: 2.0.5
@@ -474,6 +491,7 @@ Description: A fork of Skitty's MoreComplications.
 Author: Skitty, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.morecomplications.png
 Name: MoreComplications
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.morecomplications.rootless.json
 
 Package: com.cysxl.notimetowait
 Version: 1.0.7
@@ -542,6 +560,7 @@ Description: A fork of AnthoPak's open-source PanCake.
 Author: AnthoPak, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
 Name: PanCake
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.pancake.json
 
 Package: com.cysxl.pancake
 Version: 3.3.6
@@ -568,6 +587,7 @@ Description: A fork of AnthoPak's open-source PanCake.
 Author: AnthoPak, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.pancake.png
 Name: PanCake
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.pancake.rootless.json
 
 Package: com.cysxl.settingswidgets
 Version: 2.0.16
@@ -594,6 +614,7 @@ Description: A fork of shepgoba's SettingsWidgets.
 Author: shepgoba, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.settingswidgets.png
 Name: SettingsWidgets
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.json
 
 Package: com.cysxl.settingswidgets
 Version: 2.0.16
@@ -621,6 +642,7 @@ Description: A fork of shepgoba's SettingsWidgets.
 Author: shepgoba, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.settingswidgets.png
 Name: SettingsWidgets
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
 Version: 2.4.5
@@ -651,6 +673,7 @@ Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.rootless.json
 
 Package: com.cysxl.sexreborn
 Version: 2.4.5
@@ -680,6 +703,7 @@ Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
 
 Package: com.cysxl.shuffler
 Version: 0.2.17
@@ -706,6 +730,7 @@ Description: A rewrite of CreatureSurvive's Shuffle.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 Name: Shuffler
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.json
 
 Package: com.cysxl.shuffler
 Version: 0.2.17
@@ -733,6 +758,7 @@ Description: A rewrite of CreatureSurvive's Shuffle.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.shuffler.png
 Name: Shuffler
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
 Version: 3.0.16
@@ -758,6 +784,7 @@ Description: A rewrite of Kyle Howells' SwipeSelection.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.swipeselection
 Version: 3.0.16
@@ -782,6 +809,7 @@ Description: A rewrite of Kyle Howells' SwipeSelection.
 Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.json
 
 Package: com.cysxl.vaon
 Version: 2.1.9
@@ -809,6 +837,7 @@ Description: A fork of atar13's Vaon.
 Author: atar13, SingleKeycap, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
 Name: Vaon
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.json
 
 Package: com.cysxl.vaon
 Version: 2.1.9
@@ -837,4 +866,5 @@ Description: A fork of atar13's Vaon.
 Author: atar13, SingleKeycap, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
 Name: Vaon
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.rootless.json
 

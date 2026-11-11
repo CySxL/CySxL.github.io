@@ -1,0 +1,46 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of ren7995's Atria.\n\nEdits your homescreen layout on iOS 16-17, page by page.\n\n* set rows, columns, icon size & spacing.\n* move icon labels & page dots.\n* set the dock's rows, columns & background alpha.\n* add page labels & a welcome message.\n* blur & tint a background behind your icons.\n* put App Library & recents in the floating dock.\n* hide page dots, badges, labels & the dock.\n* export & import your settings.\n* support roothide."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.8.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* keep the App Library pod in place when a Handoff app appears, with App Library Before Recents on."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.8.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.8.2"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing ren7995's Atria.\n\nChanges from ren7995's Atria 1.4.1:\n* support roothide and rootless.\n* add Label Y Offset to the dock and homescreen editors.\n* add Show in Dock, which labels dock icons, recents and the App Library pod.\n* add App Library Before Recents, Lock Label Text and Hide Open Folder Background.\n* position the page dots per page, and let dot and label offsets reach the top of the screen.\n* fetch the weather only when it is shown, and turn Show Weather Icon off by default.\n* pick colors with the system color picker.\n* hide rows whose switch is off.\n* fix the floating dock showing only two recents.\n* fix Hide Page Dots on iOS 16.\n* check a saved icon layout before SpringBoard gets it, so a bad one can no longer stop the homescreen coming up.\n* cut the work done per icon, per label and per layout, which removes the stutter on page swipes and in low power mode."
+    }
+   ]
+  }
+ ]
+}

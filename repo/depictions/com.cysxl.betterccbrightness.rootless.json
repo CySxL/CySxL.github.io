@@ -1,0 +1,38 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of level3tjg's BetterCCBrightness.\n\nAdds more controls to the expanded brightness module in Control Center.\n\n* toggle auto-lock & auto-brightness.\n* reduce white point with an intensity slider.\n* set Night Shift strength with a slider.\n* show each brightness slider's level as a percentage.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing level3tjg's BetterCCBrightness.\n\nChanges from level3tjg's BetterCCBrightness:\n* build for roothide.\n* draw the level as a percentage on every brightness slider.\n* close the expanded module with a swipe up from the bottom."
+    }
+   ]
+  }
+ ]
+}

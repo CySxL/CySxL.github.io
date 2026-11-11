@@ -1,0 +1,38 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of Tomasz Poliszuk's Keyboard Controller.\n\nChanges how the keyboard looks & behaves in every app.\n\n* force a light or dark keyboard.\n* swap the keyboard type & the return key type.\n* turn the one-handed keyboard on & off with a swipe down on the 123, delete or return key.\n* swipe down to dismiss the keyboard.\n* show tools beside the keyboard.\n* try any keyboard type in the testing area."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.5.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* rebuild the credits, with a Tip on Ko-fi row and a link to the fork's source code."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.5.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing Tomasz Poliszuk's Keyboard Controller.\n\nChanges from Tomasz Poliszuk's Keyboard Controller 1.2.3:\n* support iOS 15 and 16 on roothide and rootless.\n* turn the one-handed keyboard on & off with a swipe down on the 123, delete or return key.\n* add One-Handed Tools: cursor, copy, paste and select all keys in the space beside a one-handed keyboard.\n* turn off emoji skin tone variants when that option is off.\n* leave horizontal swipes to SwipeSelection.\n* fix settings not loading in sandboxed apps.\n* show a change on the settings page's test fields at once.\n* show the version and build scheme in a settings header."
+    }
+   ]
+  }
+ ]
+}

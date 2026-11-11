@@ -1,0 +1,62 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.\n\nSwipe gestures on every keyboard key.\n\n* run an action by swiping up, down, left or right, or long pressing any key.\n* open a menu of actions with a swipe.\n* pick a glass or classic menu & show symbols in place of names.\n* draw labels on the keycaps.\n* insert text or the date, select, copy & paste, undo & redo, move the cursor.\n* color the keyboard, keys, labels, menus & candidate bar.\n* save presets & color themes.\n* haptics for actions, key presses & menus.\n* work alongside SwipeSelection."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.5"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix the settings header showing the wrong build scheme."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.4"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* name the original first in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.2"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* credit SwipeExtenderX by qwertyuiop1379 and MiRO in the description."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.1"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release."
+    }
+   ]
+  }
+ ]
+}

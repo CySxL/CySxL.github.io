@@ -1,0 +1,46 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A fork of shepgoba's SettingsWidgets.\n\nAdds widgets to the top of the Settings page.\n\n* show battery health, storage, Wi-Fi, cellular, hotspot & Bluetooth.\n* respring or enter safe mode from the utility widget.\n* arrange up to four widgets in two rows.\n* set an image or GIF background per widget.\n* show hotspot clients from HotspotPro.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.16"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* link the fork's source code in the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the package icon after install.\n* add a Tip on Ko-fi row to the credits."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.0.14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* move to the com.cysxl package id, replacing shepgoba's SettingsWidgets.\n\nChanges from shepgoba's SettingsWidgets 1.2.3:\n* support roothide and rootless.\n* add Bluetooth, hotspot and utility widgets.\n* respring or enter safe mode from the utility widget.\n* show hotspot clients from HotspotPro.\n* set an image or GIF background per widget, with a button to clear unused ones.\n* open a widget's settings pane with a tap.\n* show cellular usage in the units the other widgets use.\n* follow dark mode in the storage bar.\n* hide the rows of disabled widgets and of switches that are off.\n* make sliders continuous, with a double tap to type a value."
+    }
+   ]
+  }
+ ]
+}
