@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.1.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix a quick Delete tap sometimes deleting all the text and leaving the key pressed.\n* @AzrealYA thanks for reporting and testing."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.1.7"
     },
     {

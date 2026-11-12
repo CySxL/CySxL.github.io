@@ -1,3 +1,7 @@
+## 3.1.8
+* fix a quick Delete tap sometimes deleting all the text and leaving the key pressed.
+* @AzrealYA thanks for reporting and testing.
+
 ## 3.1.7
 * show the Cursor Speed default on the settings page.
 
