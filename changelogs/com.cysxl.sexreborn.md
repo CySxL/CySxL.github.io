@@ -1,3 +1,9 @@
+## 2.4.12
+* make the Swipe Threshold & Glide Type Delay sliders continuous.
+* keep one decimal in a value typed into a slider.
+* show slider values on iOS 26.
+* give the color swatches the same rounded corners as Settings' icons.
+
 ## 2.4.10
 * add Selected Menu Text Color.
 * add it to the default themes.

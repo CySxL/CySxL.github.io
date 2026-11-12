@@ -647,18 +647,48 @@ Name: SettingsWidgets
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.4.10
+Version: 2.4.12
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 600
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.qiop1379.swipeextenderx
+Replaces: com.qiop1379.swipeextenderx
+Filename: debs/com.cysxl.sexreborn_2.4.12_iphoneos-arm64e.deb
+Size: 163822
+MD5sum: c258b24913190d9cccf2d27287772d90
+SHA1: 18b2d3d6e970b1ea77ab280231fbee804377a615
+SHA256: f8125bdbe6718d7f59c1b21b384f5a3ad9718d03daadb3a63343721096d9d7a8
+Section: Tweaks
+Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
+ Swipe gestures on every keyboard key.
+ * run an action by swiping up, down, left or right, or long pressing any key.
+ * open a menu of actions with a swipe.
+ * pick a glass or classic menu & show symbols in place of names.
+ * draw labels on the keycaps.
+ * insert text or the date, select, copy & paste, undo & redo, move the cursor.
+ * color the keyboard, keys, labels, menus & candidate bar.
+ * save presets & color themes.
+ * haptics for actions, key presses & menus.
+ * work alongside SwipeSelection.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
+Name: SEXReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
+
+Package: com.cysxl.sexreborn
+Version: 2.4.12
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 968
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.10_iphoneos-arm64.deb
-Size: 198256
-MD5sum: 7b93e9c75cde1ee7685f926f5ee86520
-SHA1: d2230de7eff8d0261ad998f4b2acdef597dae36b
-SHA256: a1428eb3eb9d666ddc13a937c7235096d4cdec8c5a3df0e4fe6ee9d70338f1a8
+Filename: debs/com.cysxl.sexreborn_2.4.12_iphoneos-arm64.deb
+Size: 199564
+MD5sum: f2416cbdc5fa953e85b1189982600d70
+SHA1: 21ff54420a75b42c87107b92dde5d6f9369b2933
+SHA256: c70d7a8acc27e0b7a354b33ef38a341e133ce533cda2822dfc0d207e993d9c61
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -676,36 +706,6 @@ Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.rootless.json
-
-Package: com.cysxl.sexreborn
-Version: 2.4.10
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 600
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.qiop1379.swipeextenderx
-Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.10_iphoneos-arm64e.deb
-Size: 163020
-MD5sum: e469d6f7049266e43c87a720ef3cccf0
-SHA1: 1eb229efd45b31715907feb6e2466f79e61eb748
-SHA256: 74628ff033c353d517169f33a00096a0c860368af172207bfa2b4e5d6529d84c
-Section: Tweaks
-Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
- Swipe gestures on every keyboard key.
- * run an action by swiping up, down, left or right, or long pressing any key.
- * open a menu of actions with a swipe.
- * pick a glass or classic menu & show symbols in place of names.
- * draw labels on the keycaps.
- * insert text or the date, select, copy & paste, undo & redo, move the cursor.
- * color the keyboard, keys, labels, menus & candidate bar.
- * save presets & color themes.
- * haptics for actions, key presses & menus.
- * work alongside SwipeSelection.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
-Name: SEXReborn
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
 
 Package: com.cysxl.shuffler
 Version: 0.2.17

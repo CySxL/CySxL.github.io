@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.4.12"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* make the Swipe Threshold & Glide Type Delay sliders continuous.\n* keep one decimal in a value typed into a slider.\n* show slider values on iOS 26.\n* give the color swatches the same rounded corners as Settings' icons."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.10"
     },
     {
