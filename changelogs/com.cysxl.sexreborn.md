@@ -1,3 +1,12 @@
+## 2.4.10
+* add Selected Menu Text Color.
+* add it to the default themes.
+
+## 2.4.9
+* add Selected Accent Color & Selected Accent Text Color for the popup of a long-pressed key.
+* color the other letters in that popup with Text Color.
+* add both colors to the default themes.
+
 ## 2.4.8
 * fix picking an accented letter from a long-pressed key, which ran the key's swipe instead.
 * u/ing_jrodriguez thanks for reporting.

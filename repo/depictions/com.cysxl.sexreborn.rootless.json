@@ -18,6 +18,22 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.4.10"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Selected Menu Text Color.\n* add it to the default themes."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Selected Accent Color & Selected Accent Text Color for the popup of a long-pressed key.\n* color the other letters in that popup with Text Color.\n* add both colors to the default themes."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.8"
     },
     {
