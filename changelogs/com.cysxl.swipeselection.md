@@ -1,3 +1,9 @@
+## 3.1.3
+* fix Selection Keys on the Thai keyboard, where a vowel mark could not be removed.
+* press Delete while adding Selection Keys to remove the last key added.
+* show the Cursor Speed value on iOS 26.
+* @sahinkaa thanks for reporting and testing.
+
 ## 3.1.1
 * fix the edit menu staying on screen after cut, copy or delete on iOS 26.
 * show the edit menu again after a short swipe right after another.
