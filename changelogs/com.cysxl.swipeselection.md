@@ -1,3 +1,8 @@
+## 3.1.6
+* fix the Cursor Speed value overlapping the slider on iOS 26, and disappearing after scrolling.
+* fix the Selection Keys footer sliding under the field on iOS 26 after Delete.
+* @sahinkaa thanks for reporting and testing.
+
 ## 3.1.3
 * fix Selection Keys on the Thai keyboard, where a vowel mark could not be removed.
 * press Delete while adding Selection Keys to remove the last key added.

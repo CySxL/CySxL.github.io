@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.1.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix the Cursor Speed value overlapping the slider on iOS 26, and disappearing after scrolling.\n* fix the Selection Keys footer sliding under the field on iOS 26 after Delete.\n* @sahinkaa thanks for reporting and testing."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.1.3"
     },
     {
