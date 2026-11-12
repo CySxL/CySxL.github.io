@@ -1,3 +1,7 @@
+## 2.4.8
+* fix picking an accented letter from a long-pressed key, which ran the key's swipe instead.
+* u/ing_jrodriguez thanks for reporting.
+
 ## 2.4.7
 * name exported presets & themes after SEXReborn, so a search finds them.
 * keep a save's own name when its export is imported back.

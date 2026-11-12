@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.4.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix picking an accented letter from a long-pressed key, which ran the key's swipe instead.\n* u/ing_jrodriguez thanks for reporting."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.7"
     },
     {
