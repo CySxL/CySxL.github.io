@@ -12,7 +12,7 @@
 	--bg: #f3f1ee; --card: #ffffff; --text: #24272b; --muted: #6f747b; --line: rgba(36, 39, 43, 0.08);
 	--accent: #5d6f84; --accent-text: #ffffff; --glow1: #c9d3de; --glow2: #e4cfc9; --glow3: #d3ddd2;
 	--pill: #eceae6; --rootless: #4f7a5b; --roothide: #7a5574;
-	--kofi-bg: #d7e2d3; --kofi: #46664e; --reddit-bg: #f0dccf; --reddit: #a14d2a; --x-bg: #d6dee7; --x: #3f5267;
+	--kofi-bg: #d7e2d3; --kofi: #46664e; --reddit-bg: #f0dccf; --reddit: #a14d2a; --x-bg: #d6dee7; --x: #3f5267; --discord-bg: #e6dae3; --discord: #6b4865;
 	--dot1: #8fa3b8; --dot2: #d3a296; --dot3: #98b79f; --grid: rgba(36, 39, 43, 0.05);
 }
 @media (prefers-color-scheme: dark) {
@@ -20,7 +20,7 @@
 		--bg: #121417; --card: #1c1f23; --text: #eceef0; --muted: #9aa0a7; --line: rgba(255, 255, 255, 0.07);
 		--accent: #8fa3b8; --accent-text: #121417; --glow1: #26313d; --glow2: #3a2c2a; --glow3: #27332a;
 		--pill: #262a2f; --rootless: #9cc0a5; --roothide: #c3a2bd;
-		--kofi-bg: #26332a; --kofi: #a9c9b0; --reddit-bg: #3d2b22; --reddit: #efb08f; --x-bg: #25303b; --x: #aec1d4;
+		--kofi-bg: #26332a; --kofi: #a9c9b0; --reddit-bg: #3d2b22; --reddit: #efb08f; --x-bg: #25303b; --x: #aec1d4; --discord-bg: #33262f; --discord: #d4b6ce;
 		--dot1: #5f7590; --dot2: #9a6c62; --dot3: #6c8f74; --grid: rgba(255, 255, 255, 0.04);
 	}
 }
@@ -65,6 +65,7 @@ footer p { margin: 18px 0 8px; }
 .btns a.kofi { background: var(--kofi-bg); color: var(--kofi); }
 .btns a.reddit { background: var(--reddit-bg); color: var(--reddit); }
 .btns a.x { background: var(--x-bg); color: var(--x); }
+.btns a.discord { background: var(--discord-bg); color: var(--discord); cursor: pointer; }
 </style>
 </head>
 <body>
@@ -87,7 +88,7 @@ footer p { margin: 18px 0 8px; }
 <p>Enjoying these?</p>
 <div class="btns"><a class="kofi" href="https://ko-fi.com/cysxl">Tip on Ko-fi</a></div>
 <p>Contact</p>
-<div class="btns"><a class="reddit" href="https://www.reddit.com/user/cysxl/">Reddit u/cysxl</a><a class="x" href="https://x.com/CySxL">X @CySxL</a></div>
+<div class="btns"><a class="reddit" href="https://www.reddit.com/user/cysxl/">Reddit u/cysxl</a><a class="x" href="https://x.com/CySxL">X @CySxL</a><a class="discord" role="button">Discord @cydaidev16888</a></div>
 </footer>
 <script>
 const url = document.querySelector('.url');
@@ -96,6 +97,14 @@ url.addEventListener('click', () => {
 	navigator.clipboard.writeText('https://cysxl.github.io/repo/').then(() => {
 		url.textContent = 'Copied';
 		setTimeout(() => url.textContent = 'https://cysxl.github.io/repo/', 1200);
+	}, () => {});
+});
+const discord = document.querySelector('.discord');
+discord.addEventListener('click', () => {
+	if (!navigator.clipboard) return;
+	navigator.clipboard.writeText('cydaidev16888').then(() => {
+		discord.textContent = 'Copied';
+		setTimeout(() => discord.textContent = 'Discord @cydaidev16888', 1200);
 	}, () => {});
 });
 fetch('repo/Packages').then(r => r.text()).then(text => {
