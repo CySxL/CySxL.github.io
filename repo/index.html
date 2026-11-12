@@ -57,6 +57,14 @@ li section { min-width: 0; flex: 1; }
 .tags i { font-style: normal; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--pill); }
 .tags i.rootless { color: var(--rootless); }
 .tags i.roothide { color: var(--roothide); }
+details { margin-top: 10px; font-size: 14px; }
+summary { display: inline-flex; gap: 6px; align-items: center; color: var(--accent); font-weight: 600; cursor: pointer; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: ""; width: 6px; height: 6px; border: solid currentColor; border-width: 0 2px 2px 0; transform: rotate(-45deg); transition: transform 0.15s; }
+details[open] summary::before { transform: rotate(45deg); }
+summary small { color: var(--muted); font-weight: 400; }
+.log { margin: 8px 0 0; padding: 10px 12px 10px 28px; border-radius: 12px; background: var(--pill); color: var(--text); display: block; list-style: disc; }
+.log li { display: list-item; background: none; box-shadow: none; padding: 0; border-radius: 0; margin: 2px 0; }
 footer { position: relative; text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 48px; }
 footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 footer p { margin: 18px 0 8px; }
@@ -99,6 +107,23 @@ url.addEventListener('click', () => {
 		setTimeout(() => url.textContent = 'https://cysxl.github.io/repo/', 1200);
 	}, () => {});
 });
+// Only the section for the listed version, fetched the first time its card is opened.
+function whatsNew(id, version, box) {
+	fetch('changelogs/' + id + '.md').then(r => r.ok ? r.text() : Promise.reject()).then(md => {
+		const parts = md.split(/^## /m).slice(1).map(s => s.split('\n'));
+		const part = parts.find(s => s[0].trim() === version) || parts[0];
+		const ul = document.createElement('ul');
+		ul.className = 'log';
+		for (const line of part.slice(1)) {
+			const t = line.replace(/^\* /, '').trim();
+			if (!t) continue;
+			const li = document.createElement('li');
+			li.textContent = t;
+			ul.appendChild(li);
+		}
+		box.appendChild(ul);
+	}).catch(() => box.remove());
+}
 const discord = document.querySelector('.discord');
 discord.addEventListener('click', () => {
 	if (!navigator.clipboard) return;
@@ -117,7 +142,7 @@ fetch('repo/Packages').then(r => r.text()).then(text => {
 		}
 		if (!f.Package) continue;
 		const arch = (f.Architecture || '').endsWith('arm64e') ? 'roothide' : 'rootless';
-		const item = seen.get(f.Package) || { name: f.Name || f.Package, version: f.Version, desc: f.Description || '', icon: f.Icon || '', archs: [] };
+		const item = seen.get(f.Package) || { id: f.Package, name: f.Name || f.Package, version: f.Version, desc: f.Description || '', icon: f.Icon || '', archs: [] };
 		item.archs.push(arch);
 		seen.set(f.Package, item);
 	}
@@ -139,6 +164,11 @@ fetch('repo/Packages').then(r => r.text()).then(text => {
 			t.textContent = a;
 			tags.appendChild(t);
 		});
+		const d = document.createElement('details');
+		d.innerHTML = '<summary></summary>';
+		d.firstChild.textContent = "What's new in " + p.version;
+		d.addEventListener('toggle', () => { if (d.open && !d.dataset.loaded) { d.dataset.loaded = 1; whatsNew(p.id, p.version, d); } });
+		li.querySelector('section').appendChild(d);
 		list.appendChild(li);
 	});
 });
