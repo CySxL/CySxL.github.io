@@ -22,7 +22,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "* ask whether to include App Library categories when exporting settings, since they list your installed apps.\n* keep Edit Categories changes when Settings is closed from the app switcher.\n* leave Custom Categories inactive on iOS versions that lack what it needs, rather than risk crashing SpringBoard.\n* say in the Hide Actions footer that the App Library category actions stay."
+     "markdown": "* ask whether to include App Library categories when exporting settings, since they list your installed apps.\n* keep Edit Categories changes when Settings is closed from the app switcher.\n* leave Custom Categories inactive on iOS versions that lack what it needs, rather than risk crashing SpringBoard.\n* polish Hide Actions."
     },
     {
      "class": "DepictionHeaderView",
