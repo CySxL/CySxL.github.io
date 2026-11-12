@@ -8,7 +8,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "A fork of ren7995's Atria.\n\nEdits your homescreen layout on iOS 16-17, page by page.\n\n* set rows, columns, icon size & spacing.\n* move icon labels & page dots.\n* set the dock's rows, columns & background alpha.\n* add page labels & a welcome message.\n* blur & tint a background behind your icons.\n* put App Library & recents in the floating dock.\n* hide page dots, badges, labels & the dock.\n* export & import your settings.\n* support roothide."
+     "markdown": "A fork of ren7995's Atria.\n\nEdits your homescreen layout on iOS 16-17, page by page.\n\n* set rows, columns, icon size & spacing.\n* move icon labels & page dots.\n* set the dock's rows, columns & background alpha.\n* add page labels & a welcome message.\n* blur & tint a background behind your icons.\n* put App Library & recents in the floating dock.\n* move, rename, reorder & add App Library categories.\n* hide page dots, badges, labels & the dock.\n* export & import your settings.\n* support roothide."
     }
    ]
   },
@@ -16,6 +16,14 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.9.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* ask whether to include App Library categories when exporting settings, since they list your installed apps.\n* keep Edit Categories changes when Settings is closed from the app switcher.\n* leave Custom Categories inactive on iOS versions that lack what it needs, rather than risk crashing SpringBoard.\n* say in the Hide Actions footer that the App Library category actions stay."
+    },
     {
      "class": "DepictionHeaderView",
      "title": "1.9.2"

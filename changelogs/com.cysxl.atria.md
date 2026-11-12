@@ -1,3 +1,9 @@
+## 1.9.3
+* ask whether to include App Library categories when exporting settings, since they list your installed apps.
+* keep Edit Categories changes when Settings is closed from the app switcher.
+* leave Custom Categories inactive on iOS versions that lack what it needs, rather than risk crashing SpringBoard.
+* say in the Hide Actions footer that the App Library category actions stay.
+
 ## 1.9.2
 * add Hide Suggestions and Hide Recently Added.
 * add Show in Dock to Category Order, to pick the category the dock's App Library icon shows.

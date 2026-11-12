@@ -1,36 +1,5 @@
 Package: com.cysxl.atria
-Version: 1.9.2
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 1272
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
-Replaces: me.lau.atria
-Provides: me.lau.atria
-Filename: debs/com.cysxl.atria_1.9.2_iphoneos-arm64e.deb
-Size: 320864
-MD5sum: 07c41d13ed6785c6731fc9a41a35d748
-SHA1: b75c2b5e7be9e9786a3f13459e6ee9b08ca7f043
-SHA256: e6e3aec6ae5b1e0b2a7140fee721bb09fd466d2bc87f78223d30da5bd06a888f
-Section: Tweaks
-Description: A fork of ren7995's Atria.
- Edits your homescreen layout on iOS 16-17, page by page.
- * set rows, columns, icon size & spacing.
- * move icon labels & page dots.
- * set the dock's rows, columns & background alpha.
- * add page labels & a welcome message.
- * blur & tint a background behind your icons.
- * put App Library & recents in the floating dock.
- * hide page dots, badges, labels & the dock.
- * export & import your settings.
- * support roothide.
-Author: ren7995, CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
-Name: Atria
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.json
-
-Package: com.cysxl.atria
-Version: 1.9.2
+Version: 1.9.3
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 1272
@@ -38,11 +7,11 @@ Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
 Replaces: me.lau.atria
 Provides: me.lau.atria
-Filename: debs/com.cysxl.atria_1.9.2_iphoneos-arm64.deb
-Size: 321210
-MD5sum: 568362994e4a53e702d95007bdf2164f
-SHA1: 6f25d3dea3deda5e7745e1c1d32aad8934741de7
-SHA256: 098d0605104de272576e69392b88081ac5e8b57d5cb69da90d29e05886ee4100
+Filename: debs/com.cysxl.atria_1.9.3_iphoneos-arm64.deb
+Size: 324338
+MD5sum: 20a4e0f1f5ca9d81fc0a975f87a6cf8c
+SHA1: 3245fa76d8b421478c57dfac79d9af4ba207d318
+SHA256: 322773e259c5b03f778f0d0d9ee501735e932aa7000d597551381d1f76eca93a
 Section: Tweaks
 Description: A fork of ren7995's Atria.
  Edits your homescreen layout on iOS 16-17, page by page.
@@ -52,6 +21,7 @@ Description: A fork of ren7995's Atria.
  * add page labels & a welcome message.
  * blur & tint a background behind your icons.
  * put App Library & recents in the floating dock.
+ * move, rename, reorder & add App Library categories.
  * hide page dots, badges, labels & the dock.
  * export & import your settings.
  * support roothide.
@@ -60,6 +30,38 @@ Author: ren7995, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
 Name: Atria
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.rootless.json
+
+Package: com.cysxl.atria
+Version: 1.9.3
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 1272
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: me.lau.atria, com.irepo.boxy4, me.kritanta.homepluspro
+Replaces: me.lau.atria
+Provides: me.lau.atria
+Filename: debs/com.cysxl.atria_1.9.3_iphoneos-arm64e.deb
+Size: 324260
+MD5sum: 803490f61feb51596665089fae845433
+SHA1: 6c3b7b3c889dbd795beab6680a6b83d547ebd5ac
+SHA256: 739abf427df5e0735f46171d544d8c93aaade4bae15da999cb3e00d10a671e58
+Section: Tweaks
+Description: A fork of ren7995's Atria.
+ Edits your homescreen layout on iOS 16-17, page by page.
+ * set rows, columns, icon size & spacing.
+ * move icon labels & page dots.
+ * set the dock's rows, columns & background alpha.
+ * add page labels & a welcome message.
+ * blur & tint a background behind your icons.
+ * put App Library & recents in the floating dock.
+ * move, rename, reorder & add App Library categories.
+ * hide page dots, badges, labels & the dock.
+ * export & import your settings.
+ * support roothide.
+Author: ren7995, CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.atria.png
+Name: Atria
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.atria.json
 
 Package: com.cysxl.bccreborn
 Version: 2.1.14
