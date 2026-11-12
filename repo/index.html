@@ -57,6 +57,7 @@ li section { min-width: 0; flex: 1; }
 .tags i { font-style: normal; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--pill); }
 .tags i.rootless { color: var(--rootless); }
 .tags i.roothide { color: var(--roothide); }
+.tags i.ios { color: var(--muted); font-weight: 500; }
 .new { font-size: 12px; font-weight: 600; color: var(--accent-text); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 details { margin-top: 10px; font-size: 14px; }
 summary { display: inline-flex; gap: 6px; align-items: center; color: var(--accent); font-weight: 600; cursor: pointer; list-style: none; }
@@ -146,7 +147,8 @@ Promise.all([fetch('repo/Packages').then(r => r.text()), updated]).then(([text, 
 		}
 		if (!f.Package) continue;
 		const arch = (f.Architecture || '').endsWith('arm64e') ? 'roothide' : 'rootless';
-		const item = seen.get(f.Package) || { id: f.Package, name: f.Name || f.Package, version: f.Version, desc: f.Description || '', icon: f.Icon || '', archs: [] };
+		const fw = (f.Depends || '').match(/firmware \(>= ([\d.]+)\)/);
+		const item = seen.get(f.Package) || { id: f.Package, name: f.Name || f.Package, version: f.Version, desc: f.Description || '', icon: f.Icon || '', ios: fw ? fw[1].replace(/\.0$/, '') : '', archs: [] };
 		item.archs.push(arch);
 		seen.set(f.Package, item);
 	}
@@ -168,6 +170,12 @@ Promise.all([fetch('repo/Packages').then(r => r.text()), updated]).then(([text, 
 			t.textContent = a;
 			tags.appendChild(t);
 		});
+		if (p.ios) {
+			const t = document.createElement('i');
+			t.className = 'ios';
+			t.textContent = 'iOS ' + p.ios + '+';
+			tags.appendChild(t);
+		}
 		const date = dates[p.id];
 		if (date && Date.now() - new Date(date + 'T00:00:00') < RECENT) {
 			const n = document.createElement('span');
