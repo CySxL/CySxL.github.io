@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.1.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* show the Cursor Speed default on the settings page."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.1.6"
     },
     {

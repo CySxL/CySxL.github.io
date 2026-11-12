@@ -1,3 +1,6 @@
+## 3.1.7
+* show the Cursor Speed default on the settings page.
+
 ## 3.1.6
 * fix the Cursor Speed value overlapping the slider on iOS 26, and disappearing after scrolling.
 * fix the Selection Keys footer sliding under the field on iOS 26 after Delete.
