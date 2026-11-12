@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.9.0"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add an App Library Categories page to the settings.\n* add Edit Categories to drag apps between categories and reorder them.\n* add Category Order to reorder and rename categories.\n* add new categories, and delete them to give their apps back.\n* fix three causes of SpringBoard crashing at launch on iOS 26.\n* turn Dynamic Widget Sizing off on iOS 26, where it crashed SpringBoard."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.8.6"
     },
     {

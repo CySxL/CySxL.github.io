@@ -1,3 +1,11 @@
+## 1.9.0
+* add an App Library Categories page to the settings.
+* add Edit Categories to drag apps between categories and reorder them.
+* add Category Order to reorder and rename categories.
+* add new categories, and delete them to give their apps back.
+* fix three causes of SpringBoard crashing at launch on iOS 26.
+* turn Dynamic Widget Sizing off on iOS 26, where it crashed SpringBoard.
+
 ## 1.8.6
 * move apps to another App Library category and rename categories from the long press menu, with Custom Categories on.
 * add Reset Categories to put every app and name back.
