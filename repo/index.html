@@ -57,6 +57,7 @@ li section { min-width: 0; flex: 1; }
 .tags i { font-style: normal; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--pill); }
 .tags i.rootless { color: var(--rootless); }
 .tags i.roothide { color: var(--roothide); }
+.new { font-size: 12px; font-weight: 600; color: var(--accent-text); background: var(--accent); padding: 2px 8px; border-radius: 999px; }
 details { margin-top: 10px; font-size: 14px; }
 summary { display: inline-flex; gap: 6px; align-items: center; color: var(--accent); font-weight: 600; cursor: pointer; list-style: none; }
 summary::-webkit-details-marker { display: none; }
@@ -107,6 +108,9 @@ url.addEventListener('click', () => {
 		setTimeout(() => url.textContent = 'https://cysxl.github.io/repo/', 1200);
 	}, () => {});
 });
+const updated = fetch('updated.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
+const RECENT = 2 * 864e5;
+const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en', { month: 'short', day: 'numeric' });
 // Only the section for the listed version, fetched the first time its card is opened.
 function whatsNew(id, version, box) {
 	fetch('changelogs/' + id + '.md').then(r => r.ok ? r.text() : Promise.reject()).then(md => {
@@ -132,7 +136,7 @@ discord.addEventListener('click', () => {
 		setTimeout(() => discord.textContent = 'Discord @cydaidev16888', 1200);
 	}, () => {});
 });
-fetch('repo/Packages').then(r => r.text()).then(text => {
+Promise.all([fetch('repo/Packages').then(r => r.text()), updated]).then(([text, dates]) => {
 	const seen = new Map();
 	for (const block of text.split(/\n\n+/)) {
 		const f = {};
@@ -164,9 +168,21 @@ fetch('repo/Packages').then(r => r.text()).then(text => {
 			t.textContent = a;
 			tags.appendChild(t);
 		});
+		const date = dates[p.id];
+		if (date && Date.now() - new Date(date + 'T00:00:00') < RECENT) {
+			const n = document.createElement('span');
+			n.className = 'new';
+			n.textContent = 'Updated';
+			li.querySelector('.title').appendChild(n);
+		}
 		const d = document.createElement('details');
 		d.innerHTML = '<summary></summary>';
 		d.firstChild.textContent = "What's new in " + p.version;
+		if (date) {
+			const s = document.createElement('small');
+			s.textContent = day(date);
+			d.firstChild.appendChild(s);
+		}
 		d.addEventListener('toggle', () => { if (d.open && !d.dataset.loaded) { d.dataset.loaded = 1; whatsNew(p.id, p.version, d); } });
 		li.querySelector('section').appendChild(d);
 		list.appendChild(li);

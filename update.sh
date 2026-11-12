@@ -135,6 +135,22 @@ EOF
 	done
 } > Release
 
+# The date each listed version reached the repo, for the landing page: the commit that added
+# its deb (followed across the move to repo/), or today for a deb not committed yet. The newest
+# architecture wins.
+python3 -I - <<'EOF'
+import datetime, json, subprocess
+dates = {}
+for s in open("Packages", encoding="utf-8").read().strip().split("\n\n"):
+    f = {l.split(": ", 1)[0]: l.split(": ", 1)[1] for l in s.split("\n") if not l.startswith(" ") and ": " in l}
+    d = subprocess.run(["git", "log", "--follow", "-1", "--diff-filter=A", "--format=%ad", "--date=short", "--", f["Filename"]],
+                       capture_output=True, text=True).stdout.strip() or datetime.date.today().isoformat()
+    dates[f["Package"]] = max(dates.get(f["Package"], d), d)
+with open("../updated.json", "w", encoding="utf-8") as out:
+    json.dump(dict(sorted(dates.items())), out, indent=1)
+    out.write("\n")
+EOF
+
 # The source URL serves the root landing page, with paths resolved from the site root.
 sed '/^<meta name="viewport"/a\
 <base href="../">
