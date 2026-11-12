@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.9.2"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Hide Suggestions and Hide Recently Added.\n* add Show in Dock to Category Order, to pick the category the dock's App Library icon shows.\n* show the remaining apps as four small icons on the dock's App Library icon."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.9.0"
     },
     {

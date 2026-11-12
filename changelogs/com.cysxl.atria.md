@@ -1,3 +1,8 @@
+## 1.9.2
+* add Hide Suggestions and Hide Recently Added.
+* add Show in Dock to Category Order, to pick the category the dock's App Library icon shows.
+* show the remaining apps as four small icons on the dock's App Library icon.
+
 ## 1.9.0
 * add an App Library Categories page to the settings.
 * add Edit Categories to drag apps between categories and reorder them.
