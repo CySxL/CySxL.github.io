@@ -1,7 +1,7 @@
 ## 1.9.3
 * ask whether to include App Library categories when exporting settings, since they list your installed apps.
 * keep Edit Categories changes when Settings is closed from the app switcher.
-* leave Custom Categories inactive on iOS versions that lack what it needs, rather than risk crashing SpringBoard.
+* leave Custom Categories inactive on iOS versions that lack what it needs.
 * polish Hide Actions.
 
 ## 1.9.2
