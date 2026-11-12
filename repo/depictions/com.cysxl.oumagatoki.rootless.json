@@ -1,0 +1,30 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Sets a picture or GIF as your Control Center background, one for light mode and one for dark mode.\n\n* pick separate pictures for portrait & landscape.\n* play GIFs only while Control Center is open.\n* adjust blur & dim with a live preview.\n* pause animation in Low Power Mode or when the phone is hot.\n* best performance possible in Control Center.\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.5.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* first release in this repo.\n* show the portrait & landscape pictures side by side, tap one to choose or remove it.\n* hide Pause Animation to Save Power while Enable Tweak is off.\n* add a rootless build.\n* add Tip on Ko-fi under Credits."
+    }
+   ]
+  }
+ ]
+}

@@ -538,6 +538,53 @@ Icon: https://cysxl.github.io/icons/com.cysxl.notimetowait.png
 Name: NoTimeToWait
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.notimetowait.json
 
+Package: com.cysxl.oumagatoki
+Version: 1.5.6
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 572
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.oumagatoki_1.5.6_iphoneos-arm64.deb
+Size: 77822
+MD5sum: b193a5d77149eea777d08007e3cb1e08
+SHA1: ad207bc94a248f44953b532ada325d8bf41e043e
+SHA256: d6a6e9347ac6678c304f56d4de86077358b76488f9630942280d9b3904c6a9c7
+Section: Tweaks
+Description: Sets a picture or GIF as your Control Center background, one for light mode and one for dark mode.
+ * pick separate pictures for portrait & landscape.
+ * play GIFs only while Control Center is open.
+ * adjust blur & dim with a live preview.
+ * pause animation in Low Power Mode or when the phone is hot.
+ * best performance possible in Control Center.
+ Rootless build, not yet tested.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.oumagatoki.png
+Name: Oumagatoki
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.oumagatoki.rootless.json
+
+Package: com.cysxl.oumagatoki
+Version: 1.5.6
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/com.cysxl.oumagatoki_1.5.6_iphoneos-arm64e.deb
+Size: 76528
+MD5sum: 1c2bba8ddba7f4d0e3a5e93ed223a04f
+SHA1: 3b881c0ca2b852ee4b686e369011fc54c3262c66
+SHA256: ea69601dec119107230802ece3c8b738316fc3bce627319bbfdcf55adc3422da
+Section: Tweaks
+Description: Sets a picture or GIF as your Control Center background, one for light mode and one for dark mode.
+ * pick separate pictures for portrait & landscape.
+ * play GIFs only while Control Center is open.
+ * adjust blur & dim with a live preview.
+ * pause animation in Low Power Mode or when the phone is hot.
+ * best performance possible in Control Center.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.oumagatoki.png
+Name: Oumagatoki
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.oumagatoki.json
+
 Package: com.cysxl.pancake
 Version: 3.3.6
 Architecture: iphoneos-arm64e
