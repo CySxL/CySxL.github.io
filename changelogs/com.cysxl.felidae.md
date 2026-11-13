@@ -1,3 +1,7 @@
+## 1.3.17
+* add Short Swipe to Clear, Double Tap to Lock and Low Power Mode While Locked.
+* credit FastLock for the ideas.
+
 ## 1.3.13
 * redraw the settings icon.
 
