@@ -1,3 +1,6 @@
+## 0.2.18
+* redraw the settings icon.
+
 ## 0.2.17
 * allow installing on iOS 17 and later.
 

@@ -1,3 +1,6 @@
+## 2.1.10
+* redraw the settings icon.
+
 ## 2.1.9
 * link the fork's source code in the credits.
 

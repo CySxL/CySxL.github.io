@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.3.13"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* redraw the settings icon."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.3.12"
     },
     {

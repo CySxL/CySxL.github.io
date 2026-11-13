@@ -270,16 +270,16 @@ Name: DaemonDisabler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.daemondisabler.json
 
 Package: com.cysxl.felidae
-Version: 1.3.12
+Version: 1.3.13
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 772
+Installed-Size: 768
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/com.cysxl.felidae_1.3.12_iphoneos-arm64e.deb
-Size: 88674
-MD5sum: b4c40437e8f0b482e5a60fcbe133009d
-SHA1: d28069cf08a36332038e9de997c32b2259cbb8c0
-SHA256: b845f383821198ab9fb4237ae87cf7383ab58a72a9f6cec2d22b930dcc3900f7
+Filename: debs/com.cysxl.felidae_1.3.13_iphoneos-arm64e.deb
+Size: 88208
+MD5sum: d1d7cb727a8d63a3058f64aadbd29e64
+SHA1: a060646df7473c9e154885546c7be140f69bfbd1
+SHA256: 87ceea8ab209550c10fdab69ea245a000792c74154c14d86d3fdfd9a55005edf
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -303,16 +303,16 @@ Name: Felidae
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.felidae.json
 
 Package: com.cysxl.felidae
-Version: 1.3.12
+Version: 1.3.13
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 772
+Installed-Size: 768
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/com.cysxl.felidae_1.3.12_iphoneos-arm64.deb
-Size: 90170
-MD5sum: b216503811f64619fe7e1f13634fb020
-SHA1: 29f03ea31ed323c2f01c5e4c2e8d8cb11780832f
-SHA256: 0d38bc83e331bddde20b93a645cde1af57edaeba0cce6cb2418b564c62f63c04
+Filename: debs/com.cysxl.felidae_1.3.13_iphoneos-arm64.deb
+Size: 89520
+MD5sum: ba748e7732db28a95b276331cd9fb7ad
+SHA1: 7aac6b92cbd08f0aad4053644825b745c3cd49ec
+SHA256: 6aa4b4e8bdea53e048d69fa0666da8b905462771fec667dbfc607b6796e0879b
 Section: Tweaks
 Description: Small SpringBoard, lockscreen, Control Center and Photos changes in one place.
  * hide Edit Home Screen, Share App & Remove App.
@@ -694,48 +694,18 @@ Name: SettingsWidgets
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.4.12
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 600
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.qiop1379.swipeextenderx
-Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.12_iphoneos-arm64e.deb
-Size: 163822
-MD5sum: c258b24913190d9cccf2d27287772d90
-SHA1: 18b2d3d6e970b1ea77ab280231fbee804377a615
-SHA256: f8125bdbe6718d7f59c1b21b384f5a3ad9718d03daadb3a63343721096d9d7a8
-Section: Tweaks
-Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
- Swipe gestures on every keyboard key.
- * run an action by swiping up, down, left or right, or long pressing any key.
- * open a menu of actions with a swipe.
- * pick a glass or classic menu & show symbols in place of names.
- * draw labels on the keycaps.
- * insert text or the date, select, copy & paste, undo & redo, move the cursor.
- * color the keyboard, keys, labels, menus & candidate bar.
- * save presets & color themes.
- * haptics for actions, key presses & menus.
- * work alongside SwipeSelection.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
-Name: SEXReborn
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
-
-Package: com.cysxl.sexreborn
-Version: 2.4.12
+Version: 2.4.13
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 968
+Installed-Size: 976
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.4.12_iphoneos-arm64.deb
-Size: 199564
-MD5sum: f2416cbdc5fa953e85b1189982600d70
-SHA1: 21ff54420a75b42c87107b92dde5d6f9369b2933
-SHA256: c70d7a8acc27e0b7a354b33ef38a341e133ce533cda2822dfc0d207e993d9c61
+Filename: debs/com.cysxl.sexreborn_2.4.13_iphoneos-arm64.deb
+Size: 205012
+MD5sum: 38fd8473140c96df347692308d100517
+SHA1: e276fbc7ab0250c99cfdc5387fdda54ea73c50ab
+SHA256: e447001984205efb230a16a389d48d16a8e026251f5d9ec9491c70782960c6ca
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -754,17 +724,47 @@ Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.rootless.json
 
+Package: com.cysxl.sexreborn
+Version: 2.4.13
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 608
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.qiop1379.swipeextenderx
+Replaces: com.qiop1379.swipeextenderx
+Filename: debs/com.cysxl.sexreborn_2.4.13_iphoneos-arm64e.deb
+Size: 169592
+MD5sum: acf233fcfb06112eb24d03991adf6490
+SHA1: 9dee24d19e508b99c93e74331d3416d23f2a4896
+SHA256: 267390fb2229477b5070593bacd87e899d9de10a49a77bf52d32f4ab0ef8121c
+Section: Tweaks
+Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
+ Swipe gestures on every keyboard key.
+ * run an action by swiping up, down, left or right, or long pressing any key.
+ * open a menu of actions with a swipe.
+ * pick a glass or classic menu & show symbols in place of names.
+ * draw labels on the keycaps.
+ * insert text or the date, select, copy & paste, undo & redo, move the cursor.
+ * color the keyboard, keys, labels, menus & candidate bar.
+ * save presets & color themes.
+ * haptics for actions, key presses & menus.
+ * work alongside SwipeSelection.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
+Name: SEXReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
+
 Package: com.cysxl.shuffler
-Version: 0.2.17
+Version: 0.2.18
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 548
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/com.cysxl.shuffler_0.2.17_iphoneos-arm64e.deb
-Size: 113626
-MD5sum: 82ff6cf9edd5a95cd4dd81a97967f53f
-SHA1: 20ad724301ab6f55c4c26db801cd94a4503bafe7
-SHA256: fbab1460d709f17d09873c6d450051797a50595467cbb5e5cffc3b9e74841ebf
+Filename: debs/com.cysxl.shuffler_0.2.18_iphoneos-arm64e.deb
+Size: 116072
+MD5sum: 8429e9480e2146de6aba83f1ee7b60b3
+SHA1: 974cb1124d4f61adffa6ea3862e10a27b5b3eaf9
+SHA256: 53d3542b1118c4bb8611ab49ca954e77ebb9464abe63d3d5b67e7fafe2f6851d
 Section: Tweaks
 Description: A rewrite of CreatureSurvive's Shuffle.
  Settings app changes in one place.
@@ -782,16 +782,16 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.json
 
 Package: com.cysxl.shuffler
-Version: 0.2.17
+Version: 0.2.18
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 548
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/com.cysxl.shuffler_0.2.17_iphoneos-arm64.deb
-Size: 114410
-MD5sum: 621aaf90cb41b5424bf2cd01ce4300b6
-SHA1: 59e6c8d6e3e4527e69fce3f8f057fc01884359ce
-SHA256: 6c83b98905c9d2231463664b6aba6be2e0f7707da2bd328127b796345e961271
+Filename: debs/com.cysxl.shuffler_0.2.18_iphoneos-arm64.deb
+Size: 117186
+MD5sum: 9d7e66bc9fbcff3be9fecf2efbe19533
+SHA1: 4a9a47e8579bc4cf9515dec2608da49b9f64611a
+SHA256: a6ec33d41e0b43b069e3ddd81cf361850e411a208fc3d1712ee80877ef4d4bb6
 Section: Tweaks
 Description: A rewrite of CreatureSurvive's Shuffle.
  Settings app changes in one place.
@@ -863,47 +863,19 @@ Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.vaon
-Version: 2.1.9
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 836
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.atar13.vaon
-Replaces: com.atar13.vaon
-Provides: com.atar13.vaon
-Filename: debs/com.cysxl.vaon_2.1.9_iphoneos-arm64e.deb
-Size: 204632
-MD5sum: 99e77e2cb79de548aee8f9dcb36bde00
-SHA1: cb66957ac09b8852a59536ec1aeffacf130878b9
-SHA256: 9124dd309773a6876fb35dec245226be54d3c6480416f5d3137fbe85f99495a6
-Section: Tweaks
-Description: A fork of atar13's Vaon.
- Shows the battery of Bluetooth accessories in the app switcher.
- * keep disconnected & pinned devices on show.
- * show speakers & soundbars that report no battery level.
- * pick a custom glyph per device.
- * page through devices with page dots.
- * park a side module beside a floating dock in landscape.
- * apply settings without a respring.
-Author: atar13, SingleKeycap, CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
-Name: Vaon
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.json
-
-Package: com.cysxl.vaon
-Version: 2.1.9
+Version: 2.1.10
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 836
+Installed-Size: 832
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.atar13.vaon
 Replaces: com.atar13.vaon
 Provides: com.atar13.vaon
-Filename: debs/com.cysxl.vaon_2.1.9_iphoneos-arm64.deb
-Size: 204930
-MD5sum: 2f2d17f70ab6d50834b76f4ef0e01e10
-SHA1: fd517a1d8b2993b8f345f7fcaeae7de354b34003
-SHA256: 1b2edc84a4275aaf33ba8ba53f57368400188dce76065e521ec6030448403c92
+Filename: debs/com.cysxl.vaon_2.1.10_iphoneos-arm64.deb
+Size: 203784
+MD5sum: 17481831b7c256fb47bb6e474a9bb7dd
+SHA1: 29b35f0ba7f230443f156c13949c8ccac5fddea3
+SHA256: f9fdcaf74cec2c00c1ea72ec39b4fdb5a20ae07340daabb9e16b395134c97556
 Section: Tweaks
 Description: A fork of atar13's Vaon.
  Shows the battery of Bluetooth accessories in the app switcher.
@@ -918,4 +890,32 @@ Author: atar13, SingleKeycap, CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
 Name: Vaon
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.rootless.json
+
+Package: com.cysxl.vaon
+Version: 2.1.10
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 832
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.atar13.vaon
+Replaces: com.atar13.vaon
+Provides: com.atar13.vaon
+Filename: debs/com.cysxl.vaon_2.1.10_iphoneos-arm64e.deb
+Size: 203610
+MD5sum: 6c7da1e9bbdd5ea900609737b68b3a5d
+SHA1: 79d51529ee0fc5adebb736f36397f4e08ba75298
+SHA256: c32b056a6995df317c88b7b6a8ecf11f5119ba3279a3530de3bd714e9496f910
+Section: Tweaks
+Description: A fork of atar13's Vaon.
+ Shows the battery of Bluetooth accessories in the app switcher.
+ * keep disconnected & pinned devices on show.
+ * show speakers & soundbars that report no battery level.
+ * pick a custom glyph per device.
+ * page through devices with page dots.
+ * park a side module beside a floating dock in landscape.
+ * apply settings without a respring.
+Author: atar13, SingleKeycap, CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
+Name: Vaon
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.json
 

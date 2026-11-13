@@ -1,3 +1,6 @@
+## 2.4.13
+* redraw the settings icon.
+
 ## 2.4.12
 * make the Swipe Threshold & Glide Type Delay sliders continuous.
 * keep one decimal in a value typed into a slider.

@@ -1,3 +1,6 @@
+## 1.3.13
+* redraw the settings icon.
+
 ## 1.3.12
 * set Custom Bottom Inset in points, and apply it in portrait only.
 
