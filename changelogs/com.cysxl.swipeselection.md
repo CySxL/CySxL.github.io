@@ -1,3 +1,6 @@
+## 3.1.9
+* fix swiping in the contact picker, such as the + in a new message's To: field.
+
 ## 3.1.8
 * fix a quick Delete tap sometimes deleting all the text and leaving the key pressed.
 * @AzrealYA thanks for reporting and testing.

@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.1.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix swiping in the contact picker, such as the + in a new message's To: field."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.1.8"
     },
     {
