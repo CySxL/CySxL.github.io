@@ -1,3 +1,10 @@
+## 2.4.15
+* bring swipes & labels to the contact picker's search field in Messages.
+
+## 2.4.14
+* add an Enabled switch.
+* match the header name's dark mode color to the new icon.
+
 ## 2.4.13
 * redraw the settings icon.
 

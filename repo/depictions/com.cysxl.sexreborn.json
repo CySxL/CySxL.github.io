@@ -18,6 +18,22 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.4.15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* bring swipes & labels to the contact picker's search field in Messages."
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "2.4.14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add an Enabled switch.\n* match the header name's dark mode color to the new icon."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.13"
     },
     {
