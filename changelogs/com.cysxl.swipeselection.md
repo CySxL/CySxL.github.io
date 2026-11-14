@@ -1,3 +1,6 @@
+## 3.2.0
+* fix the cursor sometimes jumping and dropping keys while typing fast.
+
 ## 3.1.9
 * fix swiping in the contact picker, such as the + in a new message's To: field.
 

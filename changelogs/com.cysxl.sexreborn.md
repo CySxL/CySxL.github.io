@@ -1,3 +1,6 @@
+## 2.5.1
+* polish Edit Keys.
+
 ## 2.5.0
 * fix a long press action also typing the key's own letter on release.
 * fix SwipeSelection taking over a menu's swipe and moving the cursor.

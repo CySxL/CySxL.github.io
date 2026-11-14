@@ -700,18 +700,48 @@ Name: SettingsWidgets
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.5.0
-Architecture: iphoneos-arm64
+Version: 2.5.1
+Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 976
+Installed-Size: 608
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.5.0_iphoneos-arm64.deb
-Size: 205306
-MD5sum: ffc224486f5ac03f178668e9de80cc24
-SHA1: 65cb923837b4f9cbe499a765c99581815ca4a8f4
-SHA256: aa4137c0965323b04f844065cdb92dfb8ca314230453e56a31554a80fd4cd703
+Filename: debs/com.cysxl.sexreborn_2.5.1_iphoneos-arm64e.deb
+Size: 170158
+MD5sum: a1fcaf2b898fa6a081e9ff646b7c880a
+SHA1: 852b005e4eafea9a6e047dfbcacdd7463c977019
+SHA256: 5d5614f6d45a39d47fb61511a66255a455fcec3334975e52869a30c7df342d1d
+Section: Tweaks
+Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
+ Swipe gestures on every keyboard key.
+ * run an action by swiping up, down, left or right, or long pressing any key.
+ * open a menu of actions with a swipe.
+ * pick a glass or classic menu & show symbols in place of names.
+ * draw labels on the keycaps.
+ * insert text or the date, select, copy & paste, undo & redo, move the cursor.
+ * color the keyboard, keys, labels, menus & candidate bar.
+ * save presets & color themes.
+ * haptics for actions, key presses & menus.
+ * work alongside SwipeSelection.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
+Name: SEXReborn
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
+
+Package: com.cysxl.sexreborn
+Version: 2.5.1
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 992
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.qiop1379.swipeextenderx
+Replaces: com.qiop1379.swipeextenderx
+Filename: debs/com.cysxl.sexreborn_2.5.1_iphoneos-arm64.deb
+Size: 206010
+MD5sum: 73d1f1d7c4d54cf820d43168e4c31a34
+SHA1: 963dbfc9eaa2b1e226a05d2ac6ec5f19a436dda1
+SHA256: 7af31356e1f14b60f4b1b2325abd13ee37f1fb2ec56f5bc1f4e2e24ef2acbb29
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -729,36 +759,6 @@ Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
 Name: SEXReborn
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.rootless.json
-
-Package: com.cysxl.sexreborn
-Version: 2.5.0
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 608
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.qiop1379.swipeextenderx
-Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.5.0_iphoneos-arm64e.deb
-Size: 169890
-MD5sum: 9db42f412fadefb9e21f632af46ad028
-SHA1: ac91fd6d3b7dd4b6f47cc0d016f43bf4b7c13efa
-SHA256: 0e9bb987cbf82d9f742d2434c038d8df2fa2294296dc78938a84112a51d7b347
-Section: Tweaks
-Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
- Swipe gestures on every keyboard key.
- * run an action by swiping up, down, left or right, or long pressing any key.
- * open a menu of actions with a swipe.
- * pick a glass or classic menu & show symbols in place of names.
- * draw labels on the keycaps.
- * insert text or the date, select, copy & paste, undo & redo, move the cursor.
- * color the keyboard, keys, labels, menus & candidate bar.
- * save presets & color themes.
- * haptics for actions, key presses & menus.
- * work alongside SwipeSelection.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.sexreborn.png
-Name: SEXReborn
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
 
 Package: com.cysxl.shuffler
 Version: 0.2.18
@@ -816,44 +816,18 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.1.9
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 232
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.icraze.swipeselection
-Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.1.9_iphoneos-arm64e.deb
-Size: 47012
-MD5sum: eef62610589fe8e62409a32fa915901e
-SHA1: bc173d648a78cc4959e341e4aa397648c55983ee
-SHA256: b7ae36245b8c81b301d8980f30ec1c3455158d0f1cc700fabc26454257d344fe
-Section: Tweaks
-Description: A rewrite of Kyle Howells' SwipeSelection.
- Swipe along the keyboard to move the cursor and select text.
- * move the cursor at the speed you set.
- * feel each cursor step with optional haptic feedback.
- * select from Shift, Delete or keys you choose.
- * work in the color picker's hex field.
- * tested on iOS 16, 17 & 26.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
-Name: SwipeSelection
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.json
-
-Package: com.cysxl.swipeselection
-Version: 3.1.9
+Version: 3.2.0
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 472
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.1.9_iphoneos-arm64.deb
-Size: 58172
-MD5sum: 988a14f64571d27403de807354190294
-SHA1: 19eda0e293e048c14e666e344771269b179a82d6
-SHA256: 56b167c7ba8995b2f0712a003ae76c6c3788375074744a1d150af9945c2afa5d
+Filename: debs/com.cysxl.swipeselection_3.2.0_iphoneos-arm64.deb
+Size: 58592
+MD5sum: 76b96754f1c0fe1cb9783a746192df23
+SHA1: 1aa33ffc4bb5c34ddc6cb6f426672d3248065920
+SHA256: 53bd137cfa21a8a40f6d2a63c9ee9a2ab45d00f62676f939c91356b691e4aeac
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -867,6 +841,32 @@ Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
+
+Package: com.cysxl.swipeselection
+Version: 3.2.0
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 232
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.icraze.swipeselection
+Replaces: com.icraze.swipeselection
+Filename: debs/com.cysxl.swipeselection_3.2.0_iphoneos-arm64e.deb
+Size: 47252
+MD5sum: 53244ad3296dfcc5e0a826f5eb0e5691
+SHA1: 2cf959c876d39162d71e6b1dff87f324a7c7b1c6
+SHA256: 6a5ff57c2170802a99521fccaee0f1f8abfdfae0deb40780632af4e1ce2bac21
+Section: Tweaks
+Description: A rewrite of Kyle Howells' SwipeSelection.
+ Swipe along the keyboard to move the cursor and select text.
+ * move the cursor at the speed you set.
+ * feel each cursor step with optional haptic feedback.
+ * select from Shift, Delete or keys you choose.
+ * work in the color picker's hex field.
+ * tested on iOS 16, 17 & 26.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
+Name: SwipeSelection
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.json
 
 Package: com.cysxl.vaon
 Version: 2.1.10
