@@ -1,3 +1,8 @@
+## 2.5.0
+* fix a long press action also typing the key's own letter on release.
+* fix SwipeSelection taking over a menu's swipe and moving the cursor.
+* buzz when a long press opens a menu.
+
 ## 2.4.15
 * bring swipes & labels to the contact picker's search field in Messages.
 

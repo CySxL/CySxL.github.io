@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.5.0"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix a long press action also typing the key's own letter on release.\n* fix SwipeSelection taking over a menu's swipe and moving the cursor.\n* buzz when a long press opens a menu."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.4.15"
     },
     {
