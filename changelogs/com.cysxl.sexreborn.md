@@ -1,3 +1,7 @@
+## 2.5.3
+* add Globe & Dictation Icon color, which follows Key Text Color until set.
+* stop redrawing the keyboard on every app launch while switched off.
+
 ## 2.5.1
 * polish Edit Keys.
 

@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.5.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Globe & Dictation Icon color, which follows Key Text Color until set.\n* stop redrawing the keyboard on every app launch while switched off."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.5.1"
     },
     {
