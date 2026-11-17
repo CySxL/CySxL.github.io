@@ -1,0 +1,30 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Sends the Zhuyin candidate you see instead of the keys you typed.\n\n* commit the highlighted candidate when send is tapped before choosing.\n* 在通訊軟體中直接送出預選的中文字，而非一串注音。\n\nRootless build, not yet tested."
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionHeaderView",
+     "title": "1.1.6"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* send the highlighted candidate instead of bunches of zhuyin letters.\n* works in Discord, X, Instagram and more."
+    }
+   ]
+  }
+ ]
+}

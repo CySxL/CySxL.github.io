@@ -925,3 +925,44 @@ Icon: https://cysxl.github.io/icons/com.cysxl.vaon.png
 Name: Vaon
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.json
 
+Package: com.cysxl.zyquicksend
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: CySxL
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.opa334.altlist
+Filename: debs/com.cysxl.zyquicksend_1.1.6_iphoneos-arm64.deb
+Size: 93710
+MD5sum: d074b8357f0dfde89c5cf91a539f332c
+SHA1: bd0e6f83270443e31efe08e4eb28a79b62214a74
+SHA256: 889c85868b1953bfd1c7120316b24237516d2e1e88e8606d5a28803e6b9d5076
+Section: Tweaks
+Description: Sends the Zhuyin candidate you see instead of the keys you typed.
+ * commit the highlighted candidate when send is tapped before choosing.
+ * 在通訊軟體中直接送出預選的中文字，而非一串注音。
+ Rootless build, not yet tested.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.zyquicksend.png
+Name: ZYQuickSend
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.zyquicksend.rootless.json
+
+Package: com.cysxl.zyquicksend
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.opa334.altlist
+Filename: debs/com.cysxl.zyquicksend_1.1.6_iphoneos-arm64e.deb
+Size: 91972
+MD5sum: 0593314ca863e2e154d3680a5bbce7e0
+SHA1: 4849ad13b08181ea2b43d29c1f6b3d61e3ec7e79
+SHA256: e4a0387578ad4b3ea64db077a5fe74998472bcf26c2c60ee9c176c582aa69b39
+Section: Tweaks
+Description: Sends the Zhuyin candidate you see instead of the keys you typed.
+ * commit the highlighted candidate when send is tapped before choosing.
+ * 在通訊軟體中直接送出預選的中文字，而非一串注音。
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.zyquicksend.png
+Name: ZYQuickSend
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.zyquicksend.json
+
