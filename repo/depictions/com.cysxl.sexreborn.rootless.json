@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.5.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix the ㄒ & ㄑ key previews sometimes turning black.\n* fix Cursor to Start & Cursor to End in web text fields.\n* fix Delete on Touch Up deleting nothing while held in web text fields.\n* fix a late auto-delete & a freeze on swiping from Delete with SwipeSelection.\n* let the Edit Keys test keyboard follow Keyboard Type."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.5.3"
     },
     {

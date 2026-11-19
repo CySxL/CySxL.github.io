@@ -1,3 +1,10 @@
+## 2.5.8
+* fix the ㄒ & ㄑ key previews sometimes turning black.
+* fix Cursor to Start & Cursor to End in web text fields.
+* fix Delete on Touch Up deleting nothing while held in web text fields.
+* fix a late auto-delete & a freeze on swiping from Delete with SwipeSelection.
+* let the Edit Keys test keyboard follow Keyboard Type.
+
 ## 2.5.3
 * add Globe & Dictation Icon color, which follows Key Text Color until set.
 * stop redrawing the keyboard on every app launch while switched off.
