@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.5.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* stop Control Center modules flickering over a GIF while it is pulled down.\n* keep a GIF moving as it fades out on a light or dark switch, instead of jumping back to its first frame."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.5.6"
     },
     {
