@@ -1,3 +1,6 @@
+## 3.2.1
+* fix Delete not removing unconverted Zhuyin in web text fields.
+
 ## 3.2.0
 * fix the cursor sometimes jumping and dropping keys while typing fast.
 

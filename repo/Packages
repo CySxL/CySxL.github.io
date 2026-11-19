@@ -816,18 +816,18 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.0
+Version: 3.2.1
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 472
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.0_iphoneos-arm64.deb
-Size: 58592
-MD5sum: 76b96754f1c0fe1cb9783a746192df23
-SHA1: 1aa33ffc4bb5c34ddc6cb6f426672d3248065920
-SHA256: 53bd137cfa21a8a40f6d2a63c9ee9a2ab45d00f62676f939c91356b691e4aeac
+Filename: debs/com.cysxl.swipeselection_3.2.1_iphoneos-arm64.deb
+Size: 59136
+MD5sum: 591f4259901148ccf0fa62f128c8b6e6
+SHA1: fb6ab0bd51fd3b90900fdc8135e920c0aebc9702
+SHA256: 01a650d648d99f1b7cc4a0a30a9ab7fd3d54c4c371091ce5cc3d0d36c4f49b10
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -843,18 +843,18 @@ Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.0
+Version: 3.2.1
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 232
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.0_iphoneos-arm64e.deb
-Size: 47252
-MD5sum: 53244ad3296dfcc5e0a826f5eb0e5691
-SHA1: 2cf959c876d39162d71e6b1dff87f324a7c7b1c6
-SHA256: 6a5ff57c2170802a99521fccaee0f1f8abfdfae0deb40780632af4e1ce2bac21
+Filename: debs/com.cysxl.swipeselection_3.2.1_iphoneos-arm64e.deb
+Size: 47648
+MD5sum: 1bc9941dd3d731cf8436181e828aa273
+SHA1: a1807c9ac46336d2dea0d796033681fa6ff7fbd6
+SHA256: c0202f49747598846f8de8eb00ace904caec7df6d01c9a9e67d28d4614c51ca5
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.

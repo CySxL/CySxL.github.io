@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.1"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix Delete not removing unconverted Zhuyin in web text fields."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.0"
     },
     {
