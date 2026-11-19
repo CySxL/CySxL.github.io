@@ -816,18 +816,18 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.1
+Version: 3.2.2
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 472
+Installed-Size: 492
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.1_iphoneos-arm64.deb
-Size: 59136
-MD5sum: 591f4259901148ccf0fa62f128c8b6e6
-SHA1: fb6ab0bd51fd3b90900fdc8135e920c0aebc9702
-SHA256: 01a650d648d99f1b7cc4a0a30a9ab7fd3d54c4c371091ce5cc3d0d36c4f49b10
+Filename: debs/com.cysxl.swipeselection_3.2.2_iphoneos-arm64.deb
+Size: 65784
+MD5sum: 6e46b52efbd0c9739835dab939b43b81
+SHA1: cea7cfbdbbb589d40c8e0bbd026ff7bd3a7b09d0
+SHA256: 55f933702b512ffde658e56a6ceb57572c50538780484d9921ce42680b5e8d54
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -843,18 +843,18 @@ Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.1
+Version: 3.2.2
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
-Installed-Size: 232
+Installed-Size: 252
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.1_iphoneos-arm64e.deb
-Size: 47648
-MD5sum: 1bc9941dd3d731cf8436181e828aa273
-SHA1: a1807c9ac46336d2dea0d796033681fa6ff7fbd6
-SHA256: c0202f49747598846f8de8eb00ace904caec7df6d01c9a9e67d28d4614c51ca5
+Filename: debs/com.cysxl.swipeselection_3.2.2_iphoneos-arm64e.deb
+Size: 51710
+MD5sum: a55b787f6897111599fbd55078684252
+SHA1: ba3442b0a06fb6f0a645e6517e6e79243067adb5
+SHA256: e8c82cc666168ab5ca42a3548222c31cc5d1fc58e67c5977e3df8e2d953f3852
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.

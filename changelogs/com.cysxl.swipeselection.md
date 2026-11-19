@@ -1,3 +1,7 @@
+## 3.2.2
+* add Selection Colors to pick the highlight, handles and cursor colors on iOS 16.
+* move Test Keyboard right below Selection Keys.
+
 ## 3.2.1
 * fix Delete not removing unconverted Zhuyin in web text fields.
 

@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.2"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* add Selection Colors to pick the highlight, handles and cursor colors on iOS 16.\n* move Test Keyboard right below Selection Keys."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.1"
     },
     {
