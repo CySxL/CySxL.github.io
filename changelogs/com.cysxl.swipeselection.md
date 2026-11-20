@@ -1,3 +1,6 @@
+## 3.2.3
+* fix an app freezing, then closing, after Delete while typing fast.
+
 ## 3.2.2
 * add Selection Colors to pick the highlight, handles and cursor colors on iOS 16.
 * move Test Keyboard right below Selection Keys.

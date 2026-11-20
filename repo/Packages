@@ -816,18 +816,44 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.2
+Version: 3.2.3
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 252
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.icraze.swipeselection
+Replaces: com.icraze.swipeselection
+Filename: debs/com.cysxl.swipeselection_3.2.3_iphoneos-arm64e.deb
+Size: 51774
+MD5sum: b86130b088389d9e81dbb44de7864c45
+SHA1: b190cd84c7e2ed0f049f21d843b205d59b1203cb
+SHA256: 2b1465e35afa0b7ac1eebf818d1bc63d67ba2704c5206cc9200e2720dab67183
+Section: Tweaks
+Description: A rewrite of Kyle Howells' SwipeSelection.
+ Swipe along the keyboard to move the cursor and select text.
+ * move the cursor at the speed you set.
+ * feel each cursor step with optional haptic feedback.
+ * select from Shift, Delete or keys you choose.
+ * work in the color picker's hex field.
+ * tested on iOS 16, 17 & 26.
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
+Name: SwipeSelection
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.json
+
+Package: com.cysxl.swipeselection
+Version: 3.2.3
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 492
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.2_iphoneos-arm64.deb
-Size: 65784
-MD5sum: 6e46b52efbd0c9739835dab939b43b81
-SHA1: cea7cfbdbbb589d40c8e0bbd026ff7bd3a7b09d0
-SHA256: 55f933702b512ffde658e56a6ceb57572c50538780484d9921ce42680b5e8d54
+Filename: debs/com.cysxl.swipeselection_3.2.3_iphoneos-arm64.deb
+Size: 65930
+MD5sum: 6c4eb81fafa4a3f8191e536bb0129618
+SHA1: ffd87608233934da0e7838a90f313bdf034d4b93
+SHA256: 97fc9910695523d3635eaf6046275c8dfad146e922ebfc2fab66f02b0fb90a57
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -841,32 +867,6 @@ Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
 Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
-
-Package: com.cysxl.swipeselection
-Version: 3.2.2
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 252
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.icraze.swipeselection
-Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.2_iphoneos-arm64e.deb
-Size: 51710
-MD5sum: a55b787f6897111599fbd55078684252
-SHA1: ba3442b0a06fb6f0a645e6517e6e79243067adb5
-SHA256: e8c82cc666168ab5ca42a3548222c31cc5d1fc58e67c5977e3df8e2d953f3852
-Section: Tweaks
-Description: A rewrite of Kyle Howells' SwipeSelection.
- Swipe along the keyboard to move the cursor and select text.
- * move the cursor at the speed you set.
- * feel each cursor step with optional haptic feedback.
- * select from Shift, Delete or keys you choose.
- * work in the color picker's hex field.
- * tested on iOS 16, 17 & 26.
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.swipeselection.png
-Name: SwipeSelection
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.json
 
 Package: com.cysxl.vaon
 Version: 2.1.10

@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.3"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix an app freezing, then closing, after Delete while typing fast."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.2"
     },
     {
