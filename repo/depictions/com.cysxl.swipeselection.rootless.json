@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* stop the haptic once the cursor reaches the start or end of a web text field."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.8"
     },
     {

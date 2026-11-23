@@ -816,18 +816,18 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.8
+Version: 3.2.9
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 508
+Installed-Size: 524
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.8_iphoneos-arm64.deb
+Filename: debs/com.cysxl.swipeselection_3.2.9_iphoneos-arm64.deb
 Size: 67410
-MD5sum: f3b76a55a9ced724d36778dee93d4048
-SHA1: 2674c5f9aad6617b3a7f3c3ab0b8795352e9b3e2
-SHA256: b95a84b86ec5ccbf81f0891d965d8acfd81d8ee44799299a9669a91b3000adf0
+MD5sum: f0a5bd7bfba6d39d15929544056f80c5
+SHA1: 8e2c35e3d56b8d59d5e5add748c4e4acb4e0480b
+SHA256: 411311f355f027d9d75343fbe038e6409fc5628da34e3b72e381f9e6fdfba6f9
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -843,18 +843,18 @@ Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.8
+Version: 3.2.9
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 252
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.8_iphoneos-arm64e.deb
-Size: 52604
-MD5sum: c3aacb55802529439e8a2ad299bf3ce9
-SHA1: 004f655432d492e944bb1fd2b2183771a463ab3a
-SHA256: d8cbd664ccfb1c2573d0057502fd36bd8f2c2c57d42288c37c798f470b225493
+Filename: debs/com.cysxl.swipeselection_3.2.9_iphoneos-arm64e.deb
+Size: 52722
+MD5sum: 5ce4098f682ea31d95d4f86b4d4f648a
+SHA1: f810ab52cfc98e3f9a7ed0dd39bcb072f313183b
+SHA256: 5fa9f842e3efd6903ce1cb58898227f1aefe5e144497781069d83a4e27b04528
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.

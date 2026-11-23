@@ -1,3 +1,6 @@
+## 3.2.9
+* stop the haptic once the cursor reaches the start or end of a web text field.
+
 ## 3.2.8
 * fix Outlook closing when swiping in a new mail.
 * fix the cursor lagging behind the finger over English text in Outlook and other web text fields.
