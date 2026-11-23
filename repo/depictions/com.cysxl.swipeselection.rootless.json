@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.8"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix Outlook closing when swiping in a new mail.\n* fix the cursor lagging behind the finger over English text in Outlook and other web text fields.\n* fix swiping crashing or freezing web text fields on iOS 26.\n* show the edit menu after selecting in web text fields on iOS 26."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.3"
     },
     {

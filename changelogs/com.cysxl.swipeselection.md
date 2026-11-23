@@ -1,3 +1,9 @@
+## 3.2.8
+* fix Outlook closing when swiping in a new mail.
+* fix the cursor lagging behind the finger over English text in Outlook and other web text fields.
+* fix swiping crashing or freezing web text fields on iOS 26.
+* show the edit menu after selecting in web text fields on iOS 26.
+
 ## 3.2.3
 * fix an app freezing, then closing, after Delete while typing fast.
 
