@@ -700,18 +700,19 @@ Name: SettingsWidgets
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.settingswidgets.rootless.json
 
 Package: com.cysxl.sexreborn
-Version: 2.5.8
+Version: 2.5.9
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 628
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
+Breaks: com.cysxl.swipeselection (<< 3.2.10)
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.5.8_iphoneos-arm64e.deb
-Size: 173452
-MD5sum: 66151864f4c61b5a58dce75bddb66b6b
-SHA1: dacafa5034c4f27d844535034248c078944a1982
-SHA256: 8b31b2d6079ddd11482981deb38b60140c69ea8f29b512a7d593d72ffcad0bf8
+Filename: debs/com.cysxl.sexreborn_2.5.9_iphoneos-arm64e.deb
+Size: 172892
+MD5sum: df3473baa2ccb23813976610d11ffaa7
+SHA1: af66519692f0520a8758f0cacc34a3e66ec54a1d
+SHA256: 08128f37ce2e76a133542da2b8964cb097001ad09886146c37a813104216be46
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -730,18 +731,19 @@ Name: SEXReborn
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.sexreborn.json
 
 Package: com.cysxl.sexreborn
-Version: 2.5.8
+Version: 2.5.9
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 1028
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.qiop1379.swipeextenderx
+Breaks: com.cysxl.swipeselection (<< 3.2.10)
 Replaces: com.qiop1379.swipeextenderx
-Filename: debs/com.cysxl.sexreborn_2.5.8_iphoneos-arm64.deb
-Size: 210714
-MD5sum: dbc0d8094f7a953754fdaf54deab5d85
-SHA1: c06751ffb2d095ad0ce06d8efce8427b15427639
-SHA256: 0b3bfa93087ca699dee84e8471061c9578a7ce9bccc7b004e7d92feeb30a0f84
+Filename: debs/com.cysxl.sexreborn_2.5.9_iphoneos-arm64.deb
+Size: 211024
+MD5sum: 00b149be2a4bfd2d6d03fde49762f7d9
+SHA1: 33f00d771b6c0e89ef950d2fa095c87452931a5d
+SHA256: 8a808ba1c31d0d0e475ad641516a1119538a2c53a25fd6c488563607a3d7822f
 Section: Tweaks
 Description: A rewrite of SwipeExtenderX by qwertyuiop1379 and MiRO.
  Swipe gestures on every keyboard key.
@@ -816,18 +818,19 @@ Name: Shuffler
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.shuffler.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.9
+Version: 3.2.10
 Architecture: iphoneos-arm64
 Maintainer: CySxL
-Installed-Size: 524
+Installed-Size: 508
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
+Breaks: com.cysxl.sexreborn (<< 2.5.9)
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.9_iphoneos-arm64.deb
-Size: 67410
-MD5sum: f0a5bd7bfba6d39d15929544056f80c5
-SHA1: 8e2c35e3d56b8d59d5e5add748c4e4acb4e0480b
-SHA256: 411311f355f027d9d75343fbe038e6409fc5628da34e3b72e381f9e6fdfba6f9
+Filename: debs/com.cysxl.swipeselection_3.2.10_iphoneos-arm64.deb
+Size: 67486
+MD5sum: 58ac2ca7cdfc7bb8a28ec50b432cd079
+SHA1: 26827ba1a1f2180c443d26d46ef8e55661496b66
+SHA256: 8f0696cb3588b88efc464b577f6b992b07ce1e6b58437f88714856ca02de1c07
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.
@@ -843,18 +846,19 @@ Name: SwipeSelection
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.swipeselection.rootless.json
 
 Package: com.cysxl.swipeselection
-Version: 3.2.9
+Version: 3.2.10
 Architecture: iphoneos-arm64e
 Maintainer: CySxL
 Installed-Size: 252
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Conflicts: com.icraze.swipeselection
+Breaks: com.cysxl.sexreborn (<< 2.5.9)
 Replaces: com.icraze.swipeselection
-Filename: debs/com.cysxl.swipeselection_3.2.9_iphoneos-arm64e.deb
-Size: 52722
-MD5sum: 5ce4098f682ea31d95d4f86b4d4f648a
-SHA1: f810ab52cfc98e3f9a7ed0dd39bcb072f313183b
-SHA256: 5fa9f842e3efd6903ce1cb58898227f1aefe5e144497781069d83a4e27b04528
+Filename: debs/com.cysxl.swipeselection_3.2.10_iphoneos-arm64e.deb
+Size: 52462
+MD5sum: 9e43aa7163333d95f9bf90088aab7876
+SHA1: 0ff7beefa1574acd4ee74a1cb141953541fd8b57
+SHA256: c207870146cee86d8a26de28d17b422989cba041a04c3c12a67424a2ef184eb8
 Section: Tweaks
 Description: A rewrite of Kyle Howells' SwipeSelection.
  Swipe along the keyboard to move the cursor and select text.

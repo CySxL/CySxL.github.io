@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "2.5.9"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix an app freezing when a candidate is tapped while Delete is held with Delete on Touch Up.\n* update together with SwipeSelection 3.2.10."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "2.5.8"
     },
     {

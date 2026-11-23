@@ -1,3 +1,7 @@
+## 2.5.9
+* fix an app freezing when a candidate is tapped while Delete is held with Delete on Touch Up.
+* update together with SwipeSelection 3.2.10.
+
 ## 2.5.8
 * fix the ㄒ & ㄑ key previews sometimes turning black.
 * fix Cursor to Start & Cursor to End in web text fields.

@@ -1,3 +1,7 @@
+## 3.2.10
+* fix an app freezing when a candidate is tapped while Delete is held.
+* update together with SEXReborn 2.5.9.
+
 ## 3.2.9
 * stop the haptic once the cursor reaches the start or end of a web text field.
 

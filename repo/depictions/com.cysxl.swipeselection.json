@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.10"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix an app freezing when a candidate is tapped while Delete is held.\n* update together with SEXReborn 2.5.9."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.9"
     },
     {
