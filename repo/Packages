@@ -926,16 +926,36 @@ Name: Vaon
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.vaon.json
 
 Package: com.cysxl.zyquicksend
-Version: 1.1.6
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: CySxL
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.opa334.altlist
+Filename: debs/com.cysxl.zyquicksend_1.1.7_iphoneos-arm64e.deb
+Size: 92068
+MD5sum: 57b3ffb0e7ffc799daa4010d8476501d
+SHA1: d790e521435a41ae12b0ae5d142f7b3c20880666
+SHA256: 6a702d6c019984fe03c7c6158c672273ab376f5c3ddd083e3350f4215e462699
+Section: Tweaks
+Description: Sends the Zhuyin candidate you see instead of the keys you typed.
+ * commit the highlighted candidate when send is tapped before choosing.
+ * 在通訊軟體中直接送出預選的中文字，而非一串注音。
+Author: CySxL
+Icon: https://cysxl.github.io/icons/com.cysxl.zyquicksend.png
+Name: ZYQuickSend
+SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.zyquicksend.json
+
+Package: com.cysxl.zyquicksend
+Version: 1.1.7
 Architecture: iphoneos-arm64
 Maintainer: CySxL
 Installed-Size: 468
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.opa334.altlist
-Filename: debs/com.cysxl.zyquicksend_1.1.6_iphoneos-arm64.deb
-Size: 93710
-MD5sum: d074b8357f0dfde89c5cf91a539f332c
-SHA1: bd0e6f83270443e31efe08e4eb28a79b62214a74
-SHA256: 889c85868b1953bfd1c7120316b24237516d2e1e88e8606d5a28803e6b9d5076
+Filename: debs/com.cysxl.zyquicksend_1.1.7_iphoneos-arm64.deb
+Size: 93756
+MD5sum: 6bf99a8e80dc454a6b79fb25261735db
+SHA1: 170cbe167b13e4adc658c99dac1aa50f770326fb
+SHA256: 7d1dbe052304e8b060c0dff1d1e941e4cf3dadad6b9dd823714f1f87fbfdabd9
 Section: Tweaks
 Description: Sends the Zhuyin candidate you see instead of the keys you typed.
  * commit the highlighted candidate when send is tapped before choosing.
@@ -945,24 +965,4 @@ Author: CySxL
 Icon: https://cysxl.github.io/icons/com.cysxl.zyquicksend.png
 Name: ZYQuickSend
 SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.zyquicksend.rootless.json
-
-Package: com.cysxl.zyquicksend
-Version: 1.1.6
-Architecture: iphoneos-arm64e
-Maintainer: CySxL
-Installed-Size: 468
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), com.opa334.altlist
-Filename: debs/com.cysxl.zyquicksend_1.1.6_iphoneos-arm64e.deb
-Size: 91972
-MD5sum: 0593314ca863e2e154d3680a5bbce7e0
-SHA1: 4849ad13b08181ea2b43d29c1f6b3d61e3ec7e79
-SHA256: e4a0387578ad4b3ea64db077a5fe74998472bcf26c2c60ee9c176c582aa69b39
-Section: Tweaks
-Description: Sends the Zhuyin candidate you see instead of the keys you typed.
- * commit the highlighted candidate when send is tapped before choosing.
- * 在通訊軟體中直接送出預選的中文字，而非一串注音。
-Author: CySxL
-Icon: https://cysxl.github.io/icons/com.cysxl.zyquicksend.png
-Name: ZYQuickSend
-SileoDepiction: https://cysxl.github.io/repo/depictions/com.cysxl.zyquicksend.json
 

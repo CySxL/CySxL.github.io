@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "1.1.7"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix zhuyin typing in search fields showing nothing and crashing the app."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "1.1.6"
     },
     {
