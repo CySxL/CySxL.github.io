@@ -18,6 +18,14 @@
    "views": [
     {
      "class": "DepictionHeaderView",
+     "title": "3.2.11"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "* fix auto-delete sometimes continuing after Delete is lifted while another key is held.\n* polish the Selection Colors section."
+    },
+    {
+     "class": "DepictionHeaderView",
      "title": "3.2.10"
     },
     {

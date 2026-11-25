@@ -1,3 +1,7 @@
+## 3.2.11
+* fix auto-delete sometimes continuing after Delete is lifted while another key is held.
+* polish the Selection Colors section.
+
 ## 3.2.10
 * fix an app freezing when a candidate is tapped while Delete is held.
 * update together with SEXReborn 2.5.9.
